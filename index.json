@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "title": "Last Week in Swamp",
+  "url": "https://lastweekinswamp.club/",
+  "feed": "https://lastweekinswamp.club/feed.xml",
+  "issues": [
+    {
+      "slug": "2026-10-19",
+      "firstDay": "2026-10-19",
+      "lastDay": "2026-10-25",
+      "url": "https://lastweekinswamp.club/issues/2026-10-19.html",
+      "json": "https://lastweekinswamp.club/issues/2026-10-19.json",
+      "counts": {
+        "new": 83,
+        "updated": 596,
+        "prerelease": 10,
+        "yanked": 0,
+        "removed": 0,
+        "minor": 377
+      }
+    }
+  ]
+}

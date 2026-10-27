@@ -1,0 +1,17 @@
+# Last Week in Swamp
+
+> A weekly digest of the swamp extension registry: new extensions, updates, pre-releases, yanks and removals, with a short machine-written summary of each change, plus the week's Swamp Club podcast episode and feed posts.
+
+Each issue covers Monday to Sunday and is published the following Monday. Every issue has an HTML page and a JSON copy with the same content (`issues/<first-day>.html` and `.json`). The JSON index lists every issue, newest first.
+
+Generated automatically from public swamp registry data. Summaries are machine-written descriptions of each change, not reviews, and can be wrong; the registry and the extension's source are authoritative. Authors can leave the digest by adding the `no-digest` label to their extension.
+
+## Issues
+
+- [Index of all issues](https://lastweekinswamp.club/index.json): JSON, newest first
+- [Week of Oct 19 – Oct 25, 2026](https://lastweekinswamp.club/issues/2026-10-19.json): JSON; HTML at https://lastweekinswamp.club/issues/2026-10-19.html
+
+## Optional
+
+- [RSS feed](https://lastweekinswamp.club/feed.xml)
+- [swamp extension registry](https://swamp-club.com/extensions): the authoritative source for every extension
