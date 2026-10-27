@@ -9,7 +9,7 @@
     "firstDay": "2026-10-19",
     "lastDay": "2026-10-25"
   },
-  "generatedAt": "2026-10-27T02:20:15.341Z",
+  "generatedAt": "2026-10-27T03:38:39.328Z",
   "previous": null,
   "counts": {
     "new": 83,
@@ -31,7 +31,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.22.1",
-          "summary": "A new extension, @bixu/cull, was released at version 2026.10.22.1 with a single method, cull. It takes a Canon R5 II card or an ingest folder, scores the images by sharpness and in-camera rating, and copies the keepers.",
+          "summary": "A new extension, @bixu/cull, was added in its first release, version 2026.10.22.1. It provides a single method, cull, which scores a Canon R5 II card or ingest folder by sharpness and in-camera rating and copies the keepers.",
           "registryUrl": "https://swamp-club.com/extensions/@bixu/cull",
           "repository": "https://github.com/bixu/swamp-extensions"
         },
@@ -40,7 +40,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.22.1",
-          "summary": "A new extension, @bixu/invariant-encoding-check, makes CI fail when a changed swamp extension model file leaves a known invariant unencoded in its zod schema. It also ships shared zod schemas for Sha256Digest, Platform, and SshFingerprint, and adds one method, check.",
+          "summary": "The new invariant-encoding-check extension, first released as 2026.10.22.1, adds a check method that fails CI when a changed model file leaves a known invariant unencoded in its zod schema. It also provides shared zod schemas for Sha256Digest, Platform, and SshFingerprint.",
           "registryUrl": "https://swamp-club.com/extensions/@bixu/invariant-encoding-check",
           "repository": "https://github.com/bixu/swamp-extensions"
         },
@@ -49,7 +49,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.22.1",
-          "summary": "The @bmonty/text-entropy extension was first released as version 2026.10.22.1 and adds a single method, analyze, which measures the Shannon entropy of a piece of text. The release is an initial addition with no earlier versions to compare against.",
+          "summary": "A new extension, @bmonty/text-entropy, was released as version 2026.10.22.1. It adds one method, analyze, which measures the Shannon entropy of a piece of text.",
           "registryUrl": "https://swamp-club.com/extensions/@bmonty/text-entropy",
           "repository": null
         },
@@ -58,7 +58,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.23.1",
-          "summary": "The first release of @cachehit/techdocs, version 2026.10.23.1, adds four methods: search, get_doc, build_context, and sync. It searches and builds AI context from a Hugo documentation site's source repository, whether that repository is hosted in GitLab or checked out locally, and supports Docsy or other themes.",
+          "summary": "This is a first release of @cachehit/techdocs, which adds four methods for searching and building AI context from a Hugo documentation site, including get_doc, search, sync, and build_context. It reads content from a GitLab repository or a local checkout and supports Docsy or other Hugo themes.",
           "registryUrl": "https://swamp-club.com/extensions/@cachehit/techdocs",
           "repository": "https://github.com/zWaR/swamp-extensions"
         },
@@ -67,7 +67,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.2",
-          "summary": "@figy/blog is a first release, version 2026.10.24.2, that renders Markdown posts from an Obsidian vault folder and publishes them to Cloudflare Pages. It followed version 2026.10.24.1 within the same window.",
+          "summary": "A new extension, @figy/blog, first released as version 2026.10.24.1 and updated to 2026.10.24.2 within this window. It renders Markdown posts from an Obsidian vault folder and publishes them on Cloudflare Pages.",
           "registryUrl": "https://swamp-club.com/extensions/@figy/blog",
           "repository": "https://github.com/svendowideit/swamp-extensions"
         },
@@ -76,7 +76,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.22.1",
-          "summary": "A new extension, @hmcrum/nfl-player-stats, makes its first release (2026.10.22.1) and adds two methods: box_score and week_stats. It provides real NFL player box-score statistics from ESPN's public summary endpoint, which requires no authentication.",
+          "summary": "New extension @hmcrum/nfl-player-stats (first release, version 2026.10.22.1) reads real NFL player box-score statistics from ESPN's public summary endpoint, and adds two methods: box_score and week_stats.",
           "registryUrl": "https://swamp-club.com/extensions/@hmcrum/nfl-player-stats",
           "repository": "https://github.com/hcrumpler/swamp-extensions"
         },
@@ -85,7 +85,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "Initial release of @keeb/exa (version 2026.10.24.1), adding two methods: search, which runs any Exa web search, and find_people, which looks up people's LinkedIn profiles in bulk by running one people-category search per person and scoring each candidate against employer, email domain, location, and GitHub handle.",
+          "summary": "The @keeb/exa extension, first released as version 2026.10.24.1, adds two methods for agents: search, which runs any Exa web search, and find_people, which looks up LinkedIn profiles in bulk by running one people-category search per person.",
           "registryUrl": "https://swamp-club.com/extensions/@keeb/exa",
           "repository": "https://github.com/keeb/swamp-exa"
         },
@@ -94,7 +94,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.25.1",
-          "summary": "Swamp registry extension @keeb/scenerules is a first release (version 2026.10.25.1) that replicates the scenerules.org ruleset as a swamp model.",
+          "summary": "@keeb/scenerules is a first release that mirrors scenerules.org as a swamp model, providing the full ruleset catalogue, site and document pages, full-text search, and rule lookup by number.",
           "registryUrl": "https://swamp-club.com/extensions/@keeb/scenerules",
           "repository": "https://github.com/keeb/swamp-scenerules"
         },
@@ -103,7 +103,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.25.10",
-          "summary": "The @magistr/mitmproxy extension is new, adding methods to install, start, stop, and inspect a local mitmproxy HTTP/HTTPS intercepting proxy from swamp, plus trust the proxy's CA certificate and clear captured flows.",
+          "summary": "A new extension, @magistr/mitmproxy, was published as its first release and adds seven methods for installing, starting, stopping, and inspecting a local mitmproxy HTTP/HTTPS intercepting proxy, plus trusting its CA and clearing captured flows.",
           "registryUrl": "https://swamp-club.com/extensions/@magistr/mitmproxy",
           "repository": "https://github.com/umag/swamp-workspace"
         },
@@ -112,7 +112,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.25.10",
-          "summary": "This new extension provides eight methods for inspecting, creating, signing, verifying and converting X.509 certificates through the local openssl CLI: inspect, csr, genkey, selfsign, sign, verify, convert and version.",
+          "summary": "The @magistr/openssl extension is a first release, adding eight methods that inspect, create, sign, verify, and convert X.509 material through the local openssl CLI: convert, csr, genkey, inspect, selfsign, sign, verify, and version. The later 2026.10.25.10 version is a repo-wide republish with no functional change.",
           "registryUrl": "https://swamp-club.com/extensions/@magistr/openssl",
           "repository": "https://github.com/umag/swamp-workspace"
         },
@@ -121,7 +121,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.23.1",
-          "summary": "Puddleworks Factory is a first release that adds a draft.run method. It prefills an app spec from an agreed outcome spec, then builds a first draft of a swamp app from an app spec read from a file, URL, or inline JSON.",
+          "summary": "This is the first release of the Puddleworks Factory extension, version 2026.10.23.1. It adds a draft.run method that builds the first draft of a swamp app from an app spec, which can be read from a file, a URL, or inline JSON, and can prefill that spec from an agreed outcome spec.",
           "registryUrl": "https://swamp-club.com/extensions/@puddleworks/puddleworks-factory",
           "repository": "https://github.com/puddle-works/puddleworks-factory"
         },
@@ -130,7 +130,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "The @reset/buildq extension is a first release, published as version 2026.10.24.1, that drives a buildq coordinator over its HTTP API in a Buildkite-style shape.",
+          "summary": "This is a first release of @reset/buildq, a client for driving a buildq coordinator over its HTTP API in a Buildkite-style shape. It adds eleven methods for listing and reading builds, job logs, artifacts and annotations, the queue and agents, and for rebuilding, cancelling and unblocking builds.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/buildq",
           "repository": "https://github.com/reset/swamp-extensions"
         },
@@ -139,7 +139,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "The first release of @reset/cheapshark-deals, version 2026.10.24.1, records PC game prices across CheapShark's stores and flags price drops. It adds three methods: sample, search, and summarise.",
+          "summary": "A new first release, version 2026.10.24.1, adds the @reset/cheapshark-deals extension, which records PC game prices across CheapShark's stores and flags price drops. It provides three methods: sample, search, and summarise.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/cheapshark-deals",
           "repository": null
         },
@@ -148,7 +148,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "A new extension, @reset/crates-downloads, records download counts and version history for crates.io crates over time. Its first release (2026.10.24.1) adds two methods, sample and summarise.",
+          "summary": "Records crates.io crate downloads and versions over time through two methods, sample and summarise. This is the extension's first release, version 2026.10.24.1.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/crates-downloads",
           "repository": null
         },
@@ -157,7 +157,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.22.2",
-          "summary": "The @reset/discord-webhook extension is a first release, now at version 2026.10.22.2 after an earlier 2026.10.22.1 release in the same window. It adds a single send method that posts a message with embeds to a Discord webhook from a workflow.",
+          "summary": "This is a first release of the @reset/discord-webhook extension, version 2026.10.22.2, that adds a single method, send, for posting a message with embeds to a Discord webhook from a workflow.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/discord-webhook",
           "repository": null
         },
@@ -166,7 +166,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "A new extension, @reset/dockerhub-pulls, was released at version 2026.10.24.1. It records pull counts, star counts and tags for Docker Hub images over time, and adds two methods: sample, which captures those figures, and summarise, which reports on them.",
+          "summary": "The new @reset/dockerhub-pulls extension, first released as version 2026.10.24.1, records Docker Hub image pulls, stars and tags over time. It adds two methods: sample, which takes a snapshot, and summarise, which reports on the recorded data.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/dockerhub-pulls",
           "repository": null
         },
@@ -175,7 +175,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.22.2",
-          "summary": "The @reset/epic extension is a first release, version 2026.10.22.2, that samples Epic Games Store prices and discounts and records free games. It adds three methods: freeGames, sample, and summarise.",
+          "summary": "The new @reset/epic extension was released at version 2026.10.22.2 and samples Epic Games Store prices and discounts while recording free games. It adds three methods: freeGames, sample, and summarise.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/epic",
           "repository": null
         },
@@ -184,7 +184,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "The @reset/fmod extension is a first release, version 2026.10.24.1, that drives FMOD Studio's command line tool from Swamp.",
+          "summary": "Adds the first release of @reset/fmod, which drives FMOD Studio's command line tool from Swamp to build sound banks for named platforms, list a project's platforms, banks and events, and run the tool's project validation.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/fmod",
           "repository": "https://github.com/reset/swamp-extensions"
         },
@@ -193,7 +193,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "This new extension, @reset/forgejo-commits, records the commits and head of a Forgejo or Gitea branch over time. Its first release, version 2026.10.24.1, adds two methods: a sample method and a summarise method.",
+          "summary": "A new extension, @reset/forgejo-commits, was released at version 2026.10.24.1. It records a Forgejo or Gitea branch's commits and head over time, and adds two methods: a sample method and a summarise method.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/forgejo-commits",
           "repository": null
         },
@@ -202,7 +202,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "New extension @reset/forgejo-issues records Forgejo or Gitea issues and tracks how many remain open over time. Its first release, 2026.10.24.1, adds two methods: sample and summarise.",
+          "summary": "A new extension, @reset/forgejo-issues, has been released for the first time at version 2026.10.24.1. It records open issue counts for Forgejo or Gitea repositories over time, and adds two methods: a sample method and a summarise method.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/forgejo-issues",
           "repository": null
         },
@@ -211,7 +211,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "Forgejo and Gitea pull request driver, first released as 2026.10.21.1 and updated to 2026.10.24.1. It adds seven methods for listing and reading pull requests, reading commit statuses by context, listing and posting comments, and asking the repository's merge bot to merge or rush a pull request.",
+          "summary": "The @reset/forgejo-pulls extension is a first release, version 2026.10.24.1, that drives pull requests on Forgejo or Gitea forges.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/forgejo-pulls",
           "repository": "https://github.com/reset/swamp-extensions"
         },
@@ -220,7 +220,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.22.1",
-          "summary": "This is a new extension, the first release at version 2026.10.22.1, that records Forgejo or Gitea releases and their asset downloads. It adds two methods, one to sample releases and one to summarise them.",
+          "summary": "Records Forgejo and Gitea releases and their asset downloads. Initial release adds two methods: a sample method and a summarise method.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/forgejo-releases",
           "repository": null
         },
@@ -229,7 +229,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "Initial release of @reset/forgejo-repo-stats (version 2026.10.24.1), which records Forgejo or Gitea repository stars and counters over time. It adds two methods: sample, and summarise.",
+          "summary": "A new extension, @reset/forgejo-repo-stats, was released at version 2026.10.24.1. It records star and counter values for Forgejo or Gitea repositories over time, and adds two methods: sample, which captures the values, and summarise, which reports on them.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/forgejo-repo-stats",
           "repository": null
         },
@@ -238,7 +238,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.22.1",
-          "summary": "This is the first release of @reset/github-releases, version 2026.10.22.1. It records GitHub releases and asset downloads and summarises them, adding two methods: a sample method and a summarise method.",
+          "summary": "This is the first release of the @reset/github-releases extension, version 2026.10.22.1. It records GitHub releases and asset downloads and summarises them, through two methods: sample and summarise.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/github-releases",
           "repository": null
         },
@@ -247,7 +247,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "This is a new extension, @reset/godot, first released at version 2026.10.24.1.",
+          "summary": "First release of this extension, which drives the Godot 4 editor headlessly from its command line. It adds methods to read the engine version and project settings, reimport assets, read export presets, export a preset, and parse GDScript files, each written as a resource.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/godot",
           "repository": "https://github.com/reset/swamp-extensions"
         },
@@ -256,7 +256,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.23.1",
-          "summary": "Adds the first release of @reset/godot-assets (version 2026.10.23.1), which records Godot Asset Library assets' versions and ratings over time. It adds two methods: sample and summarise.",
+          "summary": "This is a new extension, @reset/godot-assets, first released as version 2026.10.23.1. It records versions and ratings of Godot Asset Library assets over time, with two methods added: sample and summarise.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/godot-assets",
           "repository": null
         },
@@ -265,7 +265,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.22.2",
-          "summary": "A new extension, @reset/gog, was released in its first version, 2026.10.22.1, and updated to 2026.10.22.2. It samples a GOG product's store data and summarises its price history, adding two methods: sample and summarise.",
+          "summary": "The @reset/gog extension is a first release, now at version 2026.10.22.2, that samples a GOG product's store data and summarises its price history. It adds two methods, sample and summarise.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/gog",
           "repository": null
         },
@@ -274,7 +274,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "A new extension, @reset/hackernews-mentions, makes its first release (version 2026.10.24.1) to record Hacker News mentions of a game, studio or product. It adds two methods, sample and summarise.",
+          "summary": "This is a first release of @reset/hackernews-mentions, version 2026.10.24.1. It records Hacker News mentions of a game, studio or product, and adds two methods: sample and summarise.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/hackernews-mentions",
           "repository": null
         },
@@ -283,7 +283,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "A new extension, @reset/homebrew-installs, records Homebrew formula and cask installs and their versions over time. Its first release, 2026.10.24.1, adds two methods: a sample method and a summarise method.",
+          "summary": "A new extension, @reset/homebrew-installs, was released as its first version, 2026.10.24.1. It records Homebrew formula and cask installs and versions over time, and adds two methods: a sample method and a summarise method.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/homebrew-installs",
           "repository": null
         },
@@ -292,7 +292,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.22.2",
-          "summary": "A new extension, @reset/itch, is published at version 2026.10.22.2 and records itch.io games and their channel versions, including what changed between them. It adds three methods: credentials, games, and latest, and this is its first release in the window, following version 2026.10.22.1.",
+          "summary": "Records itch.io games and their channel versions along with what changed, offering three methods: @reset/itch.credentials, @reset/itch.games, and @reset/itch.latest. This is the first release, published as version 2026.10.22.1 and then updated to 2026.10.22.2 within the same window.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/itch",
           "repository": null
         },
@@ -301,7 +301,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "A new extension, @reset/lemmy-mentions, has its first release, 2026.10.24.1. It records Lemmy mentions of a game, studio or product, and adds two methods: sample and summarise.",
+          "summary": "Lemmy Mentions is a first release that records Lemmy mentions of a game, studio or product. It adds two methods, sample and summarise.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/lemmy-mentions",
           "repository": null
         },
@@ -310,7 +310,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "Records how a Mastodon instance's hashtag usage and posts change over time, with a new first release (2026.10.24.1) that adds a sample method and a summarise method.",
+          "summary": "This new extension, @reset/mastodon-hashtags, is an initial release that records how often a Mastodon instance's hashtags are used and how many posts they appear in over time. It adds two methods: sample, which collects those hashtag figures, and summarise, which reports on them.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/mastodon-hashtags",
           "repository": null
         },
@@ -319,7 +319,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.23.1",
-          "summary": "A new extension, @reset/modio, has been released at version 2026.10.23.1. It records a game's mods and their mod.io statistics, and summarises their growth, through two new methods: sample and summarise.",
+          "summary": "@reset/modio is a new extension, first released as version 2026.10.23.1, that records a game's mods and their mod.io statistics and summarises their growth. It adds two methods, sample and summarise.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/modio",
           "repository": null
         },
@@ -328,7 +328,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "This new extension, @reset/npm-downloads, records npm packages' daily download counts and latest versions over time. It adds two methods: a sample method that collects the data and a summarise method that reports on it.",
+          "summary": "Initial release of @reset/npm-downloads (version 2026.10.24.1), which records daily download counts and latest versions for npm packages over time. It adds two methods, sample and summarise.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/npm-downloads",
           "repository": null
         },
@@ -337,7 +337,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "A new extension, @reset/nuget-downloads, was released as version 2026.10.24.1. It records NuGet package download counts and latest versions over time, and adds two methods, sample and summarise.",
+          "summary": "The @reset/nuget-downloads extension is a new first release, version 2026.10.24.1, that records NuGet package downloads and latest versions over time. It adds two methods, sample and summarise, for collecting and reporting that data.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/nuget-downloads",
           "repository": null
         },
@@ -346,7 +346,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.22.1",
-          "summary": "This is the first release of @reset/patch-notes, version 2026.10.22.1. It announces a Steam game's new patch notes in Discord, posting one embed for each.",
+          "summary": "A new extension, @reset/patch-notes, was released as its first version, 2026.10.22.1. It posts each new patch note for a Steam game to Discord as a separate embed.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/patch-notes",
           "repository": null
         },
@@ -355,7 +355,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.23.1",
-          "summary": "A new extension, @reset/protondb, was released in its first version, 2026.10.23.1. It samples a Steam game's ProtonDB tier and score and summarises them, through two new methods: sample and summarise.",
+          "summary": "This new extension, @reset/protondb, is an initial release that samples a Steam game's ProtonDB tier and score and summarises them, using the methods sample and summarise.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/protondb",
           "repository": null
         },
@@ -364,7 +364,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "A new extension, @reset/pypi-downloads, has been released at version 2026.10.24.1. It records daily download counts and latest versions for PyPI projects, with sample and summarise methods.",
+          "summary": "This new extension records daily download counts and latest versions for PyPI projects. It adds two methods: one that produces a sample of the recorded data and one that summarises it.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/pypi-downloads",
           "repository": null
         },
@@ -373,7 +373,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "Rollbar-compatible crash-reporting client (first release, version 2026.10.24.1) that lists and reads items, occurrences and events, and can resolve, mute, assign, and record deploys. It also adds occurrence, activation and top-item reports, and logs item filters readably.",
+          "summary": "The @reset/rollbar extension is a first release, version 2026.10.24.1, that drives Rollbar-compatible crash-reporting APIs. It can list and read items, occurrences and item events, resolve, mute and assign items, record deploys, and read occurrence, activation and top-item reports, each written as a resource.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/rollbar",
           "repository": "https://github.com/reset/swamp-extensions"
         },
@@ -382,7 +382,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.23.1",
-          "summary": "This new extension records a Sentry project's top issues and tracks how their counts grow over time. It adds two methods, sample and summarise, for collecting and reviewing that data.",
+          "summary": "Records a Sentry project's top issues and how their event counts grow over time. Adds two methods, sample and summarise. This is the first release, version 2026.10.23.1.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/sentry-issues",
           "repository": null
         },
@@ -391,7 +391,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "New extension that reads a socialq deployment over its HTTP API using a Cloudflare Access service token. It adds eight methods covering health, the token's identity, accounts, the calendar and recorder coverage, the wrap-up report, daily activity, the job ledger, and the taxonomy.",
+          "summary": "The @reset/socialq extension is a first release, adding eight methods that read a socialq deployment over its HTTP API using a Cloudflare Access service token. The methods cover health, token identity, accounts, calendar and recorder coverage, the wrap-up report, daily activity, the job ledger, and the taxonomy.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/socialq",
           "repository": "https://github.com/reset/swamp-extensions"
         },
@@ -400,7 +400,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "A new extension, @reset/speedrun-leaderboards, was released as its first version, 2026.10.24.1. It records speedrun.com leaderboards over time and tracks record moves, adding two methods: a sample method and a summarise method.",
+          "summary": "Records speedrun.com leaderboards over time and tracks record changes. This first release, version 2026.10.24.1, adds two methods: a sample method and a summarise method.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/speedrun-leaderboards",
           "repository": null
         },
@@ -409,7 +409,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "Uploads a game's builds to Steam and sets them live on a branch. The extension adds four methods: betas, builds, setLive, and upload. This is the first release, version 2026.10.24.1.",
+          "summary": "The @reset/steam extension is a first release, version 2026.10.24.1, that uploads a game's builds to Steam and sets them live on a branch. It adds four methods: betas, builds, setLive, and upload.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/steam",
           "repository": "https://github.com/reset/swamp-extensions"
         },
@@ -418,7 +418,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.22.2",
-          "summary": "Adds the new extension @reset/steam-achievements, its first release, with versions 2026.10.22.1 and 2026.10.22.2 in this window. It provides two methods: one samples a Steam app's achievement unlock rates, and the other summarises those rates.",
+          "summary": "Initial release of @reset/steam-achievements, version 2026.10.22.2, which adds two methods: sample, to sample a Steam app's achievement unlock rates, and summarise, to summarise those rates. The window also includes version 2026.10.22.1.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/steam-achievements",
           "repository": null
         },
@@ -427,7 +427,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.22.2",
-          "summary": "Records a Steam app's news and patch notes and flags new posts. The extension was first released at version 2026.10.22.2, adding two methods: fetch and list.",
+          "summary": "New extension that records a Steam app's news and patch notes and flags newly posted items. Its initial release shipped as versions 2026.10.22.1 and 2026.10.22.2, adding fetch and list methods.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/steam-news",
           "repository": null
         },
@@ -436,7 +436,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.22.1",
-          "summary": "First release of @reset/steam-players, which samples a Steam app's concurrent player count and summarises its history. It adds two methods, sample and summarise, and ships a README covering app ids, intervals, comparing apps, trends, and stored data.",
+          "summary": "A new extension, @reset/steam-players, samples a Steam app's concurrent player count and summarises the history, with methods sample and summarise.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/steam-players",
           "repository": null
         },
@@ -445,7 +445,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.22.2",
-          "summary": "A new extension, @reset/steam-reviews, was added in its first release, published as versions 2026.10.22.1 and 2026.10.22.2. It provides two methods: one samples a Steam app's review score, and the other summarises that score's history.",
+          "summary": "The @reset/steam-reviews extension is a new first release, now at version 2026.10.22.2 after a earlier 2026.10.22.1 build. It adds two methods: sample, which records a Steam app's review score, and summarise, which summarises that score history.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/steam-reviews",
           "repository": null
         },
@@ -454,7 +454,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.22.1",
-          "summary": "The @reset/steam-workshop extension is a new first release, version 2026.10.22.1, that adds two methods: one to sample a Steam Workshop item's public stats and one to summarise them. Its stated purpose is sampling and summarising public Workshop item statistics.",
+          "summary": "The new @reset/steam-workshop extension, released as version 2026.10.22.1, samples a Steam Workshop item's public stats and summarises them. It adds two methods: sample and summarise.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/steam-workshop",
           "repository": null
         },
@@ -463,7 +463,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.23.1",
-          "summary": "This is the first release of @reset/steamspy, version 2026.10.23.1. It adds two methods: sample, which pulls an app's SteamSpy estimates, and summarise, which describes how those estimates change over time.",
+          "summary": "This first release of @reset/steamspy adds two methods, sample and summarise, for sampling an app's SteamSpy estimates and summarising how they change over time.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/steamspy",
           "repository": null
         },
@@ -472,7 +472,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.23.1",
-          "summary": "This is a new extension, @reset/steamworks-builds, first released as version 2026.10.23.1. It records a Steam app's branches and builds and how they move between branches, and it adds two methods: sample and summarise.",
+          "summary": "A new extension, @reset/steamworks-builds, was released as version 2026.10.23.1 to record a Steam app's branches and builds and how they move between them. It adds two methods, sample and summarise.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/steamworks-builds",
           "repository": null
         },
@@ -481,7 +481,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.23.1",
-          "summary": "New extension @reset/steamworks-sales, first released as version 2026.10.23.1. It records a Steam partner's daily sales aggregates and summarises them, through two methods: sample and summarise.",
+          "summary": "A new extension, @reset/steamworks-sales, makes its first release at version 2026.10.23.1. It records a Steam partner's daily sales aggregates through a sample method and summarises them with a summarise method.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/steamworks-sales",
           "repository": null
         },
@@ -490,7 +490,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.23.1",
-          "summary": "A new extension, @reset/steamworks-wishlists, was released as version 2026.10.23.1 to record and summarise a Steam app's daily wishlist activity. It adds two methods, sample and summarise.",
+          "summary": "The @reset/steamworks-wishlists extension is a new first release, version 2026.10.23.1, that records and summarises a Steam app's daily wishlist activity. It adds two methods, sample and summarise.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/steamworks-wishlists",
           "repository": null
         },
@@ -499,7 +499,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.23.1",
-          "summary": "A new extension, @reset/twitch-viewers, first released as version 2026.10.23.1, records and summarises a game's live Twitch streams and viewer counts. It adds two methods: sample, which captures the data, and summarise, which reports on it.",
+          "summary": "A new extension, @reset/twitch-viewers, ships its first release (2026.10.23.1) to record and summarise a game's live Twitch streams and viewer counts. It adds two methods: sample and summarise.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/twitch-viewers",
           "repository": null
         },
@@ -508,7 +508,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "The @reset/unity extension is a first release, version 2026.10.24.1, that drives the Unity Editor in batch mode through its command-line arguments.",
+          "summary": "This is a first release of the @reset/unity extension, published as version 2026.10.24.1.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/unity",
           "repository": "https://github.com/reset/swamp-extensions"
         },
@@ -517,7 +517,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "The @reset/workq extension is a first release, now at version 2026.10.24.1, that lets swamp call workq's work-tracking API as a client. It adds eleven methods to read the current user, an org's projects, items with filters, item history, releases and sprints, and to create, change, and comment on items.",
+          "summary": "The first release of @reset/workq, published as version 2026.10.24.1, adds eleven methods for driving workq's work-tracking API as a service caller.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/workq",
           "repository": "https://github.com/reset/swamp-extensions"
         },
@@ -526,7 +526,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "The new @reset/wwise extension is an initial release (version 2026.10.24.1) that drives an open Wwise Authoring instance over WAAPI and WAMP.",
+          "summary": "The @reset/wwise extension is a first release, version 2026.10.24.1, that drives an open Wwise Authoring instance through WAAPI over WAMP.",
           "registryUrl": "https://swamp-club.com/extensions/@reset/wwise",
           "repository": "https://github.com/reset/swamp-extensions"
         },
@@ -535,7 +535,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.25.1",
-          "summary": "The @skunk-ape/hermes extension is a first release, version 2026.10.25.1, that lets users run Hermes agents on macOS or Linux, each confined to its own directory by a nono sandbox.",
+          "summary": "This is the first release of @skunk-ape/hermes, which runs Hermes agents on macOS or Linux with each agent confined to its own directory by a nono sandbox.",
           "registryUrl": "https://swamp-club.com/extensions/@skunk-ape/hermes",
           "repository": "https://github.com/skunk-ape/swamp-extensions"
         },
@@ -544,7 +544,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.1",
-          "summary": "A first release of @skunk-ape/web-brief, version 2026.10.24.1, gives an autonomous agent web access without a browser. It adds two methods, fetch and summarize.",
+          "summary": "The @skunk-ape/web-brief extension is a new initial release, version 2026.10.24.1, that gives an autonomous agent web access without a browser. It adds two methods, fetch and summarize.",
           "registryUrl": "https://swamp-club.com/extensions/@skunk-ape/web-brief",
           "repository": "https://github.com/skunk-ape/swamp-extensions"
         },
@@ -553,7 +553,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.25.1",
-          "summary": "The @sntxrr/docker-ps extension has its first release, version 2026.10.25.1, adding a host.ps method. It provides read-only listing of containers on a Docker host over SSH, scoped for use by an unattended triage agent.",
+          "summary": "This is the first release of @sntxrr/docker-ps, now at version 2026.10.25.1, and it adds one method, host.ps. The extension provides a read-only listing of containers on a Docker host over SSH, scoped narrowly enough for an unattended triage agent to use.",
           "registryUrl": "https://swamp-club.com/extensions/@sntxrr/docker-ps",
           "repository": "https://github.com/sntxrr/swamp-docker-ps"
         },
@@ -562,7 +562,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.25.1",
-          "summary": "A new swamp registry extension, @sntxrr/log-tail, was published in its first release at version 2026.10.25.1. It reads the last lines of a log selected by name from an allowlist fixed in the model definition, with secret values redacted, and adds two methods: allowlist.list and allowlist.tail.",
+          "summary": "This is a first release of @sntxrr/log-tail, now at version 2026.10.25.1. It reads the last lines of a log selected by name from an allowlist fixed in the model definition, with secret values redacted. It adds two methods: allowlist.list and allowlist.tail.",
           "registryUrl": "https://swamp-club.com/extensions/@sntxrr/log-tail",
           "repository": "https://github.com/sntxrr/swamp-log-tail"
         },
@@ -571,7 +571,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.25.1",
-          "summary": "A first release of @sntxrr/traefik, version 2026.10.25.1, adds three methods (instance.bump, instance.check, instance.inspect) for keeping Traefik reverse proxies, their companion images such as CrowdSec, and their loaded plugins current.",
+          "summary": "A first release of @sntxrr/traefik, version 2026.10.25.1, adds three methods: instance.bump, instance.check and instance.inspect.",
           "registryUrl": "https://swamp-club.com/extensions/@sntxrr/traefik",
           "repository": "https://github.com/sntxrr/swamp-traefik"
         },
@@ -580,7 +580,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.25.1",
-          "summary": "A new extension, @sntxrr/uptime-kuma, makes its first release in this window, at version 2026.10.25.1 (after 2026.10.22.1).",
+          "summary": "A new extension, @sntxrr/uptime-kuma, provides read-only access to Uptime Kuma monitor history for triage. It returns the last N heartbeats for one monitor, including status, time, message, and ping, along with a summary of current status, when it last changed, and how many changes occurred in the window.",
           "registryUrl": "https://swamp-club.com/extensions/@sntxrr/uptime-kuma",
           "repository": "https://github.com/sntxrr/swamp-uptime-kuma"
         },
@@ -589,7 +589,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.2",
-          "summary": "This is a first release of the extension, published as version 2026.10.24.2 after an earlier 2026.10.24.1 in the same window. It adds three methods for deploying to Cloudflare Pages without a Git repository: createProject, deployDirect for direct uploads, and bindDomain for custom domains.",
+          "summary": "The new extension @svendowideit/cloudflare-pages-wrangler is a first release, now at version 2026.10.24.2, that adds methods for deploying sites directly to Cloudflare Pages without a Git repository, creating projects, and binding custom domains.",
           "registryUrl": "https://swamp-club.com/extensions/@svendowideit/cloudflare-pages-wrangler",
           "repository": "https://github.com/svendowideit/swamp-extensions"
         },
@@ -598,7 +598,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.2",
-          "summary": "The @svendowideit/markdown2html extension is a first release, now at version 2026.10.24.2, that renders Markdown files into a static HTML site with an index page and needs neither Python nor special content markers. It adds one method, generate.",
+          "summary": "This is a first release of @svendowideit/markdown2html, version 2026.10.24.2 in the window, which adds the generate method. It renders Markdown files into a static HTML site with an index page, without requiring Python or special content markers.",
           "registryUrl": "https://swamp-club.com/extensions/@svendowideit/markdown2html",
           "repository": "https://github.com/svendowideit/swamp-extensions"
         },
@@ -607,7 +607,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.25.1",
-          "summary": "A new extension, @svendowideit/s3-archive-planner (version 2026.10.25.1), plans an Australian photo and video archive on Amazon S3.",
+          "summary": "A new extension, @svendowideit/s3-archive-planner (version 2026.10.25.1, first release), plans an Australian photo and video archive on Amazon S3.",
           "registryUrl": "https://swamp-club.com/extensions/@svendowideit/s3-archive-planner",
           "repository": "https://github.com/svendowideit/swamp-extensions"
         },
@@ -616,7 +616,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.2",
-          "summary": "A new extension, @svendowideit/ssh-key-inventory (first release, version 2026.10.24.2), adds methods to inventory SSH private keys across hosts reachable from a control account, assess them, and safely replace them.",
+          "summary": "A new extension, @svendowideit/ssh-key-inventory, was published as its first release at version 2026.10.24.2. It inventories, assesses and helps safely replace SSH private keys across hosts reachable from a control account, producing an HTML report with per-key remediation advice.",
           "registryUrl": "https://swamp-club.com/extensions/@svendowideit/ssh-key-inventory",
           "repository": "https://github.com/svendowideit/swamp-extensions"
         },
@@ -625,7 +625,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.25.1",
-          "summary": "This is a new extension, the AWS License Manager User Subscriptions infrastructure models, first released at version 2026.10.25.1.",
+          "summary": "The new @swamp/aws/licensemanagerusersubscriptions extension ships AWS License Manager User Subscriptions infrastructure models, with a license_server_endpoint model that provides create, delete, get, list, sync and update methods.",
           "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/licensemanagerusersubscriptions",
           "repository": "https://github.com/swamp-club/swamp-extensions"
         },
@@ -634,7 +634,7 @@
           "family": true,
           "fromVersion": null,
           "toVersion": null,
-          "summary": "Adds a new extension that finds and fixes Linux, macOS, and Windows hosts and Linux containers still trusting eight eMudhra intermediate CAs whose private keys were compromised.",
+          "summary": "Initial release that adds methods to scan and mitigate Linux, macOS, and Windows hosts and Linux containers still trusting eight eMudhra intermediate CAs whose private keys were compromised, plus a fleet-wide scan.",
           "registryUrl": null,
           "repository": null,
           "members": [
@@ -661,7 +661,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.23.1",
-          "summary": "The new `@swamp/gcp/deepreview` extension is a first release (2026.10.23.1) that adds Google Cloud infrastructure models for managing documents and document reviews. It provides create, get, list, and sync methods for document reviews, plus get, list, sync, and delete methods for documents.",
+          "summary": "Google Cloud deepreview models are added in this first release, covering documents and document reviews with create, get, list, sync, and delete operations. The 2026.10.23.1 version also includes updates to the documents and documents-reviews models.",
           "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/deepreview",
           "repository": "https://github.com/swamp-club/swamp-extensions"
         },
@@ -670,7 +670,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.22.6",
-          "summary": "Adds the @taylor/emudhra extension, first released in this window and now at version 2026.10.22.6, with one method, exposure.scan. Per its description, it checks where private keys from eight compromised eMudhra certificate authorities could still be used.",
+          "summary": "Initial release of an extension whose exposure.scan method checks where the leaked private keys of eight compromised eMudhra certificate authorities can still be used against you.",
           "registryUrl": "https://swamp-club.com/extensions/@taylor/emudhra",
           "repository": "https://github.com/taylorific/swampworks"
         },
@@ -679,7 +679,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.24.2",
-          "summary": "The initial release of the libvirt extension sets up an Ubuntu host to run KVM/QEMU virtual machines through libvirt. It adds check and apply methods for host packages and libvirt/kvm group membership, directory storage pools, networks, virtual machines, and an uplink check.",
+          "summary": "A new extension, @taylor/libvirt (first release, version 2026.10.24.2), sets up an Ubuntu host to run KVM/QEMU virtual machines via libvirt. It provides check and apply methods for the host packages and user groups, directory storage pools, networks, uplinks, and virtual machines.",
           "registryUrl": "https://swamp-club.com/extensions/@taylor/libvirt",
           "repository": "https://github.com/taylorific/swampworks"
         },
@@ -688,7 +688,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.23.2",
-          "summary": "This is a first release of @vcjdeboer/opentofu, with versions 2026.10.22.1 through 2026.10.23.2 in the window, and it adds six methods for planning and applying OpenTofu through a sha-bound gate: init, validate, plan, apply, output, and version.",
+          "summary": "The @vcjdeboer/opentofu extension is a first release that adds methods to plan, apply, initialize, validate, read outputs from, and check the version of OpenTofu, with plan and apply gated by a sha-bound check. Versions 2026.10.22.1 through 2026.10.23.2 were published in this window.",
           "registryUrl": "https://swamp-club.com/extensions/@vcjdeboer/opentofu",
           "repository": "https://github.com/vcjdeboer/swamp-opentofu"
         },
@@ -697,7 +697,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.23.2",
-          "summary": "Initial release of an extension that makes Quarto reveal.js lecture decks render the same way each time and keeps a record of how each one was built. It adds 16 methods for rendering, checking, PDF and PPTX export, PPTX extraction and conversion, slide and source management, figure cropping, and outlining.",
+          "summary": "Initial release of @vcjdeboer/quarto-deck, a tool for making Quarto reveal.js lecture decks build the same way each time and keep a record of how each was built. It adds 16 methods covering rendering, PDF and PPTX export, PPTX import and inspection, slide and source management, outlining, and checks.",
           "registryUrl": "https://swamp-club.com/extensions/@vcjdeboer/quarto-deck",
           "repository": "https://github.com/vcjdeboer/quarto-deck"
         },
@@ -706,7 +706,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.21.1",
-          "summary": "This new extension lets you manage members of a Claude Enterprise organization through the Admin API, including reading members, custom roles, and RBAC groups, adding members to groups, and switching members between User and Custom organization roles.",
+          "summary": "The @webframp/anthropic/admin extension is a first release that lets you manage members of a Claude Enterprise organization through the Admin API, including reading members, custom roles, and RBAC groups, adding members to groups, and switching members between User and Custom roles.",
           "registryUrl": "https://swamp-club.com/extensions/@webframp/anthropic/admin",
           "repository": "https://github.com/webframp/swamp-extensions"
         },
@@ -715,7 +715,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.22.1",
-          "summary": "New extension webframp/aws/php2shell-hunt, first released as 2026.10.22.1, checks AWS accounts for exposure to the PHP2Shell vulnerabilities CVE-2026-109618 and CVE-2026-109619 using read-only telemetry from Inspector, GuardDuty, CloudWatch Logs and Security Hub. It needs no SSH or in-guest access.",
+          "summary": "A new AWS extension, @webframp/aws/php2shell-hunt (version 2026.10.22.1), is an initial release that checks AWS accounts for exposure and indicators of compromise tied to the PHP2Shell vulnerabilities CVE-2026-109618 and CVE-2026-109619.",
           "registryUrl": "https://swamp-club.com/extensions/@webframp/aws/php2shell-hunt",
           "repository": "https://github.com/webframp/swamp-extensions"
         },
@@ -724,7 +724,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.21.1",
-          "summary": "A new extension, @webframp/editorial-review, was released at version 2026.10.21.1. It reviews prose against bundled editorial principles, returning structured findings and a revised draft, with an optional second pass.",
+          "summary": "A new extension, @webframp/editorial-review, was released at version 2026.10.21.1. It reviews prose against a bundled set of editorial principles, using a model pass with an optional second pass, and produces structured findings plus a revised draft with a report.",
           "registryUrl": "https://swamp-club.com/extensions/@webframp/editorial-review",
           "repository": "https://github.com/webframp/swamp-extensions"
         },
@@ -733,7 +733,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.21.1",
-          "summary": "The @webframp/presentation extension is a first release (2026.10.21.1) that builds reveal.js presentations from Org or Markdown sources and stores each build, outline, and PDF export as versioned swamp data. It adds three methods: deck.build, deck.outline, and deck.export_pdf.",
+          "summary": "Introduces @webframp/presentation, a first release that builds reveal.js 6.0.1 decks from Org or Markdown, stores each build, outline and PDF as versioned swamp data, and adds build, outline and export_pdf methods.",
           "registryUrl": "https://swamp-club.com/extensions/@webframp/presentation",
           "repository": "https://github.com/webframp/swamp-extensions"
         },
@@ -742,7 +742,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.25.2",
-          "summary": "A new extension, @zts/cataas, was first released at version 2026.10.25.1 and is now at 2026.10.25.2. It fetches random cat images from the Cat as a Service API and exposes a single method, random.",
+          "summary": "A new extension, @zts/cataas, was first released in version 2026.10.25.1 and updated to 2026.10.25.2, adding one method, random, which fetches a random cat image from the Cat as a Service site.",
           "registryUrl": "https://swamp-club.com/extensions/@zts/cataas",
           "repository": "https://github.com/zts/swamp-extensions"
         },
@@ -751,7 +751,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.05.31.1",
-          "summary": "Introduces the new @zts/text-entropy extension, whose analyze method measures the Shannon entropy of a supplied piece of text. This is the extension's first release, published as version 2026.05.31.1.",
+          "summary": "The new @zts/text-entropy extension is a first release, version 2026.05.31.1, that measures the Shannon entropy of a piece of text. It adds one method, analyze.",
           "registryUrl": "https://swamp-club.com/extensions/@zts/text-entropy",
           "repository": null
         },
@@ -760,7 +760,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.25.1",
-          "summary": "The new @zts/trello-tracker extension is an initial release (version 2026.10.25.1) that tracks a factory's tickets on a single Trello board, treating cards as tickets, open lists as statuses, and labels as ticket types. It adds two methods, describe and operate.",
+          "summary": "A new extension, @zts/trello-tracker, makes its first release (version 2026.10.25.1) as a stagecraft tracker that keeps a factory's tickets on one Trello board, with cards as tickets, open lists as statuses, and labels as ticket types. It adds two methods, describe and operate.",
           "registryUrl": "https://swamp-club.com/extensions/@zts/trello-tracker",
           "repository": "https://github.com/zts/swamp-extensions"
         }
@@ -776,7 +776,7 @@
           "family": false,
           "fromVersion": "2026.10.15.9",
           "toVersion": "2026.10.25.10",
-          "summary": "Extension @bad-at-naming/libvirt moved from 2026.10.15.9 to 2026.10.25.10, adding VM provisioning from cloud images, a desired-state plan/sync reconciler, a read-only serial console capture method, and selectable SSH host-key policy, port, identity, jump host, and sudo options.",
+          "summary": "The @bad-at-naming/libvirt extension moved from 2026.10.15.9 to 2026.10.25.10, adding VM provisioning from cloud images, a read-only serial console capture method, and a desired-state plan/sync reconciler.",
           "registryUrl": "https://swamp-club.com/extensions/@bad-at-naming/libvirt",
           "repository": "https://github.com/umag/swamp-workspace"
         },
@@ -785,7 +785,7 @@
           "family": false,
           "fromVersion": "2026.05.05.1",
           "toVersion": "2026.10.22.1",
-          "summary": "The @bixu/github extension moved from 2026.05.05.1 to 2026.10.22.1, replacing the Actions run model and its helpers with a new shared helper file for repo, issue, PR, and member operations, and adding search and listing methods for repos, issues, PRs, and members.",
+          "summary": "The @bixu/github extension moved from 2026.05.05.1 to 2026.10.22.1, dropping the GitHub Actions models and helpers and adding a shared helpers file with normalizers for repos, issues, PRs, and members.",
           "registryUrl": "https://swamp-club.com/extensions/@bixu/github",
           "repository": "https://github.com/bixu/swamp-extensions"
         },
@@ -794,7 +794,7 @@
           "family": false,
           "fromVersion": "2026.04.23.2",
           "toVersion": "2026.10.22.1",
-          "summary": "Version 2026.10.22.1 of @bixu/github-security (from 2026.04.23.2) adds a new helpers file with repository security-status checks, plus a manifest update that adds an MIT license entry and a helpers file reference.",
+          "summary": "Version 2026.10.22.1 of @bixu/github-security replaces the scanOrg and scanUser methods with namespaced versions and adds a github_security_helpers.ts file that handles org and user repo security scans, including detection of security apps and check suites.",
           "registryUrl": "https://swamp-club.com/extensions/@bixu/github-security",
           "repository": "https://github.com/bixu/swamp-extensions"
         },
@@ -803,7 +803,7 @@
           "family": false,
           "fromVersion": "2026.04.24.1",
           "toVersion": "2026.10.22.1",
-          "summary": "Version 2026.10.22.1 of @bixu/homekit replaces the earlier 2026.04.24.1 release, moving the control and list methods out and adding discover, pair, and readSensors as the new method set, with a new homekit_hap.ts file holding the HAP protocol code. The manifest also changes its repository, license, and platform list.",
+          "summary": "@bixu/homekit moves from 2026.04.24.1 to 2026.10.22.1 and gains a new homekit_hap.ts module, a pure TypeScript HAP protocol implementation with TLV8, SRP-6a, and pairing support.",
           "registryUrl": "https://swamp-club.com/extensions/@bixu/homekit",
           "repository": "https://github.com/bixu/swamp-extensions"
         },
@@ -812,7 +812,7 @@
           "family": false,
           "fromVersion": "2026.05.04.1",
           "toVersion": "2026.10.22.1",
-          "summary": "Release 2026.10.22.1 of @bixu/honeycomb (from 2026.05.04.1) adds a shared helpers module for Honeycomb Management and v1 Configuration API access, including key validation, request URL building, and table output.",
+          "summary": "The @bixu/honeycomb extension moved from 2026.05.04.1 to 2026.10.22.1 and gained a shared helper module, honeycomb_helpers.ts, which adds API key validation, request building, and v1 and v2 Honeycomb API support.",
           "registryUrl": "https://swamp-club.com/extensions/@bixu/honeycomb",
           "repository": "https://github.com/bixu/swamp-extensions"
         },
@@ -821,7 +821,7 @@
           "family": false,
           "fromVersion": "2026.04.23.2",
           "toVersion": "2026.10.22.1",
-          "summary": "The @bixu/k8s/exec extension moved from version 2026.04.23.2 to 2026.10.22.1, with the model's helper schemas and runBatched function now exported and the exec and execAll handlers given explicit any types.",
+          "summary": "The @bixu/k8s/exec extension moved from version 2026.04.23.2 to 2026.10.22.1, adding an MIT license and a manifest paths setting and removing an empty drivers list.",
           "registryUrl": "https://swamp-club.com/extensions/@bixu/k8s/exec",
           "repository": "https://github.com/bixu/swamp-extensions"
         },
@@ -830,7 +830,7 @@
           "family": false,
           "fromVersion": "2026.06.07.4",
           "toVersion": "2026.10.22.1",
-          "summary": "Version bump from 2026.06.07.4 to 2026.10.22.1 that adds an MIT license field to the manifest and removes an empty drivers list. No extension files changed, though the registry diff lists the process, publish and scan methods as re-registered under the @bixu/photos prefix.",
+          "summary": "Version bump to 2026.10.22.1 with no code file changes. The manifest adds an MIT license field and drops an empty drivers list, and the three method names are listed as renamed with a package prefix.",
           "registryUrl": "https://swamp-club.com/extensions/@bixu/photos",
           "repository": "https://github.com/bixu/swamp-extensions"
         },
@@ -893,7 +893,7 @@
           "family": false,
           "fromVersion": "2026.09.10.1",
           "toVersion": "2026.10.23.1",
-          "summary": "The @figura/zabbix extension moved from 2026.09.10.1 to 2026.10.23.1 and gained four methods: list_dashboards, get_dashboard, and update_dashboard (which saves a backup before writing and supports dryRun), plus get_template_linkage.",
+          "summary": "The @figura/zabbix extension moved from 2026.09.10.1 to 2026.10.23.1 and gained four methods for dashboards and template linkage: list_dashboards, get_dashboard, update_dashboard (which backs up the prior state and supports dryRun), and get_template_linkage.",
           "registryUrl": "https://swamp-club.com/extensions/@figura/zabbix",
           "repository": "https://github.com/ftveronezzi/swamp-extensions"
         },
@@ -902,7 +902,7 @@
           "family": false,
           "fromVersion": "2026.10.15.1",
           "toVersion": "2026.10.15.2",
-          "summary": "The @keeb/alpine extension moved from version 2026.10.15.1 to 2026.10.15.2, adding three methods: install, deployApkovl, and provision.",
+          "summary": "Version 2026.10.15.2 of @keeb/alpine (up from 2026.10.15.1) adds three methods: install, deployApkovl and provision. The install method gains input validation for hostname, disk and DNS settings, password handling through stdin, a new SSH target check, and an upgrade entry for its model.",
           "registryUrl": "https://swamp-club.com/extensions/@keeb/alpine",
           "repository": "https://github.com/keeb/swamp-alpine"
         },
@@ -929,7 +929,7 @@
           "family": false,
           "fromVersion": "2026.10.15.1",
           "toVersion": "2026.10.15.2",
-          "summary": "The @keeb/minecraft extension moved from 2026.10.15.1 to 2026.10.15.2, adding Minecraft server control and installer behaviors with new methods for start, stop, console commands, and metrics collection. The metrics code now validates inputs, escapes Prometheus labels, and writes files in a single atomic shell command.",
+          "summary": "The @keeb/minecraft extension moved from version 2026.10.15.1 to 2026.10.15.2 and added two behaviors, with 14 new methods across the installer and server models.",
           "registryUrl": "https://swamp-club.com/extensions/@keeb/minecraft",
           "repository": "https://github.com/keeb/swamp-minecraft"
         },
@@ -938,7 +938,7 @@
           "family": false,
           "fromVersion": "2026.07.18.1",
           "toVersion": "2026.10.25.2",
-          "summary": "Version 2026.07.18.1 moved to 2026.10.25.2 across three releases.",
+          "summary": "Version 2026.10.25.2 of @keeb/mms adds a deterministic route for placing new shows in the organizer, filler-word-insensitive similar-directory matching, and Ollama health checks only when the LLM is needed.",
           "registryUrl": "https://swamp-club.com/extensions/@keeb/mms",
           "repository": "https://github.com/keeb/swamp-mms"
         },
@@ -956,7 +956,7 @@
           "family": false,
           "fromVersion": "2026.10.15.1",
           "toVersion": "2026.10.15.2",
-          "summary": "Version 2026.10.15.2 of @keeb/prometheus adds monitoring agent methods for installing and configuring agents and for registering and removing Prometheus scrape jobs on a hub. It also adds input validation for SSH hosts and users and for VM names and URLs, and the SSH helpers were refactored.",
+          "summary": "@keeb/prometheus moved from 2026.10.15.1 to 2026.10.15.2. The release adds input validation for VM names, URLs, hosts, users and paths, refactors the SSH helpers, and adds a valid-ssh-target check, a new `validate.ts` module and eight methods across the agent and hub models.",
           "registryUrl": "https://swamp-club.com/extensions/@keeb/prometheus",
           "repository": "https://github.com/keeb/swamp-prometheus"
         },
@@ -965,7 +965,7 @@
           "family": false,
           "fromVersion": "2026.10.15.1",
           "toVersion": "2026.10.15.2",
-          "summary": "Adds 14 methods for Proxmox nodes (auth, status, storage and ISO listing, ISO download) and VMs (create, delete, lookup, start, stop, sync, config, boot order, SPICE connect). The shared API helper now sends requests through curl with per-request TLS skipping and validated arguments.",
+          "summary": "Version 2026.10.15.2 of @keeb/proxmox adds 14 methods covering Proxmox API auth, node status and storage/ISO listing, and VM create, delete, lookup, start, stop, sync, boot order, config and SPICE connect.",
           "registryUrl": "https://swamp-club.com/extensions/@keeb/proxmox",
           "repository": "https://github.com/keeb/swamp-proxmox"
         },
@@ -983,7 +983,7 @@
           "family": false,
           "fromVersion": "2026.07.20.7",
           "toVersion": "2026.10.19.1",
-          "summary": "Version 2026.07.20.7 moves to 2026.10.19.1 with new `serverInfo` and `lock_file`, `unlock_file`, and `lock_status` methods, plus a `serverInfo` resource and a `lock_status` resource. The share schema's `share_with` fields become nullable, and the README is updated.",
+          "summary": "Version 2026.10.19.1 of @kneel/nextcloud adds lock_file, unlock_file and lock_status methods for the Nextcloud Files Lock app, and a serverInfo method and resource that read instance health from the OCS serverinfo app. It also makes share_with fields nullable and removes an empty drivers entry from the manifest.",
           "registryUrl": "https://swamp-club.com/extensions/@kneel/nextcloud",
           "repository": "https://github.com/NeilHanlon/swamp-nextcloud"
         },
@@ -1001,7 +1001,7 @@
           "family": false,
           "fromVersion": "2026.10.15.9",
           "toVersion": "2026.10.25.10",
-          "summary": "Adds a `recalculate` method that queues a tracks, stats and digests rebuild on a Dawarich instance, optionally for one year, and records the outcome in a new `recalculation` resource (a 409 is recorded as already in progress).",
+          "summary": "The @magistr/dawarich extension gained a `recalculate` method that queues a tracks, stats and digests rebuild on a Dawarich instance, optionally for a single year, and records the outcome in a new `recalculation` resource.",
           "registryUrl": "https://swamp-club.com/extensions/@magistr/dawarich",
           "repository": "https://github.com/umag/swamp-workspace"
         },
@@ -1055,7 +1055,7 @@
           "family": false,
           "fromVersion": "2026.10.15.1",
           "toVersion": "2026.10.23.1",
-          "summary": "Version 2026.10.23.1 of @maphew/agent-task adds a `run` method that launches one headless agent with no git work, and routes dispatch, sweep and the new run method through a shared agent launcher.",
+          "summary": "The @maphew/agent-task extension was updated from 2026.10.15.1 to 2026.10.23.1, adding a `run` method that launches a single headless agent with no git work and a sandbox worktree option for dispatch, plus `sandboxes` and `pruneSandboxes` methods.",
           "registryUrl": "https://swamp-club.com/extensions/@maphew/agent-task",
           "repository": "https://github.com/maphew/swamp-extensions.git"
         },
@@ -1082,7 +1082,7 @@
           "family": false,
           "fromVersion": "2026.10.15.2",
           "toVersion": "2026.10.23.1",
-          "summary": "The 2026.10.23.1 release of @maphew/pr-sweep splits the monolithic sweep into composable list, review, sync, verdicts, and summary methods, and adds a per-pair model setting. It also adds preflight checks that fail fast with the name of any missing git, gh, or agent binary.",
+          "summary": "Extension @maphew/pr-sweep moved from 2026.10.15.2 to 2026.10.23.1, with the window containing 2026.10.18.1 and 2026.10.23.1.",
           "registryUrl": "https://swamp-club.com/extensions/@maphew/pr-sweep",
           "repository": "https://github.com/maphew/swamp-extensions.git"
         },
@@ -1100,7 +1100,7 @@
           "family": false,
           "fromVersion": "2026.10.15.2",
           "toVersion": "2026.10.23.1",
-          "summary": "Version 2026.10.23.1 of the repo-doctor extension adds a checkScaffolding method that typechecks generated agent scaffolding directories with deno check, and a checkWorkflowWiring method that flags workflow scripts missing an exec bit or shebang and schedules that don't match live registrations.",
+          "summary": "Version 2026.10.23.1 of @maphew/repo-doctor adds a checkWorkflowWiring method that flags workflow scripts missing an exec bit or shebang and schedules without a live registration, plus a checkScaffolding method that typechecks agent scaffolding directories and reports findings separately.",
           "registryUrl": "https://swamp-club.com/extensions/@maphew/repo-doctor",
           "repository": "https://github.com/maphew/swamp-extensions.git"
         },
@@ -1154,7 +1154,7 @@
           "family": false,
           "fromVersion": "2026.10.14.1",
           "toVersion": "2026.10.22.1",
-          "summary": "Extension @sntxrr/credential-expiry moved from 2026.10.14.1 to 2026.10.22.1, with 2026.10.20.1 and 2026.10.20.2 also in the window.",
+          "summary": "Version 2026.10.14.1 moved to 2026.10.22.1 of the credential-expiry extension, which adds a per-entry `secretRef` option so an unreadable vault secret is reported as its own finding instead of stopping the audit.",
           "registryUrl": "https://swamp-club.com/extensions/@sntxrr/credential-expiry",
           "repository": "https://github.com/sntxrr/swamp-credential-expiry"
         },
@@ -1172,7 +1172,7 @@
           "family": false,
           "fromVersion": "2026.10.18.2",
           "toVersion": "2026.10.19.1",
-          "summary": "Version 2026.10.19.1 separates reads from writes in the GL.iNet KVM extension: health, screenshot, atx and msd never change the device, while new atxPress and msdChange methods act behind live pre-flight checks for ATX board presence, virtual media, and busy state.",
+          "summary": "The glinet-kvm extension moved from 2026.10.18.2 to 2026.10.19.1 and split reads from writes: atx and msd now only report state or record a plan, while new atxPress and msdChange methods perform the actions after live pre-flight checks for ATX board presence, virtual media enablement, and busy status.",
           "registryUrl": "https://swamp-club.com/extensions/@sntxrr/glinet-kvm",
           "repository": "https://github.com/sntxrr/swamp-glinet-kvm"
         },
@@ -1208,7 +1208,7 @@
           "family": false,
           "fromVersion": "2026.10.15.1",
           "toVersion": "2026.10.23.1",
-          "summary": "Release 2026.10.23.1 of @sntxrr/vikunja-kanban adds a tracker model for @swamp/stagecraft and a create_label method that makes labels only when a person asks. It also adds a per-bucket move budget for reorder, a truncated flag on board reads and audits, and stops stripping unknown fields from stored task records.",
+          "summary": "Version 2026.10.23.1 of @sntxrr/vikunja-kanban adds a stagecraft tracker model, a create_label method that creates labels idempotently, and a truncated flag on board reads and reorder plans that reports when a page cap cut the data short.",
           "registryUrl": "https://swamp-club.com/extensions/@sntxrr/vikunja-kanban",
           "repository": "https://github.com/sntxrr/swamp-vikunja-kanban"
         },
@@ -1235,7 +1235,7 @@
           "family": false,
           "fromVersion": "2026.10.16.6",
           "toVersion": "2026.10.22.1",
-          "summary": "Version 2026.10.22.1 of @svendowideit/llama-cpp adds an optional Caddy integration: an ensure-caddy-proxy method that, when the Caddy extension is installed, declares a reverse-proxy route to the served model's local API port, plus two new optional global arguments for choosing the Caddy model and hostname.",
+          "summary": "Version 2026.10.22.1 adds an optional Caddy integration: a new ensure-caddy-proxy method and caddyModelName and caddyRouteHostname global arguments, which declare a reverse-proxy route to the served model's localhost port when a @svendowideit/caddy model is present.",
           "registryUrl": "https://swamp-club.com/extensions/@svendowideit/llama-cpp",
           "repository": "https://github.com/svendowideit/swamp-extensions"
         },
@@ -1244,7 +1244,7 @@
           "family": false,
           "fromVersion": "2026.09.25.1",
           "toVersion": "2026.10.24.2",
-          "summary": "The web-cache extension moved from 2026.09.25.1 to 2026.10.24.2, adding optional bearer-token auth from a 0600 file, a shared run-level fetch budget (budgetId and maxFetches), a resultName option, and a capped flag on results.",
+          "summary": "Version 2026.10.24.2 of the web-cache extension adds optional bearer-token auth read from a 0600 file, a run-scoped origin-fetch budget via budgetId and maxFetches, and a resultName option, plus a capped output flag and new cache-info, get-json, get-many and invalidate methods.",
           "registryUrl": "https://swamp-club.com/extensions/@svendowideit/web-cache",
           "repository": "https://github.com/svendowideit/swamp-extensions"
         },
@@ -1253,7 +1253,7 @@
           "family": false,
           "fromVersion": "2026.09.20.3",
           "toVersion": "2026.10.24.2",
-          "summary": "Version 2026.10.24.2 rewrites @svendowideit/wikidata as a fetch-free client that now also builds Wikimedia Enterprise request plans and reads Enterprise-cached entities, adding an enterprise-session/usage model and a new wikidata-fetch-entity workflow.",
+          "summary": "Version 2026.10.24.2 of @svendowideit/wikidata (from 2026.09.20.3) is now a fetch-free client that can also build Wikimedia Enterprise request plans and read Enterprise-cached entities, with a new fetch-entity workflow and an added curl dependency.",
           "registryUrl": "https://swamp-club.com/extensions/@svendowideit/wikidata",
           "repository": "https://github.com/svendowideit/swamp-extensions"
         },
@@ -1262,7 +1262,7 @@
           "family": false,
           "fromVersion": "2026.09.20.4",
           "toVersion": "2026.10.24.2",
-          "summary": "Version 2026.10.24.2 of @svendowideit/wikipedia changes the extension from a web-cache-dependent parser into a fetch-free client that can also read Wikimedia Enterprise article URLs, with new Enterprise planning, session, quota and status methods and a new fetch-page workflow.",
+          "summary": "Version 2026.10.24.2 reworks the Wikipedia/Wikidata client into a fetch-free domain client that reads from the shared web cache and can also use Wikimedia Enterprise article URLs when credentials and local quota allow.",
           "registryUrl": "https://swamp-club.com/extensions/@svendowideit/wikipedia",
           "repository": "https://github.com/svendowideit/swamp-extensions"
         },
@@ -1280,7 +1280,7 @@
           "family": true,
           "fromVersion": null,
           "toVersion": null,
-          "summary": "AWS family of 293 extensions moved from 2026.10.13.1 to 2026.10.25.1 across three weekly versions, mostly with dependency bumps (AWS CloudControl client, zod) and a new create-only property check in update logic.",
+          "summary": "Across 293 AWS extensions, versions moved from 2026.10.13.1 to 2026.10.25.1, mostly with resource updates and some additions. Shared code bumped the CloudControl SDK and zod, made create-only filtering match nested paths, and added an AGPL-3.0-or-later license field.",
           "registryUrl": null,
           "repository": null,
           "members": [
@@ -2463,7 +2463,7 @@
           "family": true,
           "fromVersion": null,
           "toVersion": null,
-          "summary": "The Cloudflare extension family moved from 2026.10.16 to 2026.10.23 across 86 extensions, with the bulk of changes adding a `lookupResult` output and an `allowMissing` option to lookup methods, plus a zod bump from 4.3.6 to 4.6.7.",
+          "summary": "The 86 @swamp/cloudflare extensions were updated from their 2026.10.16 or 2026.10.17 versions to 2026.10.23.",
           "registryUrl": null,
           "repository": null,
           "members": [
@@ -2836,7 +2836,7 @@
           "family": true,
           "fromVersion": null,
           "toVersion": null,
-          "summary": "The @swamp/gcp/agentregistry extension moved from 2026.10.13.1 to 2026.10.25.1, adding findings, publishers, skills, and skills-revisions models and updating zod and the version stamps across the existing models.",
+          "summary": "The agentregistry extension moved from 2026.10.13.1 to 2026.10.25.1, adding findings, publishers, skills, and skills-revisions models with 21 new methods, and bumping zod across the models. Most other models in the family only gained no-op \"No schema changes\" upgrade entries or description text edits.",
           "registryUrl": null,
           "repository": null,
           "members": [
@@ -3013,7 +3013,7 @@
           "family": false,
           "fromVersion": "2026.10.13.1",
           "toVersion": "2026.10.25.2",
-          "summary": "Adds forceSync, get, and list methods for External Secrets, and ensure and getMeta methods for secrets, plus updated labels and one modified behavior. The code diff could not be retrieved because the archive exceeded the size limit, so the change is described from the registry structural diff alone.",
+          "summary": "Version 2026.10.13.1 moved to 2026.10.25.2 across four releases, adding five methods for External Secrets and secret handling (externalsecret forceSync, get, and list; secret ensure and getMeta) and updating labels and one existing behavior.",
           "registryUrl": "https://swamp-club.com/extensions/@swamp/kubernetes",
           "repository": "https://github.com/swamp-club/swamp-extensions"
         },
@@ -3031,7 +3031,7 @@
           "family": false,
           "fromVersion": "2026.10.16.1",
           "toVersion": "2026.10.23.1",
-          "summary": "Version 2026.10.23.1 of @swamp/ssh adds an explicit host-key policy (pinned, tofu, accept-new, insecure) with a new repin method, loads identityContent into a per-call ssh-agent instead of disk, and adds argv and atomic copy options to exec and copy.",
+          "summary": "Release 2026.10.23.1 of @swamp/ssh adds an explicit host-key policy (pinned, tofu, accept-new, insecure) and a new repin method, plus an identityContent option that loads keys into a per-call ssh-agent. It also adds exec argv support and atomic copy with mode, owner, and sha256 verification.",
           "registryUrl": "https://swamp-club.com/extensions/@swamp/ssh",
           "repository": "https://github.com/swamp-club/swamp-extensions"
         },
@@ -3049,7 +3049,7 @@
           "family": true,
           "fromVersion": null,
           "toVersion": null,
-          "summary": "Across the 19 Vercel infrastructure extensions, the main changes are a zod dependency bump to 4.6.7, license and version updates, and new lookupResult outputs with an allowMissing option on lookup methods.",
+          "summary": "Nineteen Vercel extensions moved to 2026.10.23 with mostly model updates. Access-groups and aliases gained an allowMissing lookup option that writes misses to a new lookupResult, and aliases marks protectionBypass as sensitive. Where shown, the zod dependency moved from 4.3.6 to 4.6.7.",
           "registryUrl": null,
           "repository": null,
           "members": [
@@ -3136,7 +3136,7 @@
           "family": false,
           "fromVersion": "2026.10.15.1",
           "toVersion": "2026.10.16.1",
-          "summary": "Version 2026.10.16.1 of @tagur/oidc-diagnose adds two methods, exchange-code (exchanges an authorization code at the token endpoint and checks the returned id_token) and resolve-groups (expands Entra groups-overage references via Microsoft Graph).",
+          "summary": "Adds two methods, exchange-code (OAuth2 code exchange with id_token claim checks) and resolve-groups (Entra groups-overage expansion via Graph), plus optional required-claim assertions in decode-token; the read-only methods stay credential-free, and the model's dependency zod moves to 4.6.5.",
           "registryUrl": "https://swamp-club.com/extensions/@tagur/oidc-diagnose",
           "repository": "https://github.com/tagur87/swamp-extensions"
         },
@@ -3208,7 +3208,7 @@
           "family": true,
           "fromVersion": null,
           "toVersion": null,
-          "summary": "The @webframp/aws/adopt extension (2026.10.21.1) and @webframp/aws/securityhub-findings (2026.10.23.1) both changed.",
+          "summary": "Three AWS extensions were updated: adopt and securityhub-findings got documentation updates, and securityhub-findings now sorts findings by severity by default with optional sort arguments. terraform-drift reports sensitive-masked values as unverifiable instead of false drift.",
           "registryUrl": null,
           "repository": null,
           "members": [
@@ -3249,7 +3249,7 @@
           "family": true,
           "fromVersion": null,
           "toVersion": null,
-          "summary": "Across the 26 Cloudflare extensions, version 2026.10.21.1 changes the API token guidance to recommend a vault over the environment variable, and adds vault-backed handling for secrets.",
+          "summary": "Across 26 Cloudflare extensions, version 2026.10.21.1 changes how API tokens are supplied: a vault reference is now the recommended way to pass them, and secret arguments and returned secrets are now vaulted or stripped.",
           "registryUrl": null,
           "repository": null,
           "members": [
@@ -3364,7 +3364,7 @@
           "family": false,
           "fromVersion": "2026.10.14.1",
           "toVersion": "2026.10.21.1",
-          "summary": "Across the 26 Cloudflare extensions, version 2026.10.21.1 changes the API token guidance to recommend a vault over the environment variable, and adds vault-backed handling for secrets.",
+          "summary": "Across 26 Cloudflare extensions, version 2026.10.21.1 changes how API tokens are supplied: a vault reference is now the recommended way to pass them, and secret arguments and returned secrets are now vaulted or stripped.",
           "registryUrl": "https://swamp-club.com/extensions/@webframp/cloudflare",
           "repository": "https://github.com/webframp/swamp-extensions"
         },
@@ -3409,7 +3409,7 @@
           "family": true,
           "fromVersion": null,
           "toVersion": null,
-          "summary": "Summary withheld: the generated text failed validation.",
+          "summary": "All nine fal.ai extensions moved to 2026.10.21.1, directing users to store the API key in a vault rather than pass it literally and marking the unredacted FAL_KEY fallback as discouraged.",
           "registryUrl": null,
           "repository": null,
           "members": [
@@ -3465,7 +3465,7 @@
           "family": false,
           "fromVersion": "2026.10.14.2",
           "toVersion": "2026.10.21.3",
-          "summary": "The @webframp/gitlab extension (2026.10.14.2 to 2026.10.21.3) adds remove_work_item_parent and convert_work_item_type methods, which use GitLab's GraphQL work-item API, and changes every iid/iids method to reject non-positive-integer values before sending requests.",
+          "summary": "Release 2026.10.21.3 of @webframp/gitlab adds two work-item methods, remove_work_item_parent and convert_work_item_type, which use GitLab's GraphQL API. It also rejects non-positive-integer iid values before any request is sent, and updates the README with vault setup steps.",
           "registryUrl": "https://swamp-club.com/extensions/@webframp/gitlab",
           "repository": "https://github.com/webframp/swamp-extensions"
         },
@@ -3492,7 +3492,7 @@
           "family": true,
           "fromVersion": null,
           "toVersion": null,
-          "summary": "All 10 Griptape Cloud extensions moved to 2026.10.21.1, with API key guidance now pointing to a swamp vault instead of the GT_CLOUD_API_KEY environment variable. Several now mark more arguments as sensitive, and data-connectors stores its Google Drive token in a vault instead of the resource.",
+          "summary": "The @webframp/griptape family of 10 extensions moved from 2026.10.14.1 to 2026.10.21.1, with a shared change to the README and API-key docs that now recommend a swamp vault over the GT_CLOUD_API_KEY env var.",
           "registryUrl": null,
           "repository": null,
           "members": [
@@ -3588,7 +3588,7 @@
           "family": false,
           "fromVersion": "2026.10.14.1",
           "toVersion": "2026.10.21.1",
-          "summary": "The @webframp/redmine extension moved from 2026.10.14.1 to 2026.10.21.1 and added two methods, list_attachments and download_attachments, that list and download issue attachments.",
+          "summary": "Version 2026.10.21.1 of @webframp/redmine adds `list_attachments` and `download_attachments` methods, which list an issue's attachments and download them with content-type and size filters. It also changes how credentials are handled on redirects and retries, and stops methods from overwriting each other's stored data.",
           "registryUrl": "https://swamp-club.com/extensions/@webframp/redmine",
           "repository": "https://github.com/webframp/swamp-extensions"
         },
@@ -3597,7 +3597,7 @@
           "family": true,
           "fromVersion": null,
           "toVersion": null,
-          "summary": "The 20 @webframp Snyk extensions were all bumped from 2026.10.14.1 to 2026.10.21.1.",
+          "summary": "The family of 20 @webframp/snyk extensions moved from 2026.10.14.1 to 2026.10.21.1.",
           "registryUrl": null,
           "repository": null,
           "members": [
@@ -3758,7 +3758,7 @@
           "family": false,
           "fromVersion": null,
           "toVersion": "2026.10.23.5",
-          "summary": "The first release of @svendowideit/dreamhost (version 2026.10.23.5) adds tools to inventory and back up DreamHost shared-hosting accounts over SSH, and to manage DreamHost DNS records through the official API. It includes 19 methods across DNS and inventory/site operations, plus one report.",
+          "summary": "A new extension, @svendowideit/dreamhost, was published at version 2026.10.23.5 after its first release. It provides tools to inventory and back up DreamHost shared-hosting accounts over SSH and to manage DreamHost DNS records through the official API, with 19 methods across DNS and inventory/site operations.",
           "registryUrl": "https://swamp-club.com/extensions/@svendowideit/dreamhost",
           "repository": "https://github.com/svendowideit/swamp-extensions"
         },
