@@ -1,4 +1,4 @@
-# Last Week in Swamp
+# Last Week in Swamp Club
 
 > A weekly digest of the swamp extension registry: new extensions, updates, pre-releases, yanks and removals, with a short machine-written summary of each change, plus the week's Swamp Club podcast episode and feed posts.
 
