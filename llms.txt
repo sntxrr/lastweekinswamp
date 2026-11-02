@@ -9,6 +9,7 @@ Generated automatically from public swamp registry data. Summaries are machine-w
 ## Issues
 
 - [Index of all issues](https://lastweekinswamp.club/index.json): JSON, newest first
+- [Week of Oct 26 – Nov 1, 2026](https://lastweekinswamp.club/issues/2026-10-26.json): JSON; HTML at https://lastweekinswamp.club/issues/2026-10-26.html
 - [Week of Oct 19 – Oct 25, 2026](https://lastweekinswamp.club/issues/2026-10-19.json): JSON; HTML at https://lastweekinswamp.club/issues/2026-10-19.html
 
 ## Optional

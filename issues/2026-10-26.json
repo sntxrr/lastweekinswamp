@@ -1,0 +1,1273 @@
+{
+  "schemaVersion": 1,
+  "title": "Last Week in Swamp Club: week of Oct 26 – Nov 1, 2026",
+  "slug": "2026-10-26",
+  "url": "https://lastweekinswamp.club/issues/2026-10-26.html",
+  "window": {
+    "start": "2026-10-26T07:00:00.000Z",
+    "end": "2026-11-02T08:00:00.000Z",
+    "firstDay": "2026-10-26",
+    "lastDay": "2026-11-01"
+  },
+  "generatedAt": "2026-11-02T17:06:24.204Z",
+  "previous": {
+    "slug": "2026-10-19",
+    "url": "https://lastweekinswamp.club/issues/2026-10-19.json"
+  },
+  "counts": {
+    "new": 57,
+    "updated": 104,
+    "prerelease": 1,
+    "yanked": 3,
+    "removed": 2,
+    "minor": 291
+  },
+  "disclaimer": "Generated automatically from public swamp registry data. Summaries are machine-written descriptions of each change, not reviews, and can be wrong; the registry and the extension's source are authoritative. Authors can leave the digest by adding the `no-digest` label to their extension.",
+  "sections": [
+    {
+      "section": "new",
+      "title": "New extensions",
+      "count": 57,
+      "items": [
+        {
+          "name": "@adamchubbuck/azure-devops",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.28.2",
+          "summary": "The @adamchubbuck/azure-devops extension is a first release, versions 2026.10.28.1 and 2026.10.28.2, that adds methods for Azure DevOps Git, pipelines, work items, artifacts, wiki, tests, releases, dashboards, and security. It exposes roughly 230 operations across these areas.",
+          "registryUrl": "https://swamp-club.com/extensions/@adamchubbuck/azure-devops",
+          "repository": "https://github.com/archubbuck/azure-devops"
+        },
+        {
+          "name": "@adamchubbuck/glean",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.28.4",
+          "summary": "This is the first release of @adamchubbuck/glean, an MCP client for Glean that adds permission-aware search, document reading, chat, employee and activity lookup, and allowlist-gated artifact uploads, updates, and sharing. It went from first release to version 2026.10.28.4 across three versions in the window.",
+          "registryUrl": "https://swamp-club.com/extensions/@adamchubbuck/glean",
+          "repository": "https://github.com/archubbuck/swamp-glean"
+        },
+        {
+          "name": "@beddari/gpodder",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.27.1",
+          "summary": "The @beddari/gpodder extension is a first release that turns a gPodder podcast library into swamp data and adds a pipeline from new downloads to notes.",
+          "registryUrl": "https://swamp-club.com/extensions/@beddari/gpodder",
+          "repository": "https://github.com/beddari/swamp-extensions"
+        },
+        {
+          "name": "@bmonty/azure-devops",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.27.1",
+          "summary": "Adds the new @bmonty/azure-devops extension (first release, now at 2026.10.27.1) for driving Azure DevOps from swamp workflows. It provides 11 methods covering pull requests (get, update, comments, thread status, ensure draft PR) and YAML pipelines (list, preview, run, follow runs and stages).",
+          "registryUrl": "https://swamp-club.com/extensions/@bmonty/azure-devops",
+          "repository": "https://github.com/bmontgomery/swamp-azure-devops"
+        },
+        {
+          "name": "@bmonty/slack-commands",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.27.1",
+          "summary": "Adds the initial release of @bmonty/slack-commands (version 2026.10.27.1), which runs swamp workflows from Slack slash commands. It verifies Slack request signatures, parses commands, allow-lists users and channels per subcommand, and replies to Slack immediately.",
+          "registryUrl": "https://swamp-club.com/extensions/@bmonty/slack-commands",
+          "repository": "https://github.com/bmontgomery/swamp-slack-commands"
+        },
+        {
+          "name": "@bmonty/trello",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.26.1",
+          "summary": "The @bmonty/trello extension is a first release that lets swamp workflows watch Trello lanes and work cards. It adds ten methods for reading cards, lists, comments, and activity history, and for moving cards, adding comments, attaching files, and managing labels and checklists.",
+          "registryUrl": "https://swamp-club.com/extensions/@bmonty/trello",
+          "repository": "https://github.com/bmontgomery/swamp-trello"
+        },
+        {
+          "name": "@cachehit/agents",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.27.2",
+          "summary": "First release of an extension that runs Kiro CLI and Claude Code headless from swamp workflows, so simpler subtasks can go to a cheaper model. Each run records its model, cost or credits, duration, tool calls, every attempt, and failure class.",
+          "registryUrl": "https://swamp-club.com/extensions/@cachehit/agents",
+          "repository": "https://github.com/zWaR/swamp-extensions"
+        },
+        {
+          "name": "@cachehit/model-catalog",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.27.3",
+          "summary": "The @cachehit/model-catalog extension makes its first release, adding resolveDispatch and recordFallback to pick a Kiro model per role and fall back to the next tier on rate limits, quota or unavailable models.",
+          "registryUrl": "https://swamp-club.com/extensions/@cachehit/model-catalog",
+          "repository": "https://github.com/zWaR/swamp-extensions"
+        },
+        {
+          "name": "@cachehit/mysql-client",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.29.1",
+          "summary": "Initial release of @cachehit/mysql-client, a read-only client for MySQL and Aurora MySQL. It adds three methods: check, query and schema, which run parameterized read-only queries against an endpoint and record table metadata as swamp data.",
+          "registryUrl": "https://swamp-club.com/extensions/@cachehit/mysql-client",
+          "repository": "https://github.com/zWaR/swamp-extensions"
+        },
+        {
+          "name": "@dataverket/cosign",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.28.1",
+          "summary": "The new @dataverket/cosign extension makes its first release, version 2026.10.28.1, and adds eight methods for signing and verifying container images and blobs with cosign. They cover key pair generation, signing, verification, attestations, and keyless verification against a Sigstore certificate identity.",
+          "registryUrl": "https://swamp-club.com/extensions/@dataverket/cosign",
+          "repository": "https://github.com/dataverket-org/swamp-extensions"
+        },
+        {
+          "name": "@dataverket/crane",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.29.2",
+          "summary": "The @dataverket/crane extension is a first release, versions 2026.10.29.1 and 2026.10.29.2, that drives the crane registry client through swamp.",
+          "registryUrl": "https://swamp-club.com/extensions/@dataverket/crane",
+          "repository": "https://github.com/dataverket-org/swamp-extensions"
+        },
+        {
+          "name": "@dataverket/docker-compose",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.27.1",
+          "summary": "The dataverket docker-compose extension is new, first appearing as version 2026.10.26.1 and updated to 2026.10.27.1 in this window. Its description says it adds two methods that end-to-end setups need, but it refers to a differently named docker-compose package.",
+          "registryUrl": "https://swamp-club.com/extensions/@dataverket/docker-compose",
+          "repository": "https://github.com/dataverket-org/swamp-extensions"
+        },
+        {
+          "name": "@dataverket/http",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.29.1",
+          "summary": "This new extension, @dataverket/http, provides a method that checks whether a single HTTP or HTTPS endpoint responds, and returns the result as swamp data. It is a first release, version 2026.10.29.1, adding the endpoint.health method.",
+          "registryUrl": "https://swamp-club.com/extensions/@dataverket/http",
+          "repository": "https://github.com/dataverket-org/swamp-extensions"
+        },
+        {
+          "name": "@dataverket/kind",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.29.1",
+          "summary": "The new @dataverket/kind extension is a first release, version 2026.10.29.1, that manages one named Kind (Kubernetes in Docker) cluster for swamp end-to-end tests, created on demand. It adds three methods: cluster.ensure, cluster.get, and cluster.delete.",
+          "registryUrl": "https://swamp-club.com/extensions/@dataverket/kind",
+          "repository": "https://github.com/dataverket-org/swamp-extensions"
+        },
+        {
+          "name": "@dataverket/ko",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.29.1",
+          "summary": "The new @dataverket/ko extension is a first release that builds Go programs into container images with ko, without a Dockerfile or container daemon. It adds three methods: build, describe, and resolve, and images can be pushed to a registry, loaded locally, or written to a tarball.",
+          "registryUrl": "https://swamp-club.com/extensions/@dataverket/ko",
+          "repository": "https://github.com/dataverket-org/swamp-extensions"
+        },
+        {
+          "name": "@dataverket/platform-health",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.29.1",
+          "summary": "A first release of the `@dataverket/platform-health` workflow, which checks the forges, S3 gateways and HTTP endpoints a repository names and fails when one is down. It reached version 2026.10.29.1 after 2026.10.28.1, and this window also updated its dependencies and labels.",
+          "registryUrl": "https://swamp-club.com/extensions/@dataverket/platform-health",
+          "repository": "https://github.com/dataverket-org/swamp-extensions"
+        },
+        {
+          "name": "@dataverket/salmon",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.29.2",
+          "summary": "A new throwaway Salmon extension for end-to-end tests of systems that accept Salmon's tokens, such as database validators, message brokers, and services. It adds methods to ensure, revoke, and stop a test stack, and to run a token exchange test.",
+          "registryUrl": "https://swamp-club.com/extensions/@dataverket/salmon",
+          "repository": "https://github.com/dataverket-org/swamp-extensions"
+        },
+        {
+          "name": "@dataverket/signed-images",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.29.2",
+          "summary": "This first release of the signed-images extension, now at version 2026.10.29.2, contains eight workflows that combine the ko, cosign, flux and crane extensions. Its registry diff shows one workflow modified since the initial release, across the versions 2026.10.29.1 and 2026.10.29.2.",
+          "registryUrl": "https://swamp-club.com/extensions/@dataverket/signed-images",
+          "repository": "https://github.com/dataverket-org/swamp-extensions"
+        },
+        {
+          "name": "@keeb/ashby",
+          "family": true,
+          "fromVersion": null,
+          "toVersion": null,
+          "summary": "First release of the Ashby candidates extension, covering candidates, tags, applications and their history, feedback, forms, referrals, assessments and file uploads. Version 2026.10.29.2 makes sync send configured global read parameters instead of marking filtered records not_found.",
+          "registryUrl": null,
+          "repository": null,
+          "members": [
+            {
+              "name": "@keeb/ashby/candidates",
+              "registryUrl": "https://swamp-club.com/extensions/@keeb/ashby/candidates"
+            },
+            {
+              "name": "@keeb/ashby/interviews",
+              "registryUrl": "https://swamp-club.com/extensions/@keeb/ashby/interviews"
+            },
+            {
+              "name": "@keeb/ashby/jobs",
+              "registryUrl": "https://swamp-club.com/extensions/@keeb/ashby/jobs"
+            },
+            {
+              "name": "@keeb/ashby/offers",
+              "registryUrl": "https://swamp-club.com/extensions/@keeb/ashby/offers"
+            },
+            {
+              "name": "@keeb/ashby/organization",
+              "registryUrl": "https://swamp-club.com/extensions/@keeb/ashby/organization"
+            },
+            {
+              "name": "@keeb/ashby/sourcing",
+              "registryUrl": "https://swamp-club.com/extensions/@keeb/ashby/sourcing"
+            },
+            {
+              "name": "@keeb/ashby/surveys",
+              "registryUrl": "https://swamp-club.com/extensions/@keeb/ashby/surveys"
+            }
+          ]
+        },
+        {
+          "name": "@keeb/ashby",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.29.1",
+          "summary": "First release of the Ashby candidates extension, covering candidates, tags, applications and their history, feedback, forms, referrals, assessments and file uploads. Version 2026.10.29.2 makes sync send configured global read parameters instead of marking filtered records not_found.",
+          "registryUrl": "https://swamp-club.com/extensions/@keeb/ashby",
+          "repository": "https://github.com/keeb/swamp-ashby"
+        },
+        {
+          "name": "@keeb/trip-planner",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.01.1",
+          "summary": "A new extension, @keeb/trip-planner, was released at version 2026.11.01.1 with three methods: extract, which turns a plain-English trip request into structured requirements, search_flights, which returns priced flight options, and search_hotels, which returns AI-rated hotels.",
+          "registryUrl": "https://swamp-club.com/extensions/@keeb/trip-planner",
+          "repository": null
+        },
+        {
+          "name": "@kneel/dominos",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.01.1",
+          "summary": "The initial release of @kneel/dominos adds two methods, list-orders and track, for following a Domino's pizza order through its tracker stages from placed to complete. The track method covers prep, bake, quality-check, and either out-for-delivery or ready-for-pickup.",
+          "registryUrl": "https://swamp-club.com/extensions/@kneel/dominos",
+          "repository": "https://github.com/NeilHanlon/swamp-dominos"
+        },
+        {
+          "name": "@lllama/mailpit",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.29.2",
+          "summary": "Mailpit email-testing integration, first released as 2026.10.29.2 after an earlier 2026.10.29.1 version in the window. It adds typed behavior methods to send, search, list, get, mark read, delete and show stats for test mail, so workflows can assert email delivery.",
+          "registryUrl": "https://swamp-club.com/extensions/@lllama/mailpit",
+          "repository": "https://github.com/lllama/swamp-mailpit"
+        },
+        {
+          "name": "@mgreten/granola-api",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.29.2",
+          "summary": "The @mgreten/granola-api extension is a first release, version 2026.10.29.2, that reads the official Granola REST API using a personal API key. It adds one method, syncApiMeetings, and the registry shows no other changes.",
+          "registryUrl": "https://swamp-club.com/extensions/@mgreten/granola-api",
+          "repository": "https://github.com/meagerfindings/swamp-granola-api"
+        },
+        {
+          "name": "@puddleworks/capture",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.29.1",
+          "summary": "Capture is a new extension that turns a requested outcome into an agreed outcome spec, with methods for managing requests and people, recording build results, exporting specs and snapshots, importing, and serving a web interface.",
+          "registryUrl": "https://swamp-club.com/extensions/@puddleworks/capture",
+          "repository": "https://github.com/puddle-works/puddleworks-capture"
+        },
+        {
+          "name": "@puddleworks/obsidian-daily-processor",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.27.1",
+          "summary": "A new extension, @puddleworks/obsidian-daily-processor, was released at version 2026.10.27.1. It turns one day's daily-log note into a separate processed note listing atomic todos and dated permanent notes, each containing one idea in full sentences. It adds two methods, prepare and run.",
+          "registryUrl": "https://swamp-club.com/extensions/@puddleworks/obsidian-daily-processor",
+          "repository": "https://github.com/puddle-works/obsidian-daily-processor"
+        },
+        {
+          "name": "@puddleworks/obsidian-task-scan",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.30.1",
+          "summary": "The @puddleworks/obsidian-task-scan extension is a first release, now at version 2026.10.30.1, that scans an Obsidian vault for open tasks a swamp extension could handle. It classifies them with Jev and logs any task no extension covers to Capture, through its classify and run methods.",
+          "registryUrl": "https://swamp-club.com/extensions/@puddleworks/obsidian-task-scan",
+          "repository": "https://github.com/puddle-works/obsidian-task-scan"
+        },
+        {
+          "name": "@puddleworks/opencode",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.27.1",
+          "summary": "This is the first release of @puddleworks/opencode, version 2026.10.27.1. It adds two methods: ask, which requests JSON output from an OpenCode Zen model that matches a schema you supply, and models, which lists the available models.",
+          "registryUrl": "https://swamp-club.com/extensions/@puddleworks/opencode",
+          "repository": "https://github.com/puddle-works/opencode"
+        },
+        {
+          "name": "@puddleworks/puddlerouter",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.13.2",
+          "summary": "Puddlerouter is a new extension, first released as version 2026.10.13.2, that routes each turn typed into Claude Code to swamp, Jev, or Claude. It adds seven methods: execute, load, match, merged, recall, reply, and sync.",
+          "registryUrl": "https://swamp-club.com/extensions/@puddleworks/puddlerouter",
+          "repository": "https://github.com/puddle-works/puddlerouter"
+        },
+        {
+          "name": "@puddleworks/swamp-extension-checker",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.30.1",
+          "summary": "A new extension, @puddleworks/swamp-extension-checker, makes its first release as version 2026.10.30.1 and adds a single run method. That method reports whether a git repository has a licence file at its root, which file it is, and the licence's SPDX name when GitHub reports one.",
+          "registryUrl": "https://swamp-club.com/extensions/@puddleworks/swamp-extension-checker",
+          "repository": "https://github.com/puddle-works/swamp-extension-checker"
+        },
+        {
+          "name": "@reset/gamebanana-mods",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.26.1",
+          "summary": "A new extension, @reset/gamebanana-mods, makes its first release at version 2026.10.26.1, which adds two methods: sample, which records a GameBanana mod's downloads, views and likes over time, and summarise, which condenses those samples.",
+          "registryUrl": "https://swamp-club.com/extensions/@reset/gamebanana-mods",
+          "repository": null
+        },
+        {
+          "name": "@reset/modrinth-downloads",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.26.1",
+          "summary": "The @reset/modrinth-downloads extension is a new first release, version 2026.10.26.1, that records Modrinth downloads, followers and versions over time. It adds two methods, sample and summarise.",
+          "registryUrl": "https://swamp-club.com/extensions/@reset/modrinth-downloads",
+          "repository": null
+        },
+        {
+          "name": "@reset/thunderstore-downloads",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.26.1",
+          "summary": "A new extension, @reset/thunderstore-downloads, makes its first release at version 2026.10.26.1. It records download counts and ratings for Thunderstore mod packages over time, and adds two methods: sample, which takes a reading, and summarise, which reports the recorded history.",
+          "registryUrl": "https://swamp-club.com/extensions/@reset/thunderstore-downloads",
+          "repository": null
+        },
+        {
+          "name": "@shrug/listmonk",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.29.1",
+          "summary": "The new @shrug/listmonk extension, released as version 2026.10.29.1, is an initial release that provides a typed swamp primitive for driving a listmonk deployment through its REST API, targeting listmonk v6.2.0. It is a structured interface rather than a set of exec or curl wrappers.",
+          "registryUrl": "https://swamp-club.com/extensions/@shrug/listmonk",
+          "repository": "https://github.com/shrugpw/swamp-listmonk"
+        },
+        {
+          "name": "@shrug/porkbun",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.31.1",
+          "summary": "The first release of @shrug/porkbun adds a read-only provider model for the Porkbun registrar and DNS API (v3). It lets users validate credentials and take snapshots of domains, nameservers, DNS records, contacts, DNSSEC settings, availability, and pricing.",
+          "registryUrl": "https://swamp-club.com/extensions/@shrug/porkbun",
+          "repository": "https://github.com/shrugpw/swamp-porkbun"
+        },
+        {
+          "name": "@skunk-ape/is-it-us",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.28.1",
+          "summary": "A new extension, @skunk-ape/is-it-us, was published in its first release as version 2026.10.28.1. It adds a single method, check, which is meant to help determine whether a failure originates upstream before assuming it is caused locally.",
+          "registryUrl": "https://swamp-club.com/extensions/@skunk-ape/is-it-us",
+          "repository": "https://github.com/skunk-ape/swamp-extensions"
+        },
+        {
+          "name": "@sntxrr/github-vikunja",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.30.1",
+          "summary": "This first release, version 2026.10.30.0 with a follow-up 2026.10.30.1, adds an extension that converts GitHub issues into Vikunja kanban cards through a single import_issue method.",
+          "registryUrl": "https://swamp-club.com/extensions/@sntxrr/github-vikunja",
+          "repository": "https://github.com/sntxrr/swamp-github-vikunja"
+        },
+        {
+          "name": "@strip-mall-karate-company/dojo",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.26.1",
+          "summary": "The first release of @strip-mall-karate-company/dojo adds three methods for showing and building Dojo plans (doj-plan-build) and ordering a plans checkout into dependency waves for building: build, order, and show.",
+          "registryUrl": "https://swamp-club.com/extensions/@strip-mall-karate-company/dojo",
+          "repository": "https://github.com/StripMallKarateCompany/dojo-plans"
+        },
+        {
+          "name": "@svendowideit/linkdrop",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.30.3",
+          "summary": "A new extension, @svendowideit/linkdrop, was first released as version 2026.10.30.3, after 2026.10.27.7.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/linkdrop",
+          "repository": "https://github.com/SvenDowideit/swamp-linkdrop"
+        },
+        {
+          "name": "@swamp/cfgmgmt",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.01.1",
+          "summary": "SSH-based configuration management extension for Linux, with package and command models for macOS, released for the first time in version 2026.11.01.1. It adds 80+ methods covering apt, dnf, pacman, Homebrew, files, users, services, Docker, firewall, cron, and more.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/cfgmgmt",
+          "repository": "https://github.com/swamp-club/swamp-extensions"
+        },
+        {
+          "name": "@swamp/cloudflare",
+          "family": true,
+          "fromVersion": null,
+          "toVersion": null,
+          "summary": "Adds a Cloudflare billing infrastructure model with spend-policies methods to adopt, create, delete, get, lookup, sync, and update spend policies.",
+          "registryUrl": null,
+          "repository": null,
+          "members": [
+            {
+              "name": "@swamp/cloudflare/billing",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/billing"
+            },
+            {
+              "name": "@swamp/cloudflare/clairic",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/clairic"
+            },
+            {
+              "name": "@swamp/cloudflare/clef",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/clef"
+            }
+          ]
+        },
+        {
+          "name": "@swamp/vercel/ai-gateway",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.29.1",
+          "summary": "The @swamp/vercel/ai-gateway extension is a first release, published as version 2026.10.28.1 and updated to 2026.10.29.1. It adds six methods for managing BYOK (bring your own key) credentials on Vercel AI Gateway: adopt, create, delete, get, sync, and update.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/vercel/ai-gateway",
+          "repository": "https://github.com/swamp-club/swamp-extensions"
+        },
+        {
+          "name": "@tagur/gdrive-upload",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.26.1",
+          "summary": "This is the first release of @tagur/gdrive-upload, a new extension for uploading local files into a named folder in Google Drive's My Drive. It adds three methods: ensure-folder, upload-file, and upload-many.",
+          "registryUrl": "https://swamp-club.com/extensions/@tagur/gdrive-upload",
+          "repository": "https://github.com/tagur87/swamp-extensions"
+        },
+        {
+          "name": "@tagur/processed-tracker",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.26.1",
+          "summary": "This is a new extension, @tagur/processed-tracker, first released as version 2026.10.26.1. It adds four methods (check, forget, list, mark) that keep a small ledger of processed ids so repeat pipeline runs can skip work already done.",
+          "registryUrl": "https://swamp-club.com/extensions/@tagur/processed-tracker",
+          "repository": "https://github.com/tagur87/swamp-extensions"
+        },
+        {
+          "name": "@tituscapilnean/automation-check",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.01.4",
+          "summary": "Adds @tituscapilnean/automation-check, a first release with four versions (2026.11.01.1 to 2026.11.01.4).",
+          "registryUrl": "https://swamp-club.com/extensions/@tituscapilnean/automation-check",
+          "repository": "https://github.com/tituscapilnean/swamp-automation-check"
+        },
+        {
+          "name": "@twonines/eks-upgrade-insights",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.23.1",
+          "summary": "The @twonines/eks-upgrade-insights extension is a new initial release, version 2026.10.23.1, that adds a single method, cluster.inspect, for checking AWS EKS upgrade readiness through EKS Upgrade Insights.",
+          "registryUrl": "https://swamp-club.com/extensions/@twonines/eks-upgrade-insights",
+          "repository": "https://github.com/twonines/swamp-extensions"
+        },
+        {
+          "name": "@vcjdeboer/paper-fetcher",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.31.3",
+          "summary": "This first release of @vcjdeboer/paper-fetcher (version 2026.10.31.3) resolves DOIs through OpenAlex and Crossref, downloads paper PDFs with a provenance record, identifies which paper a local PDF is, and extracts text from PDFs.",
+          "registryUrl": "https://swamp-club.com/extensions/@vcjdeboer/paper-fetcher",
+          "repository": "https://github.com/vcjdeboer/swamp-paper-fetcher"
+        },
+        {
+          "name": "@zts/aws-ssm",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.27.1",
+          "summary": "A new extension, @zts/aws-ssm, was first released at version 2026.10.27.1 and provides a swamp vault backed by AWS Systems Manager Parameter Store. The window also includes version 2026.10.26.1, and the registry diff shows only an initial release.",
+          "registryUrl": "https://swamp-club.com/extensions/@zts/aws-ssm",
+          "repository": "https://github.com/zts/swamp-extensions"
+        },
+        {
+          "name": "@zts/lego-certificate",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.01.1",
+          "summary": "This new extension, @zts/lego-certificate, issues and renews a single ACME certificate from any ACME certificate authority, such as Let's Encrypt or ZeroSSL, using the lego v5 CLI with any of lego's DNS-01 providers. It adds three methods: apply, revoke, and status.",
+          "registryUrl": "https://swamp-club.com/extensions/@zts/lego-certificate",
+          "repository": "https://github.com/zts/swamp-extensions"
+        }
+      ]
+    },
+    {
+      "section": "updated",
+      "title": "Updated",
+      "count": 104,
+      "items": [
+        {
+          "name": "@dataverket/flux",
+          "family": false,
+          "fromVersion": "2026.10.05.1",
+          "toVersion": "2026.10.29.1",
+          "summary": "The @dataverket/flux extension moved from 2026.10.05.1 to 2026.10.29.1 across versions 2026.10.27.1 and 2026.10.29.1.",
+          "registryUrl": "https://swamp-club.com/extensions/@dataverket/flux",
+          "repository": "https://github.com/dataverket-org/swamp-extensions"
+        },
+        {
+          "name": "@dataverket/forgejo",
+          "family": false,
+          "fromVersion": "2026.10.05.4",
+          "toVersion": "2026.10.27.1",
+          "summary": "The @dataverket/forgejo extension moved from 2026.10.05.4 to 2026.10.27.1, adding three model types (pr_comment, pr_merge_state, work_item_sync) for reading and posting pull request discussion, reading merge state, and mirroring software-factory work items into Forgejo issues.",
+          "registryUrl": "https://swamp-club.com/extensions/@dataverket/forgejo",
+          "repository": "https://github.com/dataverket-org/swamp-extensions"
+        },
+        {
+          "name": "@dmc/proxmox",
+          "family": false,
+          "fromVersion": "2026.10.25.1",
+          "toVersion": "2026.10.26.1",
+          "summary": "Version 2026.10.26.1 of @dmc/proxmox adds node-level and VM-level operations for Proxmox VE with API-token auth: node status, guest listing, VM snapshot create/rollback/list/delete, and VM lifecycle methods (create, start, stop, delete, lookup, boot order, config, sync).",
+          "registryUrl": "https://swamp-club.com/extensions/@dmc/proxmox",
+          "repository": "https://github.com/danmcclain/swamp-extensions"
+        },
+        {
+          "name": "@magistr/arckit",
+          "family": false,
+          "fromVersion": "2026.10.25.10",
+          "toVersion": "2026.10.31.1",
+          "summary": "Syncs @magistr/arckit from 2026.10.25.10 to 2026.10.31.1 with arc-kit v6.18.3 (previously v6.2.0).",
+          "registryUrl": "https://swamp-club.com/extensions/@magistr/arckit",
+          "repository": "https://github.com/umag/swamp-workspace"
+        },
+        {
+          "name": "@maphew/repo-doctor",
+          "family": false,
+          "fromVersion": "2026.10.23.1",
+          "toVersion": "2026.10.29.1",
+          "summary": "Adds lint checks for dead workflow step dependencies, flagging conditions that silently skip a dependent or run it after a failed step whose outputs it reads.",
+          "registryUrl": "https://swamp-club.com/extensions/@maphew/repo-doctor",
+          "repository": "https://github.com/maphew/swamp-extensions.git"
+        },
+        {
+          "name": "@mgreten/canva",
+          "family": false,
+          "fromVersion": "2026.10.14.1",
+          "toVersion": "2026.10.30.2",
+          "summary": "Version bumped from 2026.10.14.1 to 2026.10.30.2, the repository location was changed, and a version field was removed from the model definition. The registry diff also reports nine methods and one behavior as removed, but the code patch shows no matching deletions.",
+          "registryUrl": "https://swamp-club.com/extensions/@mgreten/canva",
+          "repository": "https://github.com/meagerfindings/mgreten-swamp-extensions"
+        },
+        {
+          "name": "@mgreten/cli-agent",
+          "family": false,
+          "fromVersion": "2026.10.14.1",
+          "toVersion": "2026.10.30.1",
+          "summary": "Version 2026.10.30.1 adds an optional, Claude-only jsonSchema input to invokeAndParse, which enforces the schema through Claude's --json-schema flag and returns parsedResponse only from the structured output.",
+          "registryUrl": "https://swamp-club.com/extensions/@mgreten/cli-agent",
+          "repository": "https://github.com/meagerfindings/swamp-cli-agent"
+        },
+        {
+          "name": "@mgreten/granola-mcp",
+          "family": false,
+          "fromVersion": "2026.10.14.1",
+          "toVersion": "2026.10.30.2",
+          "summary": "The @mgreten/granola-mcp extension moved from 2026.10.14.1 to 2026.10.30.2, replacing its CLI-agent-based Granola retrieval with a direct MCP client that reuses the local Amp OAuth login. The public methods getMeetings, getTranscript, listMeetings and syncMeetings were removed, and the cli-agent dependency was dropped.",
+          "registryUrl": "https://swamp-club.com/extensions/@mgreten/granola-mcp",
+          "repository": "https://github.com/meagerfindings/mgreten-swamp-extensions"
+        },
+        {
+          "name": "@mgreten/meta-publishing",
+          "family": false,
+          "fromVersion": "2026.10.14.1",
+          "toVersion": "2026.10.30.2",
+          "summary": "Version 2026.10.30.2 of @mgreten/meta-publishing updates the Meta publishing extension to 2026.10.30.2 and changes its repository URL.",
+          "registryUrl": "https://swamp-club.com/extensions/@mgreten/meta-publishing",
+          "repository": "https://github.com/meagerfindings/mgreten-swamp-extensions"
+        },
+        {
+          "name": "@puddleworks/puddleworks-factory",
+          "family": false,
+          "fromVersion": "2026.10.23.1",
+          "toVersion": "2026.10.26.3",
+          "summary": "Puddleworks Factory moves from 2026.10.23.1 to 2026.10.26.3 and adds a readiness check that reviews the publish report, maps each acceptance criterion to its tests, and summarizes the result before publishing.",
+          "registryUrl": "https://swamp-club.com/extensions/@puddleworks/puddleworks-factory",
+          "repository": "https://github.com/puddle-works/puddleworks-factory"
+        },
+        {
+          "name": "@reset/itch",
+          "family": false,
+          "fromVersion": "2026.10.22.2",
+          "toVersion": "2026.10.31.1",
+          "summary": "The @reset/itch extension moved from 2026.10.22.2 to 2026.10.31.1 and gained butler-based publishing: new push, status, and version methods for uploading builds to itch.io channels and checking their processing state.",
+          "registryUrl": "https://swamp-club.com/extensions/@reset/itch",
+          "repository": "https://github.com/reset/swamp-extensions"
+        },
+        {
+          "name": "@reset/patch-notes",
+          "family": false,
+          "fromVersion": "2026.10.22.1",
+          "toVersion": "2026.10.31.1",
+          "summary": "Version 2026.10.31.1 replaces the Steam and Discord patch-notes announcer with a behavior that drafts patch notes from merged pull requests on Forgejo, Gitea, or GitHub, grouped by label category and convertible to Steam BBCode. The announce workflow and its steam-news and discord-webhook dependencies were removed.",
+          "registryUrl": "https://swamp-club.com/extensions/@reset/patch-notes",
+          "repository": "https://github.com/reset/swamp-extensions"
+        },
+        {
+          "name": "@reset/steam-achievements",
+          "family": false,
+          "fromVersion": "2026.10.22.2",
+          "toVersion": "2026.10.30.1",
+          "summary": "Version 2026.10.30.1 moves @reset/steam-achievements to the swamp-extensions repository as its published home, with an upgrade path that leaves existing arguments unchanged. Behavior is unchanged, and the release also adds a repository field to the manifest.",
+          "registryUrl": "https://swamp-club.com/extensions/@reset/steam-achievements",
+          "repository": "https://github.com/reset/swamp-extensions"
+        },
+        {
+          "name": "@reset/steam-news",
+          "family": false,
+          "fromVersion": "2026.10.22.2",
+          "toVersion": "2026.10.30.1",
+          "summary": "The @reset/steam-news extension moved from version 2026.10.22.2 to 2026.10.30.1, with its description, repository link, and tags updated. Its model file was renamed from steam_news.ts to steam-news.ts, and the methods listed are find and news.",
+          "registryUrl": "https://swamp-club.com/extensions/@reset/steam-news",
+          "repository": "https://github.com/reset/swamp-extensions"
+        },
+        {
+          "name": "@reset/steam-players",
+          "family": false,
+          "fromVersion": "2026.10.22.1",
+          "toVersion": "2026.10.30.1",
+          "summary": "The @reset/steam-players extension moved from version 2026.10.22.1 to 2026.10.30.1, with no change to its arguments or behavior. The manifest adds a repository field, and an upgrade entry was added to carry existing instances forward, while the README gains a changelog line about the move.",
+          "registryUrl": "https://swamp-club.com/extensions/@reset/steam-players",
+          "repository": "https://github.com/reset/swamp-extensions"
+        },
+        {
+          "name": "@reset/steam-reviews",
+          "family": false,
+          "fromVersion": "2026.10.22.2",
+          "toVersion": "2026.10.30.1",
+          "summary": "The @reset/steam-reviews extension moved from version 2026.10.22.2 to 2026.10.30.1, with its description reworded and a repository link and \"reviews\" tag added. The model file was renamed from steam_reviews.ts to steam-reviews.ts, and the recent and summary methods are now registered.",
+          "registryUrl": "https://swamp-club.com/extensions/@reset/steam-reviews",
+          "repository": "https://github.com/reset/swamp-extensions"
+        },
+        {
+          "name": "@reset/steam-workshop",
+          "family": false,
+          "fromVersion": "2026.10.22.1",
+          "toVersion": "2026.10.30.1",
+          "summary": "Version 2026.10.30.1 moves the @reset/steam-workshop extension's published home to the swamp-extensions repository, with an upgrade that leaves existing arguments unchanged. Behavior is unchanged.",
+          "registryUrl": "https://swamp-club.com/extensions/@reset/steam-workshop",
+          "repository": "https://github.com/reset/swamp-extensions"
+        },
+        {
+          "name": "@reset/steamworks-builds",
+          "family": false,
+          "fromVersion": "2026.10.23.1",
+          "toVersion": "2026.10.30.1",
+          "summary": "The @reset/steamworks-builds extension moved to version 2026.10.30.1, with its published home now the swamp-extensions repository, and the upgrade leaves existing instances' arguments unchanged. The behavior and arguments are otherwise unchanged.",
+          "registryUrl": "https://swamp-club.com/extensions/@reset/steamworks-builds",
+          "repository": "https://github.com/reset/swamp-extensions"
+        },
+        {
+          "name": "@reset/steamworks-sales",
+          "family": false,
+          "fromVersion": "2026.10.23.1",
+          "toVersion": "2026.10.30.1",
+          "summary": "Version 2026.10.30.1 of @reset/steamworks-sales moved its published home to the swamp-extensions repository and now refuses HTTP redirects so the API key header cannot follow one to another host. Existing instances' arguments are unchanged, and an upgrade step was added.",
+          "registryUrl": "https://swamp-club.com/extensions/@reset/steamworks-sales",
+          "repository": "https://github.com/reset/swamp-extensions"
+        },
+        {
+          "name": "@reset/steamworks-wishlists",
+          "family": false,
+          "fromVersion": "2026.10.23.1",
+          "toVersion": "2026.10.30.1",
+          "summary": "The @reset/steamworks-wishlists extension moved from version 2026.10.23.1 to 2026.10.30.1, with its published home now the swamp-extensions repository. The change adds an upgrade step that leaves existing arguments as they are, and the behavior is unchanged.",
+          "registryUrl": "https://swamp-club.com/extensions/@reset/steamworks-wishlists",
+          "repository": "https://github.com/reset/swamp-extensions"
+        },
+        {
+          "name": "@shrug/invoiceninja",
+          "family": false,
+          "fromVersion": "2026.09.22.1",
+          "toVersion": "2026.10.27.2",
+          "summary": "Version bump of @shrug/invoiceninja from 2026.09.22.1 to 2026.10.27.2 (through 2026.10.27.1), with the manifest version updated, one unused drivers entry removed, and a new clientDomains method added to the model. The model file grew by about 7 KB.",
+          "registryUrl": "https://swamp-club.com/extensions/@shrug/invoiceninja",
+          "repository": "https://github.com/shrugpw/swamp-invoiceninja"
+        },
+        {
+          "name": "@svendowideit/news",
+          "family": false,
+          "fromVersion": "2026.10.18.1",
+          "toVersion": "2026.10.30.1",
+          "summary": "Summary withheld: the generated text failed validation.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/news",
+          "repository": "https://github.com/svendowideit/swamp-extensions"
+        },
+        {
+          "name": "@swamp/agent-runner",
+          "family": false,
+          "fromVersion": "2026.10.23.1",
+          "toVersion": "2026.10.29.1",
+          "summary": "Version 2026.10.29.1 of @swamp/agent-runner makes Claude and Codex runs return structured output with token usage, cost, and session ID, when the CLI reports them. It also adds the usage and session data to the run result and tracing spans.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/agent-runner",
+          "repository": "https://github.com/swamp-club/swamp-extensions"
+        },
+        {
+          "name": "@swamp/aws",
+          "family": true,
+          "fromVersion": null,
+          "toVersion": null,
+          "summary": "The @swamp/aws family of 32 extensions moved to versions dated 2026.11.02, with most changes adding resources or methods such as new backup access points, resiliency groups, and MGN waves.",
+          "registryUrl": null,
+          "repository": null,
+          "members": [
+            {
+              "name": "@swamp/aws/amplify",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/amplify"
+            },
+            {
+              "name": "@swamp/aws/apigateway",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/apigateway"
+            },
+            {
+              "name": "@swamp/aws/appfabric",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/appfabric"
+            },
+            {
+              "name": "@swamp/aws/backup",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/backup"
+            },
+            {
+              "name": "@swamp/aws/batch",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/batch"
+            },
+            {
+              "name": "@swamp/aws/bedrock",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/bedrock"
+            },
+            {
+              "name": "@swamp/aws/bedrockagentcore",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/bedrockagentcore"
+            },
+            {
+              "name": "@swamp/aws/cleanrooms",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/cleanrooms"
+            },
+            {
+              "name": "@swamp/aws/cloudfront",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/cloudfront"
+            },
+            {
+              "name": "@swamp/aws/cloudwatch",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/cloudwatch"
+            },
+            {
+              "name": "@swamp/aws/codedeploy",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/codedeploy"
+            },
+            {
+              "name": "@swamp/aws/cognito",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/cognito"
+            },
+            {
+              "name": "@swamp/aws/connect",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/connect"
+            },
+            {
+              "name": "@swamp/aws/directconnect",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/directconnect"
+            },
+            {
+              "name": "@swamp/aws/ec2",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/ec2"
+            },
+            {
+              "name": "@swamp/aws/eks",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/eks"
+            },
+            {
+              "name": "@swamp/aws/glue",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/glue"
+            },
+            {
+              "name": "@swamp/aws/guardduty",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/guardduty"
+            },
+            {
+              "name": "@swamp/aws/iam",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/iam"
+            },
+            {
+              "name": "@swamp/aws/iot",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/iot"
+            },
+            {
+              "name": "@swamp/aws/kafkaconnect",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/kafkaconnect"
+            },
+            {
+              "name": "@swamp/aws/mediaconnect",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/mediaconnect"
+            },
+            {
+              "name": "@swamp/aws/mgn",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/mgn"
+            },
+            {
+              "name": "@swamp/aws/neptunegraph",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/neptunegraph"
+            },
+            {
+              "name": "@swamp/aws/osis",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/osis"
+            },
+            {
+              "name": "@swamp/aws/personalize",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/personalize"
+            },
+            {
+              "name": "@swamp/aws/quicksight",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/quicksight"
+            },
+            {
+              "name": "@swamp/aws/rds",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/rds"
+            },
+            {
+              "name": "@swamp/aws/sagemaker",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/sagemaker"
+            },
+            {
+              "name": "@swamp/aws/securityagent",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/securityagent"
+            },
+            {
+              "name": "@swamp/aws/ses",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/ses"
+            },
+            {
+              "name": "@swamp/aws/transfer",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/transfer"
+            }
+          ]
+        },
+        {
+          "name": "@swamp/cloudflare",
+          "family": true,
+          "fromVersion": null,
+          "toVersion": null,
+          "summary": "Across the 8 Cloudflare extensions, the most notable change is in the access family, which added service token tag and policy resolution account fields to its apps, groups, policies, and related models.",
+          "registryUrl": null,
+          "repository": null,
+          "members": [
+            {
+              "name": "@swamp/cloudflare/access",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/access"
+            },
+            {
+              "name": "@swamp/cloudflare/ai-gateway",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/ai-gateway"
+            },
+            {
+              "name": "@swamp/cloudflare/connectivity",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/connectivity"
+            },
+            {
+              "name": "@swamp/cloudflare/dns",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/dns"
+            },
+            {
+              "name": "@swamp/cloudflare/gateway",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/gateway"
+            },
+            {
+              "name": "@swamp/cloudflare/magic",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/magic"
+            },
+            {
+              "name": "@swamp/cloudflare/tokens",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/tokens"
+            },
+            {
+              "name": "@swamp/cloudflare/urlscanner",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/urlscanner"
+            }
+          ]
+        },
+        {
+          "name": "@swamp/container-image",
+          "family": false,
+          "fromVersion": "2026.10.24.1",
+          "toVersion": "2026.10.28.1",
+          "summary": "`@swamp/container-image` moved from 2026.10.24.1 to 2026.10.28.1 and adds a `pull` option (default false) to the build and multi-platform-build methods, passing `--pull` so base images are refreshed before building. The README and a new model upgrade entry document the change.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/container-image",
+          "repository": "https://github.com/swamp-club/swamp-extensions"
+        },
+        {
+          "name": "@swamp/cve/http2shell",
+          "family": false,
+          "fromVersion": "2026.10.25.1",
+          "toVersion": "2026.11.02.2",
+          "summary": "Version 2026.11.02.2 updates the http2shell extension, which finds and fixes Brotli decoders exposed to CVE-2026-111497 (the Brotli out-of-bounds write).",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/cve/http2shell",
+          "repository": "https://github.com/swamp-club/swamp-extensions"
+        },
+        {
+          "name": "@swamp/digitalocean",
+          "family": false,
+          "fromVersion": "2026.10.23.1",
+          "toVersion": "2026.10.31.1",
+          "summary": "The @swamp/digitalocean extension moved from 2026.10.23.1 to 2026.10.31.1 across three versions.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/digitalocean",
+          "repository": "https://github.com/swamp-club/swamp-extensions"
+        },
+        {
+          "name": "@swamp/gcp",
+          "family": true,
+          "fromVersion": null,
+          "toVersion": null,
+          "summary": "Across the 30 Google Cloud extensions this week, most changes were version bumps with release-note updates to infrastructure models, and several added or changed methods.",
+          "registryUrl": null,
+          "repository": null,
+          "members": [
+            {
+              "name": "@swamp/gcp/accesscontextmanager",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/accesscontextmanager"
+            },
+            {
+              "name": "@swamp/gcp/agentidentity",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/agentidentity"
+            },
+            {
+              "name": "@swamp/gcp/aiplatform",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/aiplatform"
+            },
+            {
+              "name": "@swamp/gcp/alloydb",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/alloydb"
+            },
+            {
+              "name": "@swamp/gcp/androidmanagement",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/androidmanagement"
+            },
+            {
+              "name": "@swamp/gcp/appengine",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/appengine"
+            },
+            {
+              "name": "@swamp/gcp/assuredworkloads",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/assuredworkloads"
+            },
+            {
+              "name": "@swamp/gcp/backupdr",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/backupdr"
+            },
+            {
+              "name": "@swamp/gcp/chat",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/chat"
+            },
+            {
+              "name": "@swamp/gcp/cloudbuild",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/cloudbuild"
+            },
+            {
+              "name": "@swamp/gcp/compute",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/compute"
+            },
+            {
+              "name": "@swamp/gcp/contactcenterinsights",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/contactcenterinsights"
+            },
+            {
+              "name": "@swamp/gcp/containeranalysis",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/containeranalysis"
+            },
+            {
+              "name": "@swamp/gcp/dataplex",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/dataplex"
+            },
+            {
+              "name": "@swamp/gcp/dataproc",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/dataproc"
+            },
+            {
+              "name": "@swamp/gcp/deepreview",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/deepreview"
+            },
+            {
+              "name": "@swamp/gcp/developerconnect",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/developerconnect"
+            },
+            {
+              "name": "@swamp/gcp/devicerun",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/devicerun"
+            },
+            {
+              "name": "@swamp/gcp/dfareporting",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/dfareporting"
+            },
+            {
+              "name": "@swamp/gcp/networkconnectivity",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/networkconnectivity"
+            },
+            {
+              "name": "@swamp/gcp/networkservices",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/networkservices"
+            },
+            {
+              "name": "@swamp/gcp/ondemandscanning",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/ondemandscanning"
+            },
+            {
+              "name": "@swamp/gcp/run",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/run"
+            },
+            {
+              "name": "@swamp/gcp/saasservicemgmt",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/saasservicemgmt"
+            },
+            {
+              "name": "@swamp/gcp/securitycenter",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/securitycenter"
+            },
+            {
+              "name": "@swamp/gcp/tasks",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/tasks"
+            },
+            {
+              "name": "@swamp/gcp/tpu",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/tpu"
+            },
+            {
+              "name": "@swamp/gcp/vault",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/vault"
+            },
+            {
+              "name": "@swamp/gcp/vmwareengine",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/vmwareengine"
+            },
+            {
+              "name": "@swamp/gcp/webcontentpublisher",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/webcontentpublisher"
+            }
+          ]
+        },
+        {
+          "name": "@swamp/gcs-datastore",
+          "family": false,
+          "fromVersion": "2026.10.24.2",
+          "toVersion": "2026.10.30.3",
+          "summary": "Hardens the GCS datastore's cache sync: it adds a create-only repair that uploads cache files the datastore never received, tracks peer-deleted entries so those aren't re-uploaded, and fixes shard migration to merge rather than overwrite existing commits.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/gcs-datastore",
+          "repository": "https://github.com/systeminit/swamp-extensions"
+        },
+        {
+          "name": "@swamp/hetzner-cloud",
+          "family": false,
+          "fromVersion": "2026.10.23.1",
+          "toVersion": "2026.10.28.1",
+          "summary": "The @swamp/hetzner-cloud extension moved from 2026.10.23.1 to 2026.10.28.1, updating the volumes model. Volumes can now be attached to a generic resource through a new assignee field (with id and type), and the older server field is marked deprecated in favor of it.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/hetzner-cloud",
+          "repository": "https://github.com/swamp-club/swamp-extensions"
+        },
+        {
+          "name": "@swamp/s3-datastore",
+          "family": false,
+          "fromVersion": "2026.10.24.2",
+          "toVersion": "2026.11.02.1",
+          "summary": "Version 2026.10.24.2 moves to 2026.11.02.1 with no new or removed files. The changes add a create-only repair operation that uploads cache files the remote never received, plus pinned std path and fs library versions, and a fix that keeps existing shard entries during commits.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/s3-datastore",
+          "repository": "https://github.com/systeminit/swamp-extensions"
+        },
+        {
+          "name": "@swamp/stagecraft",
+          "family": false,
+          "fromVersion": "2026.10.25.2",
+          "toVersion": "2026.10.31.1",
+          "summary": "Stagecraft moved from 2026.10.25.2 to 2026.10.31.1 across three releases, adding a new studio_tickets.ts engine file and updating the studio asset, server, ticket, work-item and tracker-binding engine modules, the studio page's stylesheet and its source digest, the manifest version and the README.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/stagecraft",
+          "repository": "https://github.com/swamp-club/swamp-extensions"
+        },
+        {
+          "name": "@swamp/vercel/deployments",
+          "family": false,
+          "fromVersion": "2026.10.23.1",
+          "toVersion": "2026.10.28.1",
+          "summary": "The @swamp/vercel/deployments extension moved from 2026.10.23.1 to 2026.10.28.1 across two releases. The changes add a vercelFlags setting with an enabledAt timestamp and a livenessProbe block on the deployment instance config, and register two upgrade entries that state \"No schema changes.\"",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/vercel/deployments",
+          "repository": "https://github.com/swamp-club/swamp-extensions"
+        },
+        {
+          "name": "@swamp/vercel/projects",
+          "family": false,
+          "fromVersion": "2026.10.23.2",
+          "toVersion": "2026.11.02.1",
+          "summary": "The @swamp/vercel/projects extension moved from version 2026.10.23.2 to 2026.11.02.1 across four releases.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/vercel/projects",
+          "repository": "https://github.com/swamp-club/swamp-extensions"
+        },
+        {
+          "name": "@thomas/stalwart",
+          "family": false,
+          "fromVersion": "2026.10.11.1",
+          "toVersion": "2026.10.29.2",
+          "summary": "Version 2026.10.29.2 of @thomas/stalwart now supports Stalwart v1 alongside 0.16, with domain state, alias flags and secret handling adjusted to match each version. Settings updates move the Web Push key into its own argument and log warnings from v1 reloads.",
+          "registryUrl": "https://swamp-club.com/extensions/@thomas/stalwart",
+          "repository": "https://github.com/thomas-elliott/swamp-extensions"
+        },
+        {
+          "name": "@webframp/aws/dns-observation",
+          "family": false,
+          "fromVersion": "2026.10.14.1",
+          "toVersion": "2026.10.28.1",
+          "summary": "The dns-observation extension moved from 2026.10.14.1 to 2026.10.28.1.",
+          "registryUrl": "https://swamp-club.com/extensions/@webframp/aws/dns-observation",
+          "repository": "https://github.com/webframp/swamp-extensions"
+        }
+      ]
+    },
+    {
+      "section": "prerelease",
+      "title": "Pre-releases (beta and RC)",
+      "count": 1,
+      "items": [
+        {
+          "name": "@svendowideit/linkdrop",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.30.1",
+          "summary": "This is the first release of @svendowideit/linkdrop, a durable SQLite inbox for URLs shared from the LinkDrop Android app. It adds seven methods (store, list, delete, stats, renderHtml, verifyWebhook, configureServe), two workflows, one webhook, and updated dependencies.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/linkdrop",
+          "repository": "https://github.com/SvenDowideit/swamp-linkdrop"
+        }
+      ]
+    },
+    {
+      "section": "yanked",
+      "title": "Yanked versions",
+      "count": 3,
+      "items": [
+        {
+          "name": "@puddleworks/capture",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.27.1",
+          "summary": "Version 2026.10.27.2 was yanked.",
+          "registryUrl": "https://swamp-club.com/extensions/@puddleworks/capture",
+          "repository": "https://github.com/puddle-works/puddleworks-capture"
+        },
+        {
+          "name": "@puddleworks/capture",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.27.2",
+          "summary": "Version 2026.10.27.2 was yanked.",
+          "registryUrl": "https://swamp-club.com/extensions/@puddleworks/capture",
+          "repository": "https://github.com/puddle-works/puddleworks-capture"
+        },
+        {
+          "name": "@svendowideit/linkdrop",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.10.30.2",
+          "summary": "Version 2026.10.30.2 was yanked.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/linkdrop",
+          "repository": "https://github.com/SvenDowideit/swamp-linkdrop"
+        }
+      ]
+    },
+    {
+      "section": "removed",
+      "title": "Removed from the registry",
+      "count": 2,
+      "items": [
+        {
+          "name": "@dataverket/omni",
+          "family": false,
+          "fromVersion": "2026.09.19.4",
+          "toVersion": null,
+          "summary": "No longer listed in the registry.",
+          "registryUrl": null,
+          "repository": null
+        },
+        {
+          "name": "@mesgme/puddle",
+          "family": false,
+          "fromVersion": "2026.09.03.4",
+          "toVersion": null,
+          "summary": "No longer listed in the registry.",
+          "registryUrl": null,
+          "repository": null
+        }
+      ]
+    },
+    {
+      "section": "minor",
+      "title": "Minor updates",
+      "count": 291,
+      "items": []
+    }
+  ],
+  "podcast": {
+    "available": true,
+    "items": [
+      {
+        "title": "October 26th, 2026 — AI Frontiers",
+        "episodeNumber": 13,
+        "date": "2026-10-26",
+        "url": "https://swamp-club.com/podcast/2026-10-26",
+        "description": "Episode 13 of AI Frontiers with Sean Escriva. Industry experts run down all the AI news for engineers. Adam Jacob, Paul Stack, and Nick Stinemates are…",
+        "videoUrl": "https://www.youtube.com/watch?v=572pv3VG4zs"
+      }
+    ]
+  },
+  "feed": {
+    "available": true,
+    "items": [
+      {
+        "title": "What the Swamp registry reads from your extension · reset.dev",
+        "url": "https://swamp-club.com/feed/p/2d6e7a07-784c-44df-ab38-2d46e55cf776",
+        "author": "reset",
+        "publishedAt": "2026-10-26T16:29:25.000Z",
+        "summary": "The Swamp registry extracts extension argument names and descriptions via regex scanning of source text rather than runtime introspection, with specific formatting rules around .describe(), line breaks, and z.object() structure determining what appears on registry pages."
+      },
+      {
+        "title": "I forked my own software, seven years late · reset.dev",
+        "url": "https://swamp-club.com/feed/p/5281fd55-57bd-48f9-8271-9309ce8017f6",
+        "author": "reset",
+        "publishedAt": "2026-10-26T17:18:51.000Z",
+        "summary": "The author describes forking Habitat (a Chef-originated software packaging and supervision tool) at its last Apache 2.0-licensed release from 2019, renaming it Dojo, and rebuilding its 625 plans from bash into Fennel while developing it into a minimal operating system."
+      },
+      {
+        "title": "Replacing the newsroom with one workflow | 💻Gerard Klijs🦀",
+        "url": "https://swamp-club.com/feed/p/b16a82d3-c672-4d88-85c8-6664757726e7",
+        "author": "gklijs",
+        "publishedAt": "2026-10-30T07:39:31.000Z",
+        "summary": "Yesterday at the AxonIQ conference I learned about brag, a Claude Code skill that turns a repository into a short launch video. So today I pointed it at my own repo, and it made a 20-second pitch deck out of a swamp workflow. The workflow is my one-person newsroom. Every weekday afternoon it runs…"
+      },
+      {
+        "title": "Testing Blender Scenes Built by LLM Agents",
+        "url": "https://swamp-club.com/feed/p/8bf3b9da-054e-4d96-9969-f2a9ff976377",
+        "author": "aaddrick",
+        "publishedAt": "2026-11-01T18:49:13.000Z",
+        "summary": "An agent building a Blender scene can't see the viewport, so every claim it makes about clipping, contact, scale or motion has to be measured. These are the twelve families of checks from a 640-frame mech film a team of Claude agents built in bpy, plus the three times the checks themselves were…"
+      }
+    ]
+  }
+}
