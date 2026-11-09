@@ -1,0 +1,3614 @@
+{
+  "schemaVersion": 1,
+  "title": "Last Week in Swamp Club: week of Nov 2 – Nov 8, 2026",
+  "slug": "2026-11-02",
+  "url": "https://lastweekinswamp.club/issues/2026-11-02.html",
+  "window": {
+    "start": "2026-11-02T08:00:00.000Z",
+    "end": "2026-11-09T08:00:00.000Z",
+    "firstDay": "2026-11-02",
+    "lastDay": "2026-11-08"
+  },
+  "generatedAt": "2026-11-09T18:58:58.725Z",
+  "previous": {
+    "slug": "2026-10-26",
+    "url": "https://lastweekinswamp.club/issues/2026-10-26.json"
+  },
+  "counts": {
+    "new": 45,
+    "updated": 636,
+    "prerelease": 22,
+    "yanked": 0,
+    "removed": 1,
+    "minor": 285
+  },
+  "disclaimer": "Generated automatically from public swamp registry data. Summaries are machine-written descriptions of each change, not reviews, and can be wrong; the registry and the extension's source are authoritative. Authors can leave the digest by adding the `no-digest` label to their extension.",
+  "sections": [
+    {
+      "section": "new",
+      "title": "New extensions",
+      "count": 45,
+      "items": [
+        {
+          "name": "@aaddrick/steam-store",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.03.1",
+          "summary": "The new @aaddrick/steam-store extension is an initial release, version 2026.11.03.1, providing a read-only toolkit for the Steam storefront Web API. It adds nine methods covering catalog query and scan, items, tags, categories, players, app details, CDN image download, and a generic CEL selector.",
+          "registryUrl": "https://swamp-club.com/extensions/@aaddrick/steam-store",
+          "repository": "https://github.com/aaddrick/swamp-extensions"
+        },
+        {
+          "name": "@aaronge/nvme-health",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.05.1",
+          "summary": "The new @aaronge/nvme-health extension provides NVMe drive health reporting for Linux hosts, covering SMART/health log data, hwmon temperatures, controller identity, and the error log through four methods. It also ships two workflows: a 15-minute health check and a daily inventory.",
+          "registryUrl": "https://swamp-club.com/extensions/@aaronge/nvme-health",
+          "repository": "https://github.com/aaron-dernley/nvme-health"
+        },
+        {
+          "name": "@aaronge/secret-santa",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.02.1",
+          "summary": "A new Secret Santa extension, @aaronge/secret-santa, was published as its first release at version 2026.11.02.1.",
+          "registryUrl": "https://swamp-club.com/extensions/@aaronge/secret-santa",
+          "repository": "https://github.com/aaron-dernley/secret-santa"
+        },
+        {
+          "name": "@funsaized/hoardarr",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.05.1",
+          "summary": "A new extension, @funsaized/hoardarr, made its first release as version 2026.11.05.1, described as recoverable movie and TV automation with configurable Swamp providers. It adds 24 methods covering coordinator locking, fixture control, pipeline ingest and delivery, provider invocation, and local and SSH destinations.",
+          "registryUrl": "https://swamp-club.com/extensions/@funsaized/hoardarr",
+          "repository": "https://github.com/funsaized/hoardarr"
+        },
+        {
+          "name": "@jeremy/mere",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.08.11",
+          "summary": "Mere is a new extension, first released in this window, that provides domain behaviors for source artifacts, a pinned toolchain, source-tree validation, and reproducible rescue-image assembly.",
+          "registryUrl": "https://swamp-club.com/extensions/@jeremy/mere",
+          "repository": "https://github.com/jhuntwork/swamp-extensions"
+        },
+        {
+          "name": "@jeremy/mere-stagecraft",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.07.1",
+          "summary": "This first release of @jeremy/mere-stagecraft (version 2026.11.07.1) adds a GitHub Issues tracker adapter for the Mere Stagecraft issue lifecycle.",
+          "registryUrl": "https://swamp-club.com/extensions/@jeremy/mere-stagecraft",
+          "repository": "https://github.com/jhuntwork/swamp-extensions"
+        },
+        {
+          "name": "@jpisgeek/dashboard-report-view",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.08.1",
+          "summary": "Introduces @jpisgeek/dashboard-report-view as a first release, version 2026.11.08.1, adding a render method that produces interactive HTML snapshots with readable state tables, local filters, and a refresh button.",
+          "registryUrl": "https://swamp-club.com/extensions/@jpisgeek/dashboard-report-view",
+          "repository": "https://github.com/jpisgeek/slog-bog/tree/main/dashboard-report-view"
+        },
+        {
+          "name": "@jpisgeek/herdr-swamp-fixtures",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.02.1",
+          "summary": "This first release, 2026.11.02.1, adds the @jpisgeek/herdr-swamp-fixtures extension, which provides test workflows for trying out a swamp dashboard such as the Herdr layout: a manual approval gate and a slow failing step.",
+          "registryUrl": "https://swamp-club.com/extensions/@jpisgeek/herdr-swamp-fixtures",
+          "repository": "https://github.com/jpisgeek/swamp-herdr-extensions"
+        },
+        {
+          "name": "@jpisgeek/herdr-swamp-layout",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.02.1",
+          "summary": "The @jpisgeek/herdr-swamp-layout extension was added in its first release, version 2026.11.02.1, and installs a Herdr swamp layout with approvals, runs, and quick-run panels for the swamp CLI in the Herdr desktop app. It adds one method, install.",
+          "registryUrl": "https://swamp-club.com/extensions/@jpisgeek/herdr-swamp-layout",
+          "repository": "https://github.com/jpisgeek/herdr-swamp-layout"
+        },
+        {
+          "name": "@keeb/rote-classifier",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.05.1",
+          "summary": "This first release, version 2026.11.05.1, adds the @keeb/rote-classifier extension with one method, classify.",
+          "registryUrl": "https://swamp-club.com/extensions/@keeb/rote-classifier",
+          "repository": "https://github.com/keeb/swamp-rote-classifier"
+        },
+        {
+          "name": "@keeb/swamp-club-lab",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.04.1",
+          "summary": "Adds a new extension for the swamp-club Lab JSON API, covering reading, searching, filing, editing and closing issues, managing ripples and relationships, and appending triage-trail entries. Initial release, published as version 2026.11.04.1.",
+          "registryUrl": "https://swamp-club.com/extensions/@keeb/swamp-club-lab",
+          "repository": "https://github.com/keeb/swamp-club-lab"
+        },
+        {
+          "name": "@liywjl/pr-delivery",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.08.1",
+          "summary": "The first release of @liywjl/pr-delivery (version 2026.11.08.1) adds a trace method. Its stated purpose is to answer where a pull request's code actually lives.",
+          "registryUrl": "https://swamp-club.com/extensions/@liywjl/pr-delivery",
+          "repository": "https://github.com/liywjl/swamp-pr-delivery"
+        },
+        {
+          "name": "@mgreten/election-packet",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.02.1",
+          "summary": "A new extension, @mgreten/election-packet, was released in its first version, 2026.11.02.1, and adds four methods for checking ballot evidence against citation and coverage audits, assembling concise packets with separate evidence appendices, and exporting them to local PDF.",
+          "registryUrl": "https://swamp-club.com/extensions/@mgreten/election-packet",
+          "repository": "https://github.com/meagerfindings/mgreten-swamp-extensions"
+        },
+        {
+          "name": "@puddleworks/harvester",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.06.4",
+          "summary": "The @puddleworks/harvester extension is a first release, now at version 2026.11.06.4 after three versions in this window. It adds six methods for moving swamp extensions through Matthew Skelton's harvesting stages: advance, record, refresh, report, track and untrack.",
+          "registryUrl": "https://swamp-club.com/extensions/@puddleworks/harvester",
+          "repository": "https://github.com/puddle-works/harvester"
+        },
+        {
+          "name": "@puddleworks/recipes",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.06.1",
+          "summary": "Swamp extension @puddleworks/recipes is new, first released at version 2026.11.05.1 and now at 2026.11.06.1. It adds four methods, confirm, execute, match and sync, that let a phrase be answered with one swamp method call: a regex maps the phrase to a recipe, which runs an extension method and shows the result as text.",
+          "registryUrl": "https://swamp-club.com/extensions/@puddleworks/recipes",
+          "repository": null
+        },
+        {
+          "name": "@puddleworks/trace",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.06.1",
+          "summary": "@puddleworks/trace is a new extension, first released as version 2026.11.06.1. It adds a run method that follows each Capture request through its build, extension, and recipe to check whether the router actually answers it, and flags any gaps it finds.",
+          "registryUrl": "https://swamp-club.com/extensions/@puddleworks/trace",
+          "repository": null
+        },
+        {
+          "name": "@skunk-ape/local-dev",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.06.1",
+          "summary": "A new extension, @skunk-ape/local-dev, was first released at version 2026.11.06.1, adding read-only tracker and forge lookups for local development. It provides three methods: GitHub and Forgejo pull request state, and GitLab issues, each returning one record in a fixed shape so agents can rerun them cheaply.",
+          "registryUrl": "https://swamp-club.com/extensions/@skunk-ape/local-dev",
+          "repository": "https://github.com/skunk-ape/swamp-extensions"
+        },
+        {
+          "name": "@svendowideit/herdr-app",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.09.3",
+          "summary": "The @svendowideit/herdr-app extension was first released and now installs, updates, and removes the Herdr desktop app, along with herdr-core, on Linux, macOS, and Windows from swamp.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/herdr-app",
+          "repository": "https://github.com/svendowideit/swamp-extensions"
+        },
+        {
+          "name": "@swamp/cve/sshole",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.05.2",
+          "summary": "The new @swamp/cve/sshole extension reports whether a machine, container, or image is vulnerable to the OpenSSH musl libc password-authentication bypass fixed in OpenSSH 10.6p2. It adds a scan method and went through two releases, 2026.11.05.1 and 2026.11.05.2, with the window showing an initial release.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/cve/sshole",
+          "repository": "https://github.com/swamp-club/swamp-extensions"
+        },
+        {
+          "name": "@swamp/extension-probe",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.03.1",
+          "summary": "The first release of @swamp/extension-probe, version 2026.11.03.1, adds three methods: probe, record, and start. It pulls a swamp extension into a sandbox, describes its behavior types, and runs each method blind, recording what each did and which methods it could not run.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/extension-probe",
+          "repository": "https://github.com/swamp-club/swamp-extensions"
+        },
+        {
+          "name": "@taylor/swamp-diagrams",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.07.1",
+          "summary": "Swamp Diagrams is a first release, and versions 2026.11.06.1 through 2026.11.07.1 are in this window. It adds two methods, one that draws a diagram of a behavior's state machine and one that draws a workflow, both as a light and dark SVG pair or as Mermaid.",
+          "registryUrl": "https://swamp-club.com/extensions/@taylor/swamp-diagrams",
+          "repository": "https://github.com/taylorific/swampworks"
+        },
+        {
+          "name": "@tituscapilnean/apple-vision-ocr",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.02.2",
+          "summary": "Apple Vision OCR extension (first release, now at version 2026.11.02.2) reads text from local images using Apple's on-device Vision framework and their TIFF/IPTC copyright metadata. It flags images that carry copyright notices or watermarks, exposing a single scan method.",
+          "registryUrl": "https://swamp-club.com/extensions/@tituscapilnean/apple-vision-ocr",
+          "repository": "https://github.com/tituscapilnean/swamp-apple-vision-ocr"
+        },
+        {
+          "name": "@webframp/dnsimple",
+          "family": true,
+          "fromVersion": null,
+          "toVersion": null,
+          "summary": "Eleven new DNSimple extensions for accounts, certificates, contacts, DNSSEC, domains, registrar, secondary DNS, templates, TLDs, webhooks and zones were first released. Later fixes hashed two-value result names, reported list truncation, made transfer auth_code optional and bumped zod to 4.6.7.",
+          "registryUrl": null,
+          "repository": null,
+          "members": [
+            {
+              "name": "@webframp/dnsimple/account",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/dnsimple/account"
+            },
+            {
+              "name": "@webframp/dnsimple/certificates",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/dnsimple/certificates"
+            },
+            {
+              "name": "@webframp/dnsimple/contacts",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/dnsimple/contacts"
+            },
+            {
+              "name": "@webframp/dnsimple/dnssec",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/dnsimple/dnssec"
+            },
+            {
+              "name": "@webframp/dnsimple/domains",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/dnsimple/domains"
+            },
+            {
+              "name": "@webframp/dnsimple/registrar",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/dnsimple/registrar"
+            },
+            {
+              "name": "@webframp/dnsimple/secondary-dns",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/dnsimple/secondary-dns"
+            },
+            {
+              "name": "@webframp/dnsimple/templates",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/dnsimple/templates"
+            },
+            {
+              "name": "@webframp/dnsimple/tlds",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/dnsimple/tlds"
+            },
+            {
+              "name": "@webframp/dnsimple/webhooks",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/dnsimple/webhooks"
+            },
+            {
+              "name": "@webframp/dnsimple/zones",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/dnsimple/zones"
+            }
+          ]
+        },
+        {
+          "name": "@webframp/exe-dev/swamp-serve-fleet",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.05.1",
+          "summary": "A new extension, `@webframp/exe-dev/swamp-serve-fleet`, makes its first release (2026.11.05.1). It adds a one-shot bootstrap that sets up a `swamp serve` orchestrator and remote worker fleet on exe.dev from an operator's workstation, with six methods: provision, enroll, verify, promote, cutover, and teardown.",
+          "registryUrl": "https://swamp-club.com/extensions/@webframp/exe-dev/swamp-serve-fleet",
+          "repository": "https://github.com/webframp/swamp-extensions"
+        },
+        {
+          "name": "@webframp/griptape",
+          "family": true,
+          "fromVersion": null,
+          "toVersion": null,
+          "summary": "The swamp registry extension @webframp/griptape/import-export was added in its first release, 2026.11.07.1, with 7 methods for creating, getting, listing, and starting Griptape Cloud import and export jobs.",
+          "registryUrl": null,
+          "repository": null,
+          "members": [
+            {
+              "name": "@webframp/griptape/import-export",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/griptape/import-export"
+            },
+            {
+              "name": "@webframp/griptape/integrations",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/griptape/integrations"
+            },
+            {
+              "name": "@webframp/griptape/observability",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/griptape/observability"
+            },
+            {
+              "name": "@webframp/griptape/retrievers",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/griptape/retrievers"
+            },
+            {
+              "name": "@webframp/griptape/tags",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/griptape/tags"
+            }
+          ]
+        },
+        {
+          "name": "@zhann/bpost-parcel",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.08.2",
+          "summary": "The new @zhann/bpost-parcel extension follows a bpost parcel from announcement to doorstep, tracking status, round stops, pace and ETA. It ships four methods (follow, snapshot, archive, unarchive) and one report.",
+          "registryUrl": "https://swamp-club.com/extensions/@zhann/bpost-parcel",
+          "repository": "https://github.com/zhann/parcel-tracker"
+        },
+        {
+          "name": "@zhann/cloudflare-dns-record",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.08.1",
+          "summary": "The @zhann/cloudflare-dns-record extension was first released as version 2026.11.08.1. It adds an ensure method to the Cloudflare DNS records model that finds a record by its swamp behavior-name comment, creates it if missing, and patches it if it has drifted.",
+          "registryUrl": "https://swamp-club.com/extensions/@zhann/cloudflare-dns-record",
+          "repository": null
+        },
+        {
+          "name": "@zhann/cloudflare-zone",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.08.1",
+          "summary": "A new Cloudflare zone extension, @zhann/cloudflare-zone, was released as version 2026.11.08.1 and provides three methods: ensure, to find or create a zone, apply_settings, to enforce HTTPS and TLS 1.2, and audit, to fail on undeclared DNS records.",
+          "registryUrl": "https://swamp-club.com/extensions/@zhann/cloudflare-zone",
+          "repository": null
+        },
+        {
+          "name": "@zts/classify-post-pdf",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.03.1",
+          "summary": "A new extension, @zts/classify-post-pdf, was released at version 2026.11.03.1 and reads key details from scanned PDF letters, including sender, date, recipient and address, document type, and reference numbers. It adds three methods: listPdfs, scan, and scanBatch.",
+          "registryUrl": "https://swamp-club.com/extensions/@zts/classify-post-pdf",
+          "repository": "https://github.com/zts/swamp-extensions"
+        },
+        {
+          "name": "@zts/home-mail-room",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.07.1",
+          "summary": "The @zts/home-mail-room extension was newly released in version 2026.11.07.1, with a description of \"File scanned post.\" It adds six methods for scanning incoming mail batches, listing incoming items, deciding on filing, marking items ready for filing, renaming senders, and serving a review view.",
+          "registryUrl": "https://swamp-club.com/extensions/@zts/home-mail-room",
+          "repository": "https://github.com/zts/swamp-extensions"
+        },
+        {
+          "name": "@zts/qianfan-ocr",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.06.2",
+          "summary": "The new @zts/qianfan-ocr extension is an initial release that runs the Qianfan-OCR vision-language model locally to read text or structured details from an image, guided by a prompt you supply. It adds extract, extractBatch, install, and stop methods.",
+          "registryUrl": "https://swamp-club.com/extensions/@zts/qianfan-ocr",
+          "repository": "https://github.com/zts/swamp-extensions"
+        }
+      ]
+    },
+    {
+      "section": "updated",
+      "title": "Updated",
+      "count": 636,
+      "items": [
+        {
+          "name": "@aaronge/apt-inventory",
+          "family": false,
+          "fromVersion": "2026.08.25.1",
+          "toVersion": "2026.11.05.2",
+          "summary": "The @aaronge/apt-inventory extension moved from version 2026.08.25.1 to 2026.11.05.2 across two releases.",
+          "registryUrl": "https://swamp-club.com/extensions/@aaronge/apt-inventory",
+          "repository": "https://github.com/aaron-dernley/apt-inventory"
+        },
+        {
+          "name": "@aaronge/can-i-hang-my-washing-out",
+          "family": false,
+          "fromVersion": "2026.10.01.1",
+          "toVersion": "2026.11.05.2",
+          "summary": "Version 2026.11.05.2 ships the washing-forecast workflow inside the package, so it now runs on its own schedule under `swamp serve` (four times a day) instead of through a systemd timer and wrapper script. The package also adds linux-aarch64 support and updates the setup docs to match.",
+          "registryUrl": "https://swamp-club.com/extensions/@aaronge/can-i-hang-my-washing-out",
+          "repository": "https://github.com/aaron-dernley/can-i-hang-my-washing-out"
+        },
+        {
+          "name": "@aaronge/fleet-health-loki",
+          "family": false,
+          "fromVersion": "2026.10.01.1",
+          "toVersion": "2026.11.05.3",
+          "summary": "Extension @aaronge/fleet-health-loki moved from 2026.10.01.1 to 2026.11.05.3 and adds a fleet-health workflow that runs on a 10-minute schedule to check unit state, Prometheus export freshness, and new Loki errors.",
+          "registryUrl": "https://swamp-club.com/extensions/@aaronge/fleet-health-loki",
+          "repository": "https://github.com/aaron-dernley/fleet-health"
+        },
+        {
+          "name": "@aaronge/github-trending",
+          "family": false,
+          "fromVersion": "2026.08.28.1",
+          "toVersion": "2026.11.05.2",
+          "summary": "Adds an exportMetrics method that writes the latest snapshot's top repo and total match count as a Prometheus textfile. Also ships a workflow that takes a snapshot every three hours and then runs that export, and updates the docs to match.",
+          "registryUrl": "https://swamp-club.com/extensions/@aaronge/github-trending",
+          "repository": "https://github.com/aaron-dernley/github-trending"
+        },
+        {
+          "name": "@aaronge/host-health",
+          "family": false,
+          "fromVersion": "2026.08.26.3",
+          "toVersion": "2026.11.05.2",
+          "summary": "Version 2026.11.05.2 of @aaronge/host-health adds a bundled workflow that runs every 5 minutes to collect disk, thermal, load, and memory telemetry, assert each against a threshold, and print a summary, with the load threshold default raised from 1.5 to 2.0 per core.",
+          "registryUrl": "https://swamp-club.com/extensions/@aaronge/host-health",
+          "repository": "https://github.com/aaron-dernley/host-health"
+        },
+        {
+          "name": "@aaronge/iss-tracker",
+          "family": false,
+          "fromVersion": "2026.08.28.1",
+          "toVersion": "2026.11.05.2",
+          "summary": "Version 2026.11.05.2 of @aaronge/iss-tracker adds a scheduled workflow to the package, so a swamp serve instance can run the ISS distance check every five minutes and export the result as a Prometheus textfile metric. It also updates the README and manifest, and the new workflow replaces a previous systemd timer setup.",
+          "registryUrl": "https://swamp-club.com/extensions/@aaronge/iss-tracker",
+          "repository": "https://github.com/aaron-dernley/iss-tracker"
+        },
+        {
+          "name": "@aaronge/news-w-anchor",
+          "family": false,
+          "fromVersion": "2026.09.09.1",
+          "toVersion": "2026.11.05.2",
+          "summary": "Adds an exportMetrics method that writes the ledger size, latest post and last run status as a Prometheus textfile, and ships a daily 08:00 morning-broadcast workflow that runs broadcast then exportMetrics. Documentation is updated to describe the workflow and drop the old scheduling setup.",
+          "registryUrl": "https://swamp-club.com/extensions/@aaronge/news-w-anchor",
+          "repository": "https://github.com/aaron-dernley/news-w-anchor"
+        },
+        {
+          "name": "@aaronge/package-archaeology",
+          "family": false,
+          "fromVersion": "2026.08.28.1",
+          "toVersion": "2026.11.05.2",
+          "summary": "Summary withheld: the generated text failed validation.",
+          "registryUrl": "https://swamp-club.com/extensions/@aaronge/package-archaeology",
+          "repository": "https://github.com/aaron-dernley/package-archaeology"
+        },
+        {
+          "name": "@aaronge/rpi-boot-config",
+          "family": false,
+          "fromVersion": "2026.08.26.1",
+          "toVersion": "2026.11.05.2",
+          "summary": "Version 2026.11.05.2 adds a daily scheduled workflow that checks Raspberry Pi boot configuration for two sanity conditions: BOOT_ORDER must include every expected boot device, and cmdline.txt must contain a root= parameter. It also updates the setup docs and renames the example model instance to bootconfig-local.",
+          "registryUrl": "https://swamp-club.com/extensions/@aaronge/rpi-boot-config",
+          "repository": "https://github.com/aaron-dernley/rpi-boot-config"
+        },
+        {
+          "name": "@aaronge/rpi-camera",
+          "family": false,
+          "fromVersion": "2026.08.26.1",
+          "toVersion": "2026.11.05.1",
+          "summary": "Version 2026.11.05.1 adds a daily scheduled workflow, workflow-rpi-camera.yaml, that runs readCameras on the camera-local model and fails the run if the output is unrecognized. The manifest now lists the workflow, and the README switches its example model name from rpi-local to camera-local.",
+          "registryUrl": "https://swamp-club.com/extensions/@aaronge/rpi-camera",
+          "repository": "https://github.com/aaron-dernley/rpi-camera"
+        },
+        {
+          "name": "@aaronge/rpi-connect",
+          "family": false,
+          "fromVersion": "2026.08.26.1",
+          "toVersion": "2026.11.05.2",
+          "summary": "Version 2026.11.05.2 adds a `@aaronge/rpi-connect` workflow to the package, which polls connect-local every five minutes and reports sign-in, remote shell and screen sharing status. The README and manifest were updated to match, including the `connect-local` model name and notes on running under swamp serve.",
+          "registryUrl": "https://swamp-club.com/extensions/@aaronge/rpi-connect",
+          "repository": "https://github.com/aaron-dernley/rpi-connect"
+        },
+        {
+          "name": "@aaronge/rpi-cooling",
+          "family": false,
+          "fromVersion": "2026.08.26.1",
+          "toVersion": "2026.11.05.2",
+          "summary": "The @aaronge/rpi-cooling extension moved from 2026.08.26.1 to 2026.11.05.2, adding a scheduled workflow that runs every 5 minutes to check whether the PWM fan has stalled, meaning it is commanded to spin but its tachometer reads 0 RPM.",
+          "registryUrl": "https://swamp-club.com/extensions/@aaronge/rpi-cooling",
+          "repository": "https://github.com/aaron-dernley/rpi-cooling"
+        },
+        {
+          "name": "@aaronge/rpi-gpio-inventory",
+          "family": false,
+          "fromVersion": "2026.08.26.1",
+          "toVersion": "2026.11.05.1",
+          "summary": "Release 2026.11.05.1 adds a daily scheduled workflow that snapshots Raspberry Pi GPIO pin state and checks that at least one pin was read, and it renames the example model instance from rpi-local to gpio-local in the README. The manifest now lists the workflow, and the previously empty drivers entry was removed.",
+          "registryUrl": "https://swamp-club.com/extensions/@aaronge/rpi-gpio-inventory",
+          "repository": "https://github.com/aaron-dernley/rpi-gpio-inventory"
+        },
+        {
+          "name": "@aaronge/rpi-health",
+          "family": false,
+          "fromVersion": "2026.08.26.1",
+          "toVersion": "2026.11.05.4",
+          "summary": "Version 2026.11.05.4 of @aaronge/rpi-health adds an MIT LICENSE file and a workflow that runs under swamp serve's scheduler, and points the README at the new @aaronge/nvme-health extension for NVMe checks.",
+          "registryUrl": "https://swamp-club.com/extensions/@aaronge/rpi-health",
+          "repository": "https://github.com/aaron-dernley/rpi-health"
+        },
+        {
+          "name": "@aaronge/rpi-pcie",
+          "family": false,
+          "fromVersion": "2026.08.26.1",
+          "toVersion": "2026.11.05.3",
+          "summary": "Version 2026.11.05.3 changes the PCIe link check so a device's capable speed and width are capped at its upstream port's, so an x4 NVMe behind the Pi 5's x1 port is no longer flagged as degraded. It also adds a scheduled collect, assert, and report workflow to the package and updates the README and setup docs.",
+          "registryUrl": "https://swamp-club.com/extensions/@aaronge/rpi-pcie",
+          "repository": "https://github.com/aaron-dernley/rpi-pcie"
+        },
+        {
+          "name": "@aaronge/rpi-rtc",
+          "family": false,
+          "fromVersion": "2026.08.26.1",
+          "toVersion": "2026.11.05.2",
+          "summary": "Release 2026.11.05.2 of @aaronge/rpi-rtc adds a scheduled workflow that runs readRtc every 5 minutes and asserts clock drift and coin-cell voltage, plus a new batteryFitted argument that lets operators declare no coin cell is fitted so the low-battery check is skipped.",
+          "registryUrl": "https://swamp-club.com/extensions/@aaronge/rpi-rtc",
+          "repository": "https://github.com/aaron-dernley/rpi-rtc"
+        },
+        {
+          "name": "@aaronge/systemd-panel",
+          "family": false,
+          "fromVersion": "2026.10.01.3",
+          "toVersion": "2026.11.05.1",
+          "summary": "Version 2026.11.05.1 adds an optional `scope` setting so each unit can be managed in the calling user's systemd manager (`systemctl --user`, no sudo) rather than the system one, defaulting to system scope for existing instances.",
+          "registryUrl": "https://swamp-club.com/extensions/@aaronge/systemd-panel",
+          "repository": "https://github.com/aaron-dernley/systemd-panel"
+        },
+        {
+          "name": "@cachehit/agents",
+          "family": false,
+          "fromVersion": "2026.10.27.2",
+          "toVersion": "2026.11.03.1",
+          "summary": "Adds progress logging to the @cachehit/agents extension: `invoke` and `invokeAndParse` now print one info line per tool call while an agent runs, plus assistant messages for Claude Code and failed tool calls and run errors for Kiro.",
+          "registryUrl": "https://swamp-club.com/extensions/@cachehit/agents",
+          "repository": "https://github.com/zWaR/swamp-extensions"
+        },
+        {
+          "name": "@dataverket/zitadel",
+          "family": false,
+          "fromVersion": "2026.10.27.1",
+          "toVersion": "2026.11.08.1",
+          "summary": "The @dataverket/zitadel extension moved from version 2026.10.27.1 to 2026.11.08.1, adding model types for system and instance management, with methods for instance domains, trusted domains, system instances, a passkey registration link, and a secret generator setting.",
+          "registryUrl": "https://swamp-club.com/extensions/@dataverket/zitadel",
+          "repository": "https://github.com/dataverket-org/swamp-extensions"
+        },
+        {
+          "name": "@dieter/logseq-graph",
+          "family": false,
+          "fromVersion": "2026.10.07.1",
+          "toVersion": "2026.11.05.1",
+          "summary": "Version 2026.11.05.1 of @dieter/logseq-graph adds property-based page migration: a convertNamespaceToPropertyBasedItems merge option, an updatePagePropertyAndTag method, and a pagePropertyUpdate resource, plus journal format and link helpers, scheduled-block scanning, a pages-directory check, and added logging.",
+          "registryUrl": "https://swamp-club.com/extensions/@dieter/logseq-graph",
+          "repository": "https://github.com/Dieterbe/swamp-logseq-graph"
+        },
+        {
+          "name": "@dmc/patch",
+          "family": false,
+          "fromVersion": "2026.10.25.1",
+          "toVersion": "2026.11.07.1",
+          "summary": "@dmc/patch moved from 2026.10.25.1 to 2026.11.07.1 and adds a restricted, audited login with exact sudo grants and a per-machine OS update policy, plus new access-provisioning methods (provision, render, audit, revoke) and a patch_access report. Dependency changes include dropping @keeb/proxmox.",
+          "registryUrl": "https://swamp-club.com/extensions/@dmc/patch",
+          "repository": "https://github.com/danmcclain/swamp-extensions"
+        },
+        {
+          "name": "@dmc/proxmox",
+          "family": false,
+          "fromVersion": "2026.10.26.1",
+          "toVersion": "2026.11.07.1",
+          "summary": "Release 2026.11.07.1 of @dmc/proxmox moves the extension to API-token-only auth with TLS verification pinned to a supplied CA certificate, drops password and ticket login, and adds cluster health, permissions, and snapshot-access methods.",
+          "registryUrl": "https://swamp-club.com/extensions/@dmc/proxmox",
+          "repository": "https://github.com/danmcclain/swamp-extensions"
+        },
+        {
+          "name": "@funsaized/torlink",
+          "family": false,
+          "fromVersion": "2026.08.30.2",
+          "toVersion": "2026.11.05.1",
+          "summary": "Release 2026.11.05.1 of @funsaized/torlink adds typed network configuration, seed-time, and selection operations, plus a new download workflow. Its manifest now lists that workflow and an MIT license, and the Zod dependency moves to a pinned 4.4.3.",
+          "registryUrl": "https://swamp-club.com/extensions/@funsaized/torlink",
+          "repository": "https://github.com/funsaized/swamp-torlink"
+        },
+        {
+          "name": "@gklijs/skilj",
+          "family": false,
+          "fromVersion": "2026.10.14.2",
+          "toVersion": "2026.11.07.1",
+          "summary": "Version 2026.11.07.1 of @gklijs/skilj (SkilJ 0.3.0) adds REST and GraphQL support, including token lifecycle management, offline operation validation, schema export and compatibility checks, command proposal decisions, ordered batches, event reads and tracing.",
+          "registryUrl": "https://swamp-club.com/extensions/@gklijs/skilj",
+          "repository": "https://github.com/gklijs/skilj-swamp"
+        },
+        {
+          "name": "@gklijs/vados",
+          "family": false,
+          "fromVersion": "2026.10.14.10",
+          "toVersion": "2026.11.02.1",
+          "summary": "Vados extension updated from 2026.10.14.10 to 2026.11.02.1, adding skill vados-site and wrapping new commands for feeds, agendas, event pages, noindex, site search, navbar, spare tile, and link checks.",
+          "registryUrl": "https://swamp-club.com/extensions/@gklijs/vados",
+          "repository": "https://github.com/gklijs/vados-swamp"
+        },
+        {
+          "name": "@jeremy/github-pr",
+          "family": false,
+          "fromVersion": "2026.08.21.1",
+          "toVersion": "2026.11.08.3",
+          "summary": "Extension @jeremy/github-pr moves from 2026.08.21.1 to 2026.11.08.3 and narrows the GitHub.com same-repository pull-request flow. Changes include a new auth module with a GitHub CLI mode, apply accepting slim change facts, a new description policy file, and expanded tests.",
+          "registryUrl": "https://swamp-club.com/extensions/@jeremy/github-pr",
+          "repository": "https://github.com/jhuntwork/swamp-extensions"
+        },
+        {
+          "name": "@jeremy/mere-dev",
+          "family": false,
+          "fromVersion": "2026.08.23.2",
+          "toVersion": "2026.11.02.1",
+          "summary": "Version 2026.11.02.1 of @jeremy/mere-dev changes each result write to use its own spec name (for example validation-result, build-result, dev-log) instead of a shared \"current\" instance, so later methods no longer overwrite earlier results in the same workflow.",
+          "registryUrl": "https://swamp-club.com/extensions/@jeremy/mere-dev",
+          "repository": "https://github.com/jhuntwork/swamp-extensions"
+        },
+        {
+          "name": "@jeremy/mere-shell",
+          "family": false,
+          "fromVersion": "2026.08.19.1",
+          "toVersion": "2026.11.04.2",
+          "summary": "Version 2026.11.04.2 changes how `useHostStore` works: instead of symlinking the host `/mere/store` into the dedicated root, it now selects the host Mere root `/` (so `mereRoot` must be empty or `/`), and the extension removes any legacy managed store symlink on the next run.",
+          "registryUrl": "https://swamp-club.com/extensions/@jeremy/mere-shell",
+          "repository": "https://github.com/jhuntwork/swamp-extensions"
+        },
+        {
+          "name": "@kneel/nextcloud",
+          "family": false,
+          "fromVersion": "2026.10.19.1",
+          "toVersion": "2026.11.07.1",
+          "summary": "The @kneel/nextcloud extension was bumped from 2026.10.19.1 to 2026.11.07.1. The admin check now treats a user as admin only if they belong to the \"admin\" group, instead of reading a missing admin field that caused admins to be misdetected. The README example username was also changed to alice.",
+          "registryUrl": "https://swamp-club.com/extensions/@kneel/nextcloud",
+          "repository": "https://github.com/NeilHanlon/swamp-nextcloud"
+        },
+        {
+          "name": "@magistr/bsport",
+          "family": false,
+          "fromVersion": "2026.10.25.10",
+          "toVersion": "2026.11.08.1",
+          "summary": "Version 2026.11.08.1 of @magistr/bsport adds a calendarEvents method that builds calendar-ready events from upcoming bookings and waitlist entries, including venue, address, map pin, and local start and end times.",
+          "registryUrl": "https://swamp-club.com/extensions/@magistr/bsport",
+          "repository": "https://github.com/umag/swamp-workspace"
+        },
+        {
+          "name": "@magistr/restic",
+          "family": false,
+          "fromVersion": "2026.10.25.10",
+          "toVersion": "2026.11.08.1",
+          "summary": "The @magistr/restic extension, now at 2026.11.08.1, adds an `unlock` method that lists locks, removes stale ones only, lists again, and records whether the repository had no locks, removed stale locks, or still holds live locks. The manifest, README and CHANGELOG were updated to match.",
+          "registryUrl": "https://swamp-club.com/extensions/@magistr/restic",
+          "repository": "https://github.com/umag/swamp-workspace"
+        },
+        {
+          "name": "@maphew/agent-task",
+          "family": false,
+          "fromVersion": "2026.10.23.1",
+          "toVersion": "2026.11.05.1",
+          "summary": "Version 2026.11.05.1 of @maphew/agent-task adds pi as a dispatchable headless agent and changes dispatch to land work directly on the base branch instead of opening a PR.",
+          "registryUrl": "https://swamp-club.com/extensions/@maphew/agent-task",
+          "repository": "https://github.com/maphew/swamp-extensions.git"
+        },
+        {
+          "name": "@maphew/housekeeping",
+          "family": false,
+          "fromVersion": "2026.10.23.1",
+          "toVersion": "2026.11.05.1",
+          "summary": "Version 2026.11.05.1 of @maphew/housekeeping changes the subprocess helper so that spawn failures are logged at debug level with the command, working directory, and error, while still returning null as before. The audit results are unchanged.",
+          "registryUrl": "https://swamp-club.com/extensions/@maphew/housekeeping",
+          "repository": "https://github.com/maphew/swamp-extensions.git"
+        },
+        {
+          "name": "@mgreten/aws/s3-site-deploy",
+          "family": false,
+          "fromVersion": "2026.10.14.1",
+          "toVersion": "2026.11.06.1",
+          "summary": "Version 2026.11.06.1 of the S3 site deploy extension switches the repository link to a new location and pins its JSR dependencies to 1.1.0. It also fixes MIME type detection so it reads the file extension rather than the full path, and corrects the debug log to show that type.",
+          "registryUrl": "https://swamp-club.com/extensions/@mgreten/aws/s3-site-deploy",
+          "repository": "https://github.com/meagerfindings/mgreten-swamp-extensions"
+        },
+        {
+          "name": "@mgreten/bottleneck-ranking",
+          "family": false,
+          "fromVersion": "2026.10.14.1",
+          "toVersion": "2026.11.06.1",
+          "summary": "Version 2026.10.14.1 was updated to 2026.11.06.1. The manifest's repository URL was changed, and the deno.json task config file was removed from the extension files and its entry dropped from the manifest. No model code changed.",
+          "registryUrl": "https://swamp-club.com/extensions/@mgreten/bottleneck-ranking",
+          "repository": "https://github.com/meagerfindings/mgreten-swamp-extensions"
+        },
+        {
+          "name": "@mgreten/bounded-context-workflows",
+          "family": false,
+          "fromVersion": "2026.10.14.1",
+          "toVersion": "2026.11.06.1",
+          "summary": "Bumped the version from 2026.10.14.1 to 2026.11.06.1 and changed the repository reference to a different repository. Removed the deno.json config file and its entry in the manifest file list, with no workflow changes shown.",
+          "registryUrl": "https://swamp-club.com/extensions/@mgreten/bounded-context-workflows",
+          "repository": "https://github.com/meagerfindings/mgreten-swamp-extensions"
+        },
+        {
+          "name": "@mgreten/cli-process-audit",
+          "family": false,
+          "fromVersion": "2026.10.14.2",
+          "toVersion": "2026.11.06.1",
+          "summary": "The cli-process-audit extension was updated from 2026.10.14.2 to 2026.11.06.1, with its repository URL changed and parseCpuTime now parsing D-HH:MM:SS durations (days) and returning 0 for non-finite results.",
+          "registryUrl": "https://swamp-club.com/extensions/@mgreten/cli-process-audit",
+          "repository": "https://github.com/meagerfindings/mgreten-swamp-extensions"
+        },
+        {
+          "name": "@mgreten/docker-orphan-sweep",
+          "family": false,
+          "fromVersion": "2026.10.14.1",
+          "toVersion": "2026.11.06.1",
+          "summary": "Version 2026.11.06.1 of @mgreten/docker-orphan-sweep changes how containers are matched to compose projects: the project name now comes from the compose project label rather than the container name, and containers without a certain project are skipped and reported.",
+          "registryUrl": "https://swamp-club.com/extensions/@mgreten/docker-orphan-sweep",
+          "repository": "https://github.com/meagerfindings/mgreten-swamp-extensions"
+        },
+        {
+          "name": "@mgreten/feedback-lineage",
+          "family": false,
+          "fromVersion": "2026.10.14.1",
+          "toVersion": "2026.11.06.1",
+          "summary": "The 2026.11.06.1 release of @mgreten/feedback-lineage moves the version from 2026.10.14.1 and changes the repository URL to mgreten-swamp-extensions. It also removes the deno.json file from the package and drops it from the manifest's file list, with no changes to the extension's code.",
+          "registryUrl": "https://swamp-club.com/extensions/@mgreten/feedback-lineage",
+          "repository": "https://github.com/meagerfindings/mgreten-swamp-extensions"
+        },
+        {
+          "name": "@mgreten/feedback-triage",
+          "family": false,
+          "fromVersion": "2026.10.14.1",
+          "toVersion": "2026.11.06.1",
+          "summary": "The @mgreten/feedback-triage extension moved from version 2026.10.14.1 to 2026.11.06.1, with its repository URL changed and its deno.json lint config file removed from the package. The manifest's description and dependencies are otherwise unchanged, and no code files were modified.",
+          "registryUrl": "https://swamp-club.com/extensions/@mgreten/feedback-triage",
+          "repository": "https://github.com/meagerfindings/mgreten-swamp-extensions"
+        },
+        {
+          "name": "@mgreten/hermes-review-kit",
+          "family": false,
+          "fromVersion": "2026.10.14.1",
+          "toVersion": "2026.11.06.1",
+          "summary": "Bumps the version to 2026.11.06.1 and changes manifest metadata: the visibility field is removed and the repository field now points to a different location. The file collector in models/model.ts now records each path once, so files under a scanned root are no longer listed twice.",
+          "registryUrl": "https://swamp-club.com/extensions/@mgreten/hermes-review-kit",
+          "repository": "https://github.com/meagerfindings/mgreten-swamp-extensions"
+        },
+        {
+          "name": "@mgreten/obsidian-vault-fs",
+          "family": false,
+          "fromVersion": "2026.10.14.1",
+          "toVersion": "2026.11.06.1",
+          "summary": "Bumps the Obsidian vault model to 2026.11.06.1 and changes frontmatter scalar handling: values with YAML-sensitive characters or bool, null or number lookalikes are now written double-quoted, and quoted values are unquoted on read. The manifest also drops its visibility field and points to a different repository.",
+          "registryUrl": "https://swamp-club.com/extensions/@mgreten/obsidian-vault-fs",
+          "repository": "https://github.com/meagerfindings/mgreten-swamp-extensions"
+        },
+        {
+          "name": "@mgreten/pyannote-diarizer",
+          "family": false,
+          "fromVersion": "2026.10.14.1",
+          "toVersion": "2026.11.06.1",
+          "summary": "The release moves the pyannote diarizer from 2026.10.14.1 to 2026.11.06.1 and changes its repository URL. The diarizer now falls back to the original, undiarized transcript on any helper failure, including malformed helper output or invalid diarized JSON, instead of only when the helper exits with an error.",
+          "registryUrl": "https://swamp-club.com/extensions/@mgreten/pyannote-diarizer",
+          "repository": "https://github.com/meagerfindings/mgreten-swamp-extensions"
+        },
+        {
+          "name": "@mgreten/readonly-assessment-workflows",
+          "family": false,
+          "fromVersion": "2026.10.14.1",
+          "toVersion": "2026.11.06.1",
+          "summary": "Version 2026.11.06.1 of the readonly-assessment-workflows extension updates its manifest version, changes its repository URL, and removes the deno.json config file. The test file's imports now point to renamed feedback-triage and feature-idea-gate paths, with no workflow logic changes shown.",
+          "registryUrl": "https://swamp-club.com/extensions/@mgreten/readonly-assessment-workflows",
+          "repository": "https://github.com/meagerfindings/mgreten-swamp-extensions"
+        },
+        {
+          "name": "@mgreten/storage-health",
+          "family": false,
+          "fromVersion": "2026.10.14.1",
+          "toVersion": "2026.11.06.1",
+          "summary": "Version 2026.11.06.1 of @mgreten/storage-health moves the repository URL to a new location and hardens how it runs disk and backup checks. Shell strings are replaced with argument lists, paths must be absolute, and the mount listing now falls back to BSD-style df output when GNU df is unavailable.",
+          "registryUrl": "https://swamp-club.com/extensions/@mgreten/storage-health",
+          "repository": "https://github.com/meagerfindings/mgreten-swamp-extensions"
+        },
+        {
+          "name": "@mgreten/unifi",
+          "family": false,
+          "fromVersion": "2026.10.14.1",
+          "toVersion": "2026.11.06.1",
+          "summary": "The @mgreten/unifi extension moved from 2026.10.14.1 to 2026.11.06.1 and gained a read-only client inspect method that captures a point-in-time roaming, access point, and health snapshot for one active client, stored as a new inspection resource.",
+          "registryUrl": "https://swamp-club.com/extensions/@mgreten/unifi",
+          "repository": "https://github.com/meagerfindings/mgreten-swamp-extensions"
+        },
+        {
+          "name": "@puddleworks/capture",
+          "family": false,
+          "fromVersion": "2026.10.29.1",
+          "toVersion": "2026.11.04.1",
+          "summary": "Capture (@puddleworks/capture) moved from 2026.10.29.1 to 2026.11.04.1. The outcome owner can now edit a request's title, description, and current process while it is in discussion as well as while it is a draft, and edits made after submission are recorded in the request history with a note of what changed.",
+          "registryUrl": "https://swamp-club.com/extensions/@puddleworks/capture",
+          "repository": "https://github.com/puddle-works/puddleworks-capture"
+        },
+        {
+          "name": "@puddleworks/obsidian-task-scan",
+          "family": false,
+          "fromVersion": "2026.10.30.1",
+          "toVersion": "2026.11.05.1",
+          "summary": "Version 2026.11.05.1 adds a candidates workflow and a log method that files each open Obsidian task no swamp extension covers as a draft request in Capture, with a preview mode when no recipient is set. The task scan now also strips Obsidian Tasks fields from task text and records recurrence rules.",
+          "registryUrl": "https://swamp-club.com/extensions/@puddleworks/obsidian-task-scan",
+          "repository": "https://github.com/puddle-works/obsidian-task-scan"
+        },
+        {
+          "name": "@puddleworks/puddlerouter",
+          "family": false,
+          "fromVersion": "2026.10.13.2",
+          "toVersion": "2026.11.05.1",
+          "summary": "Puddlerouter moved from 2026.10.13.2 to 2026.11.05.1 and changed how it finds recipes: the match, execute and sync methods were replaced by search and alwaysLlm, and the recipe packs and sync workflow were removed in favor of a separate recipes extension.",
+          "registryUrl": "https://swamp-club.com/extensions/@puddleworks/puddlerouter",
+          "repository": "https://github.com/puddle-works/puddlerouter"
+        },
+        {
+          "name": "@puddleworks/puddleworks-factory",
+          "family": false,
+          "fromVersion": "2026.10.26.3",
+          "toVersion": "2026.11.06.1",
+          "summary": "Puddleworks Factory moved from 2026.10.26.3 to 2026.11.06.1, passing through 2026.10.30.1. It adds a read-only local page on 127.0.0.1 that lists every app by stage, lets specs carry agreed example phrases that the build checks, and blocks reserved or secret-looking app names.",
+          "registryUrl": "https://swamp-club.com/extensions/@puddleworks/puddleworks-factory",
+          "repository": "https://github.com/puddle-works/puddleworks-factory"
+        },
+        {
+          "name": "@shrug/invoiceninja",
+          "family": false,
+          "fromVersion": "2026.10.27.2",
+          "toVersion": "2026.11.07.1",
+          "summary": "The @shrug/invoiceninja extension moved from version 2026.10.27.2 to 2026.11.07.1.",
+          "registryUrl": "https://swamp-club.com/extensions/@shrug/invoiceninja",
+          "repository": "https://github.com/shrugpw/swamp-invoiceninja"
+        },
+        {
+          "name": "@shrug/mercury",
+          "family": false,
+          "fromVersion": "2026.08.18.1",
+          "toVersion": "2026.11.07.1",
+          "summary": "Version 2026.11.07.1 of the Mercury banking extension (from 2026.08.18.1) adds a books model with read and write methods for invoices, customers, categories, and receipts, plus a books reconcile report, and updates the owner draw report and the manifest.",
+          "registryUrl": "https://swamp-club.com/extensions/@shrug/mercury",
+          "repository": "https://github.com/shrugpw/swamp-mercury"
+        },
+        {
+          "name": "@shrug/twenty",
+          "family": false,
+          "fromVersion": "2026.09.19.1",
+          "toVersion": "2026.11.07.1",
+          "summary": "Version 2026.09.19.1 of the @shrug/twenty extension was bumped to 2026.11.07.1, with eight methods added (exportCompanies, getThread, listConnectedAccounts, listThreads, reconcileCompanies, sendEmail, threadStatus, upsertCompany), and the model file grew substantially.",
+          "registryUrl": "https://swamp-club.com/extensions/@shrug/twenty",
+          "repository": "https://github.com/shrugpw/swamp-twenty"
+        },
+        {
+          "name": "@sntxrr/credential-expiry",
+          "family": false,
+          "fromVersion": "2026.10.22.1",
+          "toVersion": "2026.11.03.1",
+          "summary": "The credential-expiry extension moves from 2026.10.22.1 to 2026.11.03.1. The change adds a manifest option for reading the credential list from a YAML file, and a per-entry env-variable secret source alongside the existing vault lookup.",
+          "registryUrl": "https://swamp-club.com/extensions/@sntxrr/credential-expiry",
+          "repository": "https://github.com/sntxrr/swamp-credential-expiry"
+        },
+        {
+          "name": "@svendowideit/caddy",
+          "family": false,
+          "fromVersion": "2026.10.18.3",
+          "toVersion": "2026.11.07.13",
+          "summary": "Extension @svendowideit/caddy moved from 2026.10.18.3 to 2026.11.07.13 across versions .12 and .13. The change reworks route management around a new addRoute method and a managed config, and updates the upgrade and setup workflows and the sudo dependency requirement.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/caddy",
+          "repository": "https://github.com/svendowideit/swamp-extensions"
+        },
+        {
+          "name": "@svendowideit/sudo",
+          "family": false,
+          "fromVersion": "2026.10.11.1",
+          "toVersion": "2026.11.07.4",
+          "summary": "The @svendowideit/sudo extension moved from version 2026.10.11.1 to 2026.11.07.4.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/sudo",
+          "repository": "https://github.com/svendowideit/swamp-extensions"
+        },
+        {
+          "name": "@svendowideit/swamp-serve",
+          "family": false,
+          "fromVersion": "2026.10.05.1",
+          "toVersion": "2026.11.08.2",
+          "summary": "Version 2026.11.08.2 of the swamp-serve extension changes setup to a single re-runnable workflow that creates the model, installs the binary, and runs the service, with Caddy routes discovered automatically.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/swamp-serve",
+          "repository": "https://github.com/svendowideit/swamp-extensions"
+        },
+        {
+          "name": "@svendowideit/systemd-service",
+          "family": false,
+          "fromVersion": "2026.10.23.1",
+          "toVersion": "2026.10.26.1",
+          "summary": "Version 2026.10.26.1 adds an optional `hardening` argument to `createService` (default true) that controls whether PrivateTmp and ProtectSystem are rendered into the unit file, so services that must read root-owned SSH config can opt out. It also adds a test for that case and an upgrade entry for the model.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/systemd-service",
+          "repository": "https://github.com/svendowideit/swamp-extensions"
+        },
+        {
+          "name": "@svendowideit/zwift",
+          "family": false,
+          "fromVersion": "2026.10.01.1",
+          "toVersion": "2026.11.06.1",
+          "summary": "Version 2026.11.06.1 of the Zwift extension adds a read-only backfill method that pulls every available ride with per-ride FTP, heart rate and max power, optional FIT normalised power, and merges Garmin activities into the history.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/zwift",
+          "repository": "https://github.com/svendowideit/swamp-extensions"
+        },
+        {
+          "name": "@swamp/agent-runner",
+          "family": false,
+          "fromVersion": "2026.10.29.1",
+          "toVersion": "2026.11.04.1",
+          "summary": "Version 2026.11.04.1 adds optional working directory, extra directory, and session-resume inputs for Claude and Codex runs, and flags runs stopped by usage, rate, or overload limits with a capacity-stop marker so workflows can retry them.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/agent-runner",
+          "repository": "https://github.com/swamp-club/swamp-extensions"
+        },
+        {
+          "name": "@swamp/agent-sessions",
+          "family": false,
+          "fromVersion": "2026.10.31.2",
+          "toVersion": "2026.11.03.1",
+          "summary": "The @swamp/agent-sessions extension moves from 2026.10.31.2 to 2026.11.03.1 across three versions and adds an import method that reads Claude Code and Codex session transcripts, plus an agent-sessions skill and eval file.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/agent-sessions",
+          "repository": "https://github.com/swamp-club/swamp-extensions"
+        },
+        {
+          "name": "@swamp/aws",
+          "family": true,
+          "fromVersion": null,
+          "toVersion": null,
+          "summary": "The 290 AWS infrastructure extensions moved to version 2026.11.08.x this week, mostly as version bumps where release notes list the updated resource models.",
+          "registryUrl": null,
+          "repository": null,
+          "members": [
+            {
+              "name": "@swamp/aws/accessanalyzer",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/accessanalyzer"
+            },
+            {
+              "name": "@swamp/aws/accountaccess",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/accountaccess"
+            },
+            {
+              "name": "@swamp/aws/acmpca",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/acmpca"
+            },
+            {
+              "name": "@swamp/aws/agentregistry",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/agentregistry"
+            },
+            {
+              "name": "@swamp/aws/aiops",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/aiops"
+            },
+            {
+              "name": "@swamp/aws/amazonmq",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/amazonmq"
+            },
+            {
+              "name": "@swamp/aws/amplify",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/amplify"
+            },
+            {
+              "name": "@swamp/aws/amplifyuibuilder",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/amplifyuibuilder"
+            },
+            {
+              "name": "@swamp/aws/apigateway",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/apigateway"
+            },
+            {
+              "name": "@swamp/aws/apigatewayv2",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/apigatewayv2"
+            },
+            {
+              "name": "@swamp/aws/appconfig",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/appconfig"
+            },
+            {
+              "name": "@swamp/aws/appfabric",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/appfabric"
+            },
+            {
+              "name": "@swamp/aws/appflow",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/appflow"
+            },
+            {
+              "name": "@swamp/aws/appintegrations",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/appintegrations"
+            },
+            {
+              "name": "@swamp/aws/applicationautoscaling",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/applicationautoscaling"
+            },
+            {
+              "name": "@swamp/aws/applicationinsights",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/applicationinsights"
+            },
+            {
+              "name": "@swamp/aws/applicationsignals",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/applicationsignals"
+            },
+            {
+              "name": "@swamp/aws/apprunner",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/apprunner"
+            },
+            {
+              "name": "@swamp/aws/appstream",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/appstream"
+            },
+            {
+              "name": "@swamp/aws/appsync",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/appsync"
+            },
+            {
+              "name": "@swamp/aws/apptest",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/apptest"
+            },
+            {
+              "name": "@swamp/aws/aps",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/aps"
+            },
+            {
+              "name": "@swamp/aws/arcregionswitch",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/arcregionswitch"
+            },
+            {
+              "name": "@swamp/aws/arczonalshift",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/arczonalshift"
+            },
+            {
+              "name": "@swamp/aws/athena",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/athena"
+            },
+            {
+              "name": "@swamp/aws/auditmanager",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/auditmanager"
+            },
+            {
+              "name": "@swamp/aws/autoscaling",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/autoscaling"
+            },
+            {
+              "name": "@swamp/aws/autoscalingplans",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/autoscalingplans"
+            },
+            {
+              "name": "@swamp/aws/awsexternalanthropic",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/awsexternalanthropic"
+            },
+            {
+              "name": "@swamp/aws/b2bi",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/b2bi"
+            },
+            {
+              "name": "@swamp/aws/backup",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/backup"
+            },
+            {
+              "name": "@swamp/aws/batch",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/batch"
+            },
+            {
+              "name": "@swamp/aws/bcm",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/bcm"
+            },
+            {
+              "name": "@swamp/aws/bcmdataexports",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/bcmdataexports"
+            },
+            {
+              "name": "@swamp/aws/bcmpricingcalculator",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/bcmpricingcalculator"
+            },
+            {
+              "name": "@swamp/aws/bedrock",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/bedrock"
+            },
+            {
+              "name": "@swamp/aws/bedrockagentcore",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/bedrockagentcore"
+            },
+            {
+              "name": "@swamp/aws/bedrockmantle",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/bedrockmantle"
+            },
+            {
+              "name": "@swamp/aws/billing",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/billing"
+            },
+            {
+              "name": "@swamp/aws/billingconductor",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/billingconductor"
+            },
+            {
+              "name": "@swamp/aws/braket",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/braket"
+            },
+            {
+              "name": "@swamp/aws/budgets",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/budgets"
+            },
+            {
+              "name": "@swamp/aws/cases",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/cases"
+            },
+            {
+              "name": "@swamp/aws/cassandra",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/cassandra"
+            },
+            {
+              "name": "@swamp/aws/ce",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/ce"
+            },
+            {
+              "name": "@swamp/aws/certificatemanager",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/certificatemanager"
+            },
+            {
+              "name": "@swamp/aws/chatbot",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/chatbot"
+            },
+            {
+              "name": "@swamp/aws/chime",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/chime"
+            },
+            {
+              "name": "@swamp/aws/cleanrooms",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/cleanrooms"
+            },
+            {
+              "name": "@swamp/aws/cleanroomsml",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/cleanroomsml"
+            },
+            {
+              "name": "@swamp/aws/cloud9",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/cloud9"
+            },
+            {
+              "name": "@swamp/aws/cloudformation",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/cloudformation"
+            },
+            {
+              "name": "@swamp/aws/cloudfront",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/cloudfront"
+            },
+            {
+              "name": "@swamp/aws/cloudhsm",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/cloudhsm"
+            },
+            {
+              "name": "@swamp/aws/cloudtrail",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/cloudtrail"
+            },
+            {
+              "name": "@swamp/aws/cloudwatch",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/cloudwatch"
+            },
+            {
+              "name": "@swamp/aws/codeartifact",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/codeartifact"
+            },
+            {
+              "name": "@swamp/aws/codebuild",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/codebuild"
+            },
+            {
+              "name": "@swamp/aws/codecommit",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/codecommit"
+            },
+            {
+              "name": "@swamp/aws/codeconnections",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/codeconnections"
+            },
+            {
+              "name": "@swamp/aws/codedeploy",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/codedeploy"
+            },
+            {
+              "name": "@swamp/aws/codeguruprofiler",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/codeguruprofiler"
+            },
+            {
+              "name": "@swamp/aws/codegurureviewer",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/codegurureviewer"
+            },
+            {
+              "name": "@swamp/aws/codepipeline",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/codepipeline"
+            },
+            {
+              "name": "@swamp/aws/codestarconnections",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/codestarconnections"
+            },
+            {
+              "name": "@swamp/aws/codestarnotifications",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/codestarnotifications"
+            },
+            {
+              "name": "@swamp/aws/cognito",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/cognito"
+            },
+            {
+              "name": "@swamp/aws/comprehend",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/comprehend"
+            },
+            {
+              "name": "@swamp/aws/computeoptimizer",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/computeoptimizer"
+            },
+            {
+              "name": "@swamp/aws/config",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/config"
+            },
+            {
+              "name": "@swamp/aws/connect",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/connect"
+            },
+            {
+              "name": "@swamp/aws/connectcampaigns",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/connectcampaigns"
+            },
+            {
+              "name": "@swamp/aws/connectcampaignsv2",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/connectcampaignsv2"
+            },
+            {
+              "name": "@swamp/aws/controltower",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/controltower"
+            },
+            {
+              "name": "@swamp/aws/cur",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/cur"
+            },
+            {
+              "name": "@swamp/aws/customerprofiles",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/customerprofiles"
+            },
+            {
+              "name": "@swamp/aws/databrew",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/databrew"
+            },
+            {
+              "name": "@swamp/aws/dataexchange",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/dataexchange"
+            },
+            {
+              "name": "@swamp/aws/datapipeline",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/datapipeline"
+            },
+            {
+              "name": "@swamp/aws/datasync",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/datasync"
+            },
+            {
+              "name": "@swamp/aws/datazone",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/datazone"
+            },
+            {
+              "name": "@swamp/aws/dax",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/dax"
+            },
+            {
+              "name": "@swamp/aws/deadline",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/deadline"
+            },
+            {
+              "name": "@swamp/aws/detective",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/detective"
+            },
+            {
+              "name": "@swamp/aws/devopsagent",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/devopsagent"
+            },
+            {
+              "name": "@swamp/aws/devopsguru",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/devopsguru"
+            },
+            {
+              "name": "@swamp/aws/directconnect",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/directconnect"
+            },
+            {
+              "name": "@swamp/aws/directoryservice",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/directoryservice"
+            },
+            {
+              "name": "@swamp/aws/dlm",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/dlm"
+            },
+            {
+              "name": "@swamp/aws/dms",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/dms"
+            },
+            {
+              "name": "@swamp/aws/docdb",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/docdb"
+            },
+            {
+              "name": "@swamp/aws/docdbelastic",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/docdbelastic"
+            },
+            {
+              "name": "@swamp/aws/drs",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/drs"
+            },
+            {
+              "name": "@swamp/aws/dsql",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/dsql"
+            },
+            {
+              "name": "@swamp/aws/dynamodb",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/dynamodb"
+            },
+            {
+              "name": "@swamp/aws/ec2",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/ec2"
+            },
+            {
+              "name": "@swamp/aws/ecr",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/ecr"
+            },
+            {
+              "name": "@swamp/aws/ecs",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/ecs"
+            },
+            {
+              "name": "@swamp/aws/efs",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/efs"
+            },
+            {
+              "name": "@swamp/aws/eks",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/eks"
+            },
+            {
+              "name": "@swamp/aws/elasticache",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/elasticache"
+            },
+            {
+              "name": "@swamp/aws/elasticbeanstalk",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/elasticbeanstalk"
+            },
+            {
+              "name": "@swamp/aws/elasticloadbalancing",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/elasticloadbalancing"
+            },
+            {
+              "name": "@swamp/aws/elasticloadbalancingv2",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/elasticloadbalancingv2"
+            },
+            {
+              "name": "@swamp/aws/elementalinference",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/elementalinference"
+            },
+            {
+              "name": "@swamp/aws/emr",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/emr"
+            },
+            {
+              "name": "@swamp/aws/emrcontainers",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/emrcontainers"
+            },
+            {
+              "name": "@swamp/aws/emrserverless",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/emrserverless"
+            },
+            {
+              "name": "@swamp/aws/entityresolution",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/entityresolution"
+            },
+            {
+              "name": "@swamp/aws/events",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/events"
+            },
+            {
+              "name": "@swamp/aws/eventschemas",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/eventschemas"
+            },
+            {
+              "name": "@swamp/aws/eventsv2",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/eventsv2"
+            },
+            {
+              "name": "@swamp/aws/evidently",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/evidently"
+            },
+            {
+              "name": "@swamp/aws/evs",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/evs"
+            },
+            {
+              "name": "@swamp/aws/finspace",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/finspace"
+            },
+            {
+              "name": "@swamp/aws/fis",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/fis"
+            },
+            {
+              "name": "@swamp/aws/fms",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/fms"
+            },
+            {
+              "name": "@swamp/aws/forecast",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/forecast"
+            },
+            {
+              "name": "@swamp/aws/frauddetector",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/frauddetector"
+            },
+            {
+              "name": "@swamp/aws/fsx",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/fsx"
+            },
+            {
+              "name": "@swamp/aws/gamelift",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/gamelift"
+            },
+            {
+              "name": "@swamp/aws/globalaccelerator",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/globalaccelerator"
+            },
+            {
+              "name": "@swamp/aws/glue",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/glue"
+            },
+            {
+              "name": "@swamp/aws/grafana",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/grafana"
+            },
+            {
+              "name": "@swamp/aws/greengrassv2",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/greengrassv2"
+            },
+            {
+              "name": "@swamp/aws/groundstation",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/groundstation"
+            },
+            {
+              "name": "@swamp/aws/guardduty",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/guardduty"
+            },
+            {
+              "name": "@swamp/aws/healthagent",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/healthagent"
+            },
+            {
+              "name": "@swamp/aws/healthlake",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/healthlake"
+            },
+            {
+              "name": "@swamp/aws/iam",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/iam"
+            },
+            {
+              "name": "@swamp/aws/identitystore",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/identitystore"
+            },
+            {
+              "name": "@swamp/aws/imagebuilder",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/imagebuilder"
+            },
+            {
+              "name": "@swamp/aws/inspector",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/inspector"
+            },
+            {
+              "name": "@swamp/aws/inspectorv2",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/inspectorv2"
+            },
+            {
+              "name": "@swamp/aws/interconnect",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/interconnect"
+            },
+            {
+              "name": "@swamp/aws/internetmonitor",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/internetmonitor"
+            },
+            {
+              "name": "@swamp/aws/invoicing",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/invoicing"
+            },
+            {
+              "name": "@swamp/aws/iot",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/iot"
+            },
+            {
+              "name": "@swamp/aws/iotanalytics",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/iotanalytics"
+            },
+            {
+              "name": "@swamp/aws/iotcoredeviceadvisor",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/iotcoredeviceadvisor"
+            },
+            {
+              "name": "@swamp/aws/iotfleetwise",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/iotfleetwise"
+            },
+            {
+              "name": "@swamp/aws/iotsecuretunneling",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/iotsecuretunneling"
+            },
+            {
+              "name": "@swamp/aws/iotsitewise",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/iotsitewise"
+            },
+            {
+              "name": "@swamp/aws/iottwinmaker",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/iottwinmaker"
+            },
+            {
+              "name": "@swamp/aws/iotwireless",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/iotwireless"
+            },
+            {
+              "name": "@swamp/aws/ivs",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/ivs"
+            },
+            {
+              "name": "@swamp/aws/ivschat",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/ivschat"
+            },
+            {
+              "name": "@swamp/aws/kafkaconnect",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/kafkaconnect"
+            },
+            {
+              "name": "@swamp/aws/kendra",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/kendra"
+            },
+            {
+              "name": "@swamp/aws/kendraranking",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/kendraranking"
+            },
+            {
+              "name": "@swamp/aws/kinesis",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/kinesis"
+            },
+            {
+              "name": "@swamp/aws/kinesisfirehose",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/kinesisfirehose"
+            },
+            {
+              "name": "@swamp/aws/kinesisvideo",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/kinesisvideo"
+            },
+            {
+              "name": "@swamp/aws/kms",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/kms"
+            },
+            {
+              "name": "@swamp/aws/lakeformation",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/lakeformation"
+            },
+            {
+              "name": "@swamp/aws/lambda",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/lambda"
+            },
+            {
+              "name": "@swamp/aws/launchwizard",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/launchwizard"
+            },
+            {
+              "name": "@swamp/aws/lex",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/lex"
+            },
+            {
+              "name": "@swamp/aws/licensemanager",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/licensemanager"
+            },
+            {
+              "name": "@swamp/aws/licensemanagerlinuxsubscriptions",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/licensemanagerlinuxsubscriptions"
+            },
+            {
+              "name": "@swamp/aws/licensemanagerusersubscriptions",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/licensemanagerusersubscriptions"
+            },
+            {
+              "name": "@swamp/aws/lightsail",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/lightsail"
+            },
+            {
+              "name": "@swamp/aws/location",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/location"
+            },
+            {
+              "name": "@swamp/aws/logs",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/logs"
+            },
+            {
+              "name": "@swamp/aws/lookoutequipment",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/lookoutequipment"
+            },
+            {
+              "name": "@swamp/aws/m2",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/m2"
+            },
+            {
+              "name": "@swamp/aws/macie",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/macie"
+            },
+            {
+              "name": "@swamp/aws/managedblockchain",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/managedblockchain"
+            },
+            {
+              "name": "@swamp/aws/mediaconnect",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/mediaconnect"
+            },
+            {
+              "name": "@swamp/aws/mediaconvert",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/mediaconvert"
+            },
+            {
+              "name": "@swamp/aws/medialive",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/medialive"
+            },
+            {
+              "name": "@swamp/aws/mediapackage",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/mediapackage"
+            },
+            {
+              "name": "@swamp/aws/mediapackagev2",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/mediapackagev2"
+            },
+            {
+              "name": "@swamp/aws/mediatailor",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/mediatailor"
+            },
+            {
+              "name": "@swamp/aws/memorydb",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/memorydb"
+            },
+            {
+              "name": "@swamp/aws/mgn",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/mgn"
+            },
+            {
+              "name": "@swamp/aws/mpa",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/mpa"
+            },
+            {
+              "name": "@swamp/aws/msk",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/msk"
+            },
+            {
+              "name": "@swamp/aws/mwaa",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/mwaa"
+            },
+            {
+              "name": "@swamp/aws/mwaaserverless",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/mwaaserverless"
+            },
+            {
+              "name": "@swamp/aws/neptune",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/neptune"
+            },
+            {
+              "name": "@swamp/aws/neptunegraph",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/neptunegraph"
+            },
+            {
+              "name": "@swamp/aws/networkfirewall",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/networkfirewall"
+            },
+            {
+              "name": "@swamp/aws/networkflowmonitor",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/networkflowmonitor"
+            },
+            {
+              "name": "@swamp/aws/networkmanager",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/networkmanager"
+            },
+            {
+              "name": "@swamp/aws/networkmonitor",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/networkmonitor"
+            },
+            {
+              "name": "@swamp/aws/networksecuritymanager",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/networksecuritymanager"
+            },
+            {
+              "name": "@swamp/aws/notifications",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/notifications"
+            },
+            {
+              "name": "@swamp/aws/notificationscontacts",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/notificationscontacts"
+            },
+            {
+              "name": "@swamp/aws/novaact",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/novaact"
+            },
+            {
+              "name": "@swamp/aws/oam",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/oam"
+            },
+            {
+              "name": "@swamp/aws/observabilityadmin",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/observabilityadmin"
+            },
+            {
+              "name": "@swamp/aws/odb",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/odb"
+            },
+            {
+              "name": "@swamp/aws/omics",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/omics"
+            },
+            {
+              "name": "@swamp/aws/opensearch",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/opensearch"
+            },
+            {
+              "name": "@swamp/aws/opensearchserverless",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/opensearchserverless"
+            },
+            {
+              "name": "@swamp/aws/opensearchservice",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/opensearchservice"
+            },
+            {
+              "name": "@swamp/aws/organizations",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/organizations"
+            },
+            {
+              "name": "@swamp/aws/osis",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/osis"
+            },
+            {
+              "name": "@swamp/aws/outposts",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/outposts"
+            },
+            {
+              "name": "@swamp/aws/panorama",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/panorama"
+            },
+            {
+              "name": "@swamp/aws/paymentcryptography",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/paymentcryptography"
+            },
+            {
+              "name": "@swamp/aws/pcaconnectorad",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/pcaconnectorad"
+            },
+            {
+              "name": "@swamp/aws/pcaconnectorscep",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/pcaconnectorscep"
+            },
+            {
+              "name": "@swamp/aws/pcs",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/pcs"
+            },
+            {
+              "name": "@swamp/aws/personalize",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/personalize"
+            },
+            {
+              "name": "@swamp/aws/pi",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/pi"
+            },
+            {
+              "name": "@swamp/aws/pinpoint",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/pinpoint"
+            },
+            {
+              "name": "@swamp/aws/pipes",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/pipes"
+            },
+            {
+              "name": "@swamp/aws/polly",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/polly"
+            },
+            {
+              "name": "@swamp/aws/pricingplanmanager",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/pricingplanmanager"
+            },
+            {
+              "name": "@swamp/aws/proton",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/proton"
+            },
+            {
+              "name": "@swamp/aws/qbusiness",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/qbusiness"
+            },
+            {
+              "name": "@swamp/aws/qldb",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/qldb"
+            },
+            {
+              "name": "@swamp/aws/quicksight",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/quicksight"
+            },
+            {
+              "name": "@swamp/aws/ram",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/ram"
+            },
+            {
+              "name": "@swamp/aws/rbin",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/rbin"
+            },
+            {
+              "name": "@swamp/aws/rds",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/rds"
+            },
+            {
+              "name": "@swamp/aws/redshift",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/redshift"
+            },
+            {
+              "name": "@swamp/aws/redshiftserverless",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/redshiftserverless"
+            },
+            {
+              "name": "@swamp/aws/refactorspaces",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/refactorspaces"
+            },
+            {
+              "name": "@swamp/aws/rekognition",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/rekognition"
+            },
+            {
+              "name": "@swamp/aws/resiliencehub",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/resiliencehub"
+            },
+            {
+              "name": "@swamp/aws/resiliencehubv2",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/resiliencehubv2"
+            },
+            {
+              "name": "@swamp/aws/resourceexplorer2",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/resourceexplorer2"
+            },
+            {
+              "name": "@swamp/aws/resourcegroups",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/resourcegroups"
+            },
+            {
+              "name": "@swamp/aws/robomaker",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/robomaker"
+            },
+            {
+              "name": "@swamp/aws/rolesanywhere",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/rolesanywhere"
+            },
+            {
+              "name": "@swamp/aws/route53",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/route53"
+            },
+            {
+              "name": "@swamp/aws/route53globalresolver",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/route53globalresolver"
+            },
+            {
+              "name": "@swamp/aws/route53profiles",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/route53profiles"
+            },
+            {
+              "name": "@swamp/aws/route53recoverycontrol",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/route53recoverycontrol"
+            },
+            {
+              "name": "@swamp/aws/route53recoveryreadiness",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/route53recoveryreadiness"
+            },
+            {
+              "name": "@swamp/aws/route53resolver",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/route53resolver"
+            },
+            {
+              "name": "@swamp/aws/rtbfabric",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/rtbfabric"
+            },
+            {
+              "name": "@swamp/aws/rum",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/rum"
+            },
+            {
+              "name": "@swamp/aws/s3",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/s3"
+            },
+            {
+              "name": "@swamp/aws/s3express",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/s3express"
+            },
+            {
+              "name": "@swamp/aws/s3files",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/s3files"
+            },
+            {
+              "name": "@swamp/aws/s3objectlambda",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/s3objectlambda"
+            },
+            {
+              "name": "@swamp/aws/s3outposts",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/s3outposts"
+            },
+            {
+              "name": "@swamp/aws/s3tables",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/s3tables"
+            },
+            {
+              "name": "@swamp/aws/s3vectors",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/s3vectors"
+            },
+            {
+              "name": "@swamp/aws/sagemaker",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/sagemaker"
+            },
+            {
+              "name": "@swamp/aws/scheduler",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/scheduler"
+            },
+            {
+              "name": "@swamp/aws/scn",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/scn"
+            },
+            {
+              "name": "@swamp/aws/secretsmanager",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/secretsmanager"
+            },
+            {
+              "name": "@swamp/aws/securityagent",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/securityagent"
+            },
+            {
+              "name": "@swamp/aws/securityhub",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/securityhub"
+            },
+            {
+              "name": "@swamp/aws/securitylake",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/securitylake"
+            },
+            {
+              "name": "@swamp/aws/serverlessrepo",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/serverlessrepo"
+            },
+            {
+              "name": "@swamp/aws/servicecatalog",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/servicecatalog"
+            },
+            {
+              "name": "@swamp/aws/servicecatalogappregistry",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/servicecatalogappregistry"
+            },
+            {
+              "name": "@swamp/aws/servicediscovery",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/servicediscovery"
+            },
+            {
+              "name": "@swamp/aws/ses",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/ses"
+            },
+            {
+              "name": "@swamp/aws/shield",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/shield"
+            },
+            {
+              "name": "@swamp/aws/signer",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/signer"
+            },
+            {
+              "name": "@swamp/aws/simspaceweaver",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/simspaceweaver"
+            },
+            {
+              "name": "@swamp/aws/smsvoice",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/smsvoice"
+            },
+            {
+              "name": "@swamp/aws/sns",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/sns"
+            },
+            {
+              "name": "@swamp/aws/sqs",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/sqs"
+            },
+            {
+              "name": "@swamp/aws/ssm",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/ssm"
+            },
+            {
+              "name": "@swamp/aws/ssmcontacts",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/ssmcontacts"
+            },
+            {
+              "name": "@swamp/aws/ssmguiconnect",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/ssmguiconnect"
+            },
+            {
+              "name": "@swamp/aws/ssmincidents",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/ssmincidents"
+            },
+            {
+              "name": "@swamp/aws/ssmquicksetup",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/ssmquicksetup"
+            },
+            {
+              "name": "@swamp/aws/sso",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/sso"
+            },
+            {
+              "name": "@swamp/aws/stepfunctions",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/stepfunctions"
+            },
+            {
+              "name": "@swamp/aws/storagegateway",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/storagegateway"
+            },
+            {
+              "name": "@swamp/aws/supportapp",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/supportapp"
+            },
+            {
+              "name": "@swamp/aws/supportauthz",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/supportauthz"
+            },
+            {
+              "name": "@swamp/aws/synthetics",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/synthetics"
+            },
+            {
+              "name": "@swamp/aws/systemsmanagersap",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/systemsmanagersap"
+            },
+            {
+              "name": "@swamp/aws/textract",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/textract"
+            },
+            {
+              "name": "@swamp/aws/timestream",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/timestream"
+            },
+            {
+              "name": "@swamp/aws/transcribe",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/transcribe"
+            },
+            {
+              "name": "@swamp/aws/transfer",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/transfer"
+            },
+            {
+              "name": "@swamp/aws/translate",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/translate"
+            },
+            {
+              "name": "@swamp/aws/verifiedpermissions",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/verifiedpermissions"
+            },
+            {
+              "name": "@swamp/aws/voiceid",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/voiceid"
+            },
+            {
+              "name": "@swamp/aws/vpclattice",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/vpclattice"
+            },
+            {
+              "name": "@swamp/aws/wafv2",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/wafv2"
+            },
+            {
+              "name": "@swamp/aws/wellarchitected",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/wellarchitected"
+            },
+            {
+              "name": "@swamp/aws/wickr",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/wickr"
+            },
+            {
+              "name": "@swamp/aws/wisdom",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/wisdom"
+            },
+            {
+              "name": "@swamp/aws/workspaces",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/workspaces"
+            },
+            {
+              "name": "@swamp/aws/workspacesinstances",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/workspacesinstances"
+            },
+            {
+              "name": "@swamp/aws/workspacesthinclient",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/workspacesthinclient"
+            },
+            {
+              "name": "@swamp/aws/workspacesweb",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/workspacesweb"
+            },
+            {
+              "name": "@swamp/aws/xray",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/aws/xray"
+            }
+          ]
+        },
+        {
+          "name": "@swamp/cloudflare",
+          "family": true,
+          "fromVersion": null,
+          "toVersion": null,
+          "summary": "The family's 24 Cloudflare extensions were updated across this window, mostly as versioned model-schema changes. The access, ai-search, dlp and workers extensions had the largest edits, including new destination, MFA and policy shapes, expanded cache and sync interval options, and several no-op upgrade entries.",
+          "registryUrl": null,
+          "repository": null,
+          "members": [
+            {
+              "name": "@swamp/cloudflare/access",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/access"
+            },
+            {
+              "name": "@swamp/cloudflare/ai-search",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/ai-search"
+            },
+            {
+              "name": "@swamp/cloudflare/browser-rendering",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/browser-rendering"
+            },
+            {
+              "name": "@swamp/cloudflare/cloudforce-one",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/cloudforce-one"
+            },
+            {
+              "name": "@swamp/cloudflare/containers",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/containers"
+            },
+            {
+              "name": "@swamp/cloudflare/cws",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/cws"
+            },
+            {
+              "name": "@swamp/cloudflare/devices",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/devices"
+            },
+            {
+              "name": "@swamp/cloudflare/dlp",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/dlp"
+            },
+            {
+              "name": "@swamp/cloudflare/dns",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/dns"
+            },
+            {
+              "name": "@swamp/cloudflare/iam",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/iam"
+            },
+            {
+              "name": "@swamp/cloudflare/k2",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/k2"
+            },
+            {
+              "name": "@swamp/cloudflare/load-balancing",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/load-balancing"
+            },
+            {
+              "name": "@swamp/cloudflare/logpush",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/logpush"
+            },
+            {
+              "name": "@swamp/cloudflare/magic",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/magic"
+            },
+            {
+              "name": "@swamp/cloudflare/page-rules",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/page-rules"
+            },
+            {
+              "name": "@swamp/cloudflare/pcaps",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/pcaps"
+            },
+            {
+              "name": "@swamp/cloudflare/pipelines",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/pipelines"
+            },
+            {
+              "name": "@swamp/cloudflare/queues",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/queues"
+            },
+            {
+              "name": "@swamp/cloudflare/shares",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/shares"
+            },
+            {
+              "name": "@swamp/cloudflare/slurper",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/slurper"
+            },
+            {
+              "name": "@swamp/cloudflare/spectrum",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/spectrum"
+            },
+            {
+              "name": "@swamp/cloudflare/vectorize",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/vectorize"
+            },
+            {
+              "name": "@swamp/cloudflare/vuln-scanner",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/vuln-scanner"
+            },
+            {
+              "name": "@swamp/cloudflare/workers",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cloudflare/workers"
+            }
+          ]
+        },
+        {
+          "name": "@swamp/cve",
+          "family": true,
+          "fromVersion": null,
+          "toVersion": null,
+          "summary": "The emudhra extension now judges Debian and Ubuntu pip copies of certifi by the OS CA store they read, and http2shell names each host's log with a -log suffix, adds name-clash checks, and deletes old logs stored under the status name.",
+          "registryUrl": null,
+          "repository": null,
+          "members": [
+            {
+              "name": "@swamp/cve/emudhra",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cve/emudhra"
+            },
+            {
+              "name": "@swamp/cve/http2shell",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cve/http2shell"
+            },
+            {
+              "name": "@swamp/cve/php-rce-2026-10",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cve/php-rce-2026-10"
+            },
+            {
+              "name": "@swamp/cve/tailworm",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/cve/tailworm"
+            }
+          ]
+        },
+        {
+          "name": "@swamp/digitalocean",
+          "family": false,
+          "fromVersion": "2026.10.31.1",
+          "toVersion": "2026.11.07.1",
+          "summary": "Version bump of @swamp/digitalocean from 2026.10.31.1 to 2026.11.07.1 adds four models (action gateway endpoint, action gateway provider credential, agent workspace, insight dashboard) and updates five others (action gateway session, agent session, insight notification channel, kubernetes cluster, microvm).",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/digitalocean",
+          "repository": "https://github.com/swamp-club/swamp-extensions"
+        },
+        {
+          "name": "@swamp/gcp",
+          "family": true,
+          "fromVersion": null,
+          "toVersion": null,
+          "summary": "Across the 225 Google Cloud infrastructure-model extensions, most releases in this window were routine metadata updates with no change to behavior beyond version bumps.",
+          "registryUrl": null,
+          "repository": null,
+          "members": [
+            {
+              "name": "@swamp/gcp/accessapproval",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/accessapproval"
+            },
+            {
+              "name": "@swamp/gcp/accesscontextmanager",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/accesscontextmanager"
+            },
+            {
+              "name": "@swamp/gcp/adexchangebuyer2",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/adexchangebuyer2"
+            },
+            {
+              "name": "@swamp/gcp/admin",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/admin"
+            },
+            {
+              "name": "@swamp/gcp/adsense",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/adsense"
+            },
+            {
+              "name": "@swamp/gcp/advisorynotifications",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/advisorynotifications"
+            },
+            {
+              "name": "@swamp/gcp/agenciesandbrands",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/agenciesandbrands"
+            },
+            {
+              "name": "@swamp/gcp/agentidentity",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/agentidentity"
+            },
+            {
+              "name": "@swamp/gcp/agentregistry",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/agentregistry"
+            },
+            {
+              "name": "@swamp/gcp/aiplatform",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/aiplatform"
+            },
+            {
+              "name": "@swamp/gcp/alloydb",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/alloydb"
+            },
+            {
+              "name": "@swamp/gcp/analyticsadmin",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/analyticsadmin"
+            },
+            {
+              "name": "@swamp/gcp/analyticshub",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/analyticshub"
+            },
+            {
+              "name": "@swamp/gcp/androiddeviceprovisioning",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/androiddeviceprovisioning"
+            },
+            {
+              "name": "@swamp/gcp/androidenterprise",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/androidenterprise"
+            },
+            {
+              "name": "@swamp/gcp/androidmanagement",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/androidmanagement"
+            },
+            {
+              "name": "@swamp/gcp/androidpublisher",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/androidpublisher"
+            },
+            {
+              "name": "@swamp/gcp/apigateway",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/apigateway"
+            },
+            {
+              "name": "@swamp/gcp/apigee",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/apigee"
+            },
+            {
+              "name": "@swamp/gcp/apihub",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/apihub"
+            },
+            {
+              "name": "@swamp/gcp/apikeys",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/apikeys"
+            },
+            {
+              "name": "@swamp/gcp/apim",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/apim"
+            },
+            {
+              "name": "@swamp/gcp/appengine",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/appengine"
+            },
+            {
+              "name": "@swamp/gcp/apphub",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/apphub"
+            },
+            {
+              "name": "@swamp/gcp/appsmarket",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/appsmarket"
+            },
+            {
+              "name": "@swamp/gcp/artifactregistry",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/artifactregistry"
+            },
+            {
+              "name": "@swamp/gcp/assuredworkloads",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/assuredworkloads"
+            },
+            {
+              "name": "@swamp/gcp/auditmanager",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/auditmanager"
+            },
+            {
+              "name": "@swamp/gcp/authorizedbuyersmarketplace",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/authorizedbuyersmarketplace"
+            },
+            {
+              "name": "@swamp/gcp/backupdr",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/backupdr"
+            },
+            {
+              "name": "@swamp/gcp/baremetalsolution",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/baremetalsolution"
+            },
+            {
+              "name": "@swamp/gcp/batch",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/batch"
+            },
+            {
+              "name": "@swamp/gcp/beyondcorp",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/beyondcorp"
+            },
+            {
+              "name": "@swamp/gcp/bigquery",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/bigquery"
+            },
+            {
+              "name": "@swamp/gcp/bigqueryconnection",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/bigqueryconnection"
+            },
+            {
+              "name": "@swamp/gcp/bigquerydatapolicy",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/bigquerydatapolicy"
+            },
+            {
+              "name": "@swamp/gcp/bigquerydatatransfer",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/bigquerydatatransfer"
+            },
+            {
+              "name": "@swamp/gcp/bigqueryreservation",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/bigqueryreservation"
+            },
+            {
+              "name": "@swamp/gcp/bigtableadmin",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/bigtableadmin"
+            },
+            {
+              "name": "@swamp/gcp/billingbudgets",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/billingbudgets"
+            },
+            {
+              "name": "@swamp/gcp/binaryauthorization",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/binaryauthorization"
+            },
+            {
+              "name": "@swamp/gcp/blockchainnodeengine",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/blockchainnodeengine"
+            },
+            {
+              "name": "@swamp/gcp/blogger",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/blogger"
+            },
+            {
+              "name": "@swamp/gcp/books",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/books"
+            },
+            {
+              "name": "@swamp/gcp/calendar",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/calendar"
+            },
+            {
+              "name": "@swamp/gcp/certificatemanager",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/certificatemanager"
+            },
+            {
+              "name": "@swamp/gcp/ces",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/ces"
+            },
+            {
+              "name": "@swamp/gcp/chat",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/chat"
+            },
+            {
+              "name": "@swamp/gcp/checks",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/checks"
+            },
+            {
+              "name": "@swamp/gcp/chromemanagement",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/chromemanagement"
+            },
+            {
+              "name": "@swamp/gcp/chromepolicy",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/chromepolicy"
+            },
+            {
+              "name": "@swamp/gcp/chromewebstore",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/chromewebstore"
+            },
+            {
+              "name": "@swamp/gcp/classroom",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/classroom"
+            },
+            {
+              "name": "@swamp/gcp/cloudasset",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/cloudasset"
+            },
+            {
+              "name": "@swamp/gcp/cloudbilling",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/cloudbilling"
+            },
+            {
+              "name": "@swamp/gcp/cloudbuild",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/cloudbuild"
+            },
+            {
+              "name": "@swamp/gcp/cloudchannel",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/cloudchannel"
+            },
+            {
+              "name": "@swamp/gcp/cloudcommerceprocurement",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/cloudcommerceprocurement"
+            },
+            {
+              "name": "@swamp/gcp/cloudcontrolspartner",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/cloudcontrolspartner"
+            },
+            {
+              "name": "@swamp/gcp/clouddeploy",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/clouddeploy"
+            },
+            {
+              "name": "@swamp/gcp/clouderrorreporting",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/clouderrorreporting"
+            },
+            {
+              "name": "@swamp/gcp/cloudfunctions",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/cloudfunctions"
+            },
+            {
+              "name": "@swamp/gcp/cloudidentity",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/cloudidentity"
+            },
+            {
+              "name": "@swamp/gcp/cloudkms",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/cloudkms"
+            },
+            {
+              "name": "@swamp/gcp/cloudnumberregistry",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/cloudnumberregistry"
+            },
+            {
+              "name": "@swamp/gcp/cloudscheduler",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/cloudscheduler"
+            },
+            {
+              "name": "@swamp/gcp/cloudsearch",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/cloudsearch"
+            },
+            {
+              "name": "@swamp/gcp/cloudtasks",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/cloudtasks"
+            },
+            {
+              "name": "@swamp/gcp/cloudtrace",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/cloudtrace"
+            },
+            {
+              "name": "@swamp/gcp/composer",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/composer"
+            },
+            {
+              "name": "@swamp/gcp/compute",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/compute"
+            },
+            {
+              "name": "@swamp/gcp/config",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/config"
+            },
+            {
+              "name": "@swamp/gcp/connectors",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/connectors"
+            },
+            {
+              "name": "@swamp/gcp/contactcenteraiplatform",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/contactcenteraiplatform"
+            },
+            {
+              "name": "@swamp/gcp/contactcenterinsights",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/contactcenterinsights"
+            },
+            {
+              "name": "@swamp/gcp/container",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/container"
+            },
+            {
+              "name": "@swamp/gcp/containeranalysis",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/containeranalysis"
+            },
+            {
+              "name": "@swamp/gcp/css",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/css"
+            },
+            {
+              "name": "@swamp/gcp/curationpartners",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/curationpartners"
+            },
+            {
+              "name": "@swamp/gcp/customsearch",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/customsearch"
+            },
+            {
+              "name": "@swamp/gcp/datacatalog",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/datacatalog"
+            },
+            {
+              "name": "@swamp/gcp/dataflow",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/dataflow"
+            },
+            {
+              "name": "@swamp/gcp/dataform",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/dataform"
+            },
+            {
+              "name": "@swamp/gcp/datafusion",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/datafusion"
+            },
+            {
+              "name": "@swamp/gcp/datalineage",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/datalineage"
+            },
+            {
+              "name": "@swamp/gcp/datamanager",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/datamanager"
+            },
+            {
+              "name": "@swamp/gcp/datamigration",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/datamigration"
+            },
+            {
+              "name": "@swamp/gcp/datapipelines",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/datapipelines"
+            },
+            {
+              "name": "@swamp/gcp/dataplex",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/dataplex"
+            },
+            {
+              "name": "@swamp/gcp/dataproc",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/dataproc"
+            },
+            {
+              "name": "@swamp/gcp/datastore",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/datastore"
+            },
+            {
+              "name": "@swamp/gcp/datastream",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/datastream"
+            },
+            {
+              "name": "@swamp/gcp/deepreview",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/deepreview"
+            },
+            {
+              "name": "@swamp/gcp/deploymentmanager",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/deploymentmanager"
+            },
+            {
+              "name": "@swamp/gcp/developerconnect",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/developerconnect"
+            },
+            {
+              "name": "@swamp/gcp/devicerun",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/devicerun"
+            },
+            {
+              "name": "@swamp/gcp/dfareporting",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/dfareporting"
+            },
+            {
+              "name": "@swamp/gcp/dialogflow",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/dialogflow"
+            },
+            {
+              "name": "@swamp/gcp/discoveryengine",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/discoveryengine"
+            },
+            {
+              "name": "@swamp/gcp/displayvideo",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/displayvideo"
+            },
+            {
+              "name": "@swamp/gcp/dlp",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/dlp"
+            },
+            {
+              "name": "@swamp/gcp/dns",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/dns"
+            },
+            {
+              "name": "@swamp/gcp/docs",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/docs"
+            },
+            {
+              "name": "@swamp/gcp/documentai",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/documentai"
+            },
+            {
+              "name": "@swamp/gcp/domains",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/domains"
+            },
+            {
+              "name": "@swamp/gcp/doubleclickbidmanager",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/doubleclickbidmanager"
+            },
+            {
+              "name": "@swamp/gcp/doubleclicksearch",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/doubleclicksearch"
+            },
+            {
+              "name": "@swamp/gcp/drive",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/drive"
+            },
+            {
+              "name": "@swamp/gcp/drivelabels",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/drivelabels"
+            },
+            {
+              "name": "@swamp/gcp/eventarc",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/eventarc"
+            },
+            {
+              "name": "@swamp/gcp/factchecktools",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/factchecktools"
+            },
+            {
+              "name": "@swamp/gcp/fcmdata",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/fcmdata"
+            },
+            {
+              "name": "@swamp/gcp/file",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/file"
+            },
+            {
+              "name": "@swamp/gcp/firebaseappcheck",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/firebaseappcheck"
+            },
+            {
+              "name": "@swamp/gcp/firebaseapphosting",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/firebaseapphosting"
+            },
+            {
+              "name": "@swamp/gcp/firebasecrashlytics",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/firebasecrashlytics"
+            },
+            {
+              "name": "@swamp/gcp/firebasedataconnect",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/firebasedataconnect"
+            },
+            {
+              "name": "@swamp/gcp/firebaserules",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/firebaserules"
+            },
+            {
+              "name": "@swamp/gcp/firestore",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/firestore"
+            },
+            {
+              "name": "@swamp/gcp/fitness",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/fitness"
+            },
+            {
+              "name": "@swamp/gcp/forms",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/forms"
+            },
+            {
+              "name": "@swamp/gcp/ftp",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/ftp"
+            },
+            {
+              "name": "@swamp/gcp/games",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/games"
+            },
+            {
+              "name": "@swamp/gcp/gamesconfiguration",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/gamesconfiguration"
+            },
+            {
+              "name": "@swamp/gcp/gkebackup",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/gkebackup"
+            },
+            {
+              "name": "@swamp/gcp/gkehub",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/gkehub"
+            },
+            {
+              "name": "@swamp/gcp/gkeonprem",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/gkeonprem"
+            },
+            {
+              "name": "@swamp/gcp/gmail",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/gmail"
+            },
+            {
+              "name": "@swamp/gcp/gmailpostmastertools",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/gmailpostmastertools"
+            },
+            {
+              "name": "@swamp/gcp/health",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/health"
+            },
+            {
+              "name": "@swamp/gcp/healthcare",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/healthcare"
+            },
+            {
+              "name": "@swamp/gcp/hypercomputecluster",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/hypercomputecluster"
+            },
+            {
+              "name": "@swamp/gcp/iam",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/iam"
+            },
+            {
+              "name": "@swamp/gcp/identitytoolkit",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/identitytoolkit"
+            },
+            {
+              "name": "@swamp/gcp/integrations",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/integrations"
+            },
+            {
+              "name": "@swamp/gcp/jobs",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/jobs"
+            },
+            {
+              "name": "@swamp/gcp/keep",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/keep"
+            },
+            {
+              "name": "@swamp/gcp/kmsinventory",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/kmsinventory"
+            },
+            {
+              "name": "@swamp/gcp/logging",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/logging"
+            },
+            {
+              "name": "@swamp/gcp/looker",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/looker"
+            },
+            {
+              "name": "@swamp/gcp/managedidentities",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/managedidentities"
+            },
+            {
+              "name": "@swamp/gcp/managedkafka",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/managedkafka"
+            },
+            {
+              "name": "@swamp/gcp/manufacturers",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/manufacturers"
+            },
+            {
+              "name": "@swamp/gcp/meet",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/meet"
+            },
+            {
+              "name": "@swamp/gcp/memcache",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/memcache"
+            },
+            {
+              "name": "@swamp/gcp/merchantapi",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/merchantapi"
+            },
+            {
+              "name": "@swamp/gcp/metastore",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/metastore"
+            },
+            {
+              "name": "@swamp/gcp/migrationcenter",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/migrationcenter"
+            },
+            {
+              "name": "@swamp/gcp/ml",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/ml"
+            },
+            {
+              "name": "@swamp/gcp/monitoring",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/monitoring"
+            },
+            {
+              "name": "@swamp/gcp/mybusinessaccountmanagement",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/mybusinessaccountmanagement"
+            },
+            {
+              "name": "@swamp/gcp/mybusinessbusinessinformation",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/mybusinessbusinessinformation"
+            },
+            {
+              "name": "@swamp/gcp/netapp",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/netapp"
+            },
+            {
+              "name": "@swamp/gcp/networkconnectivity",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/networkconnectivity"
+            },
+            {
+              "name": "@swamp/gcp/networkmanagement",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/networkmanagement"
+            },
+            {
+              "name": "@swamp/gcp/networksecurity",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/networksecurity"
+            },
+            {
+              "name": "@swamp/gcp/networkservices",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/networkservices"
+            },
+            {
+              "name": "@swamp/gcp/notebooks",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/notebooks"
+            },
+            {
+              "name": "@swamp/gcp/observability",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/observability"
+            },
+            {
+              "name": "@swamp/gcp/ondemandscanning",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/ondemandscanning"
+            },
+            {
+              "name": "@swamp/gcp/oracledatabase",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/oracledatabase"
+            },
+            {
+              "name": "@swamp/gcp/orgpolicy",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/orgpolicy"
+            },
+            {
+              "name": "@swamp/gcp/osconfig",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/osconfig"
+            },
+            {
+              "name": "@swamp/gcp/paymentsresellersubscription",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/paymentsresellersubscription"
+            },
+            {
+              "name": "@swamp/gcp/people",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/people"
+            },
+            {
+              "name": "@swamp/gcp/places",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/places"
+            },
+            {
+              "name": "@swamp/gcp/playdeveloperreporting",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/playdeveloperreporting"
+            },
+            {
+              "name": "@swamp/gcp/policysimulator",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/policysimulator"
+            },
+            {
+              "name": "@swamp/gcp/privateca",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/privateca"
+            },
+            {
+              "name": "@swamp/gcp/prod_tt_sasportal",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/prod_tt_sasportal"
+            },
+            {
+              "name": "@swamp/gcp/pubsub",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/pubsub"
+            },
+            {
+              "name": "@swamp/gcp/pubsublite",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/pubsublite"
+            },
+            {
+              "name": "@swamp/gcp/realtimebidding",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/realtimebidding"
+            },
+            {
+              "name": "@swamp/gcp/recaptchaenterprise",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/recaptchaenterprise"
+            },
+            {
+              "name": "@swamp/gcp/recommendationengine",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/recommendationengine"
+            },
+            {
+              "name": "@swamp/gcp/recommender",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/recommender"
+            },
+            {
+              "name": "@swamp/gcp/redis",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/redis"
+            },
+            {
+              "name": "@swamp/gcp/reseller",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/reseller"
+            },
+            {
+              "name": "@swamp/gcp/retail",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/retail"
+            },
+            {
+              "name": "@swamp/gcp/run",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/run"
+            },
+            {
+              "name": "@swamp/gcp/saasservicemgmt",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/saasservicemgmt"
+            },
+            {
+              "name": "@swamp/gcp/safebrowsing",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/safebrowsing"
+            },
+            {
+              "name": "@swamp/gcp/sasportal",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/sasportal"
+            },
+            {
+              "name": "@swamp/gcp/script",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/script"
+            },
+            {
+              "name": "@swamp/gcp/searchads360",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/searchads360"
+            },
+            {
+              "name": "@swamp/gcp/searchconsole",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/searchconsole"
+            },
+            {
+              "name": "@swamp/gcp/secretmanager",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/secretmanager"
+            },
+            {
+              "name": "@swamp/gcp/securesourcemanager",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/securesourcemanager"
+            },
+            {
+              "name": "@swamp/gcp/securitycenter",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/securitycenter"
+            },
+            {
+              "name": "@swamp/gcp/servicedirectory",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/servicedirectory"
+            },
+            {
+              "name": "@swamp/gcp/servicemanagement",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/servicemanagement"
+            },
+            {
+              "name": "@swamp/gcp/servicenetworking",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/servicenetworking"
+            },
+            {
+              "name": "@swamp/gcp/serviceusage",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/serviceusage"
+            },
+            {
+              "name": "@swamp/gcp/sheets",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/sheets"
+            },
+            {
+              "name": "@swamp/gcp/slides",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/slides"
+            },
+            {
+              "name": "@swamp/gcp/smartdevicemanagement",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/smartdevicemanagement"
+            },
+            {
+              "name": "@swamp/gcp/spanner",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/spanner"
+            },
+            {
+              "name": "@swamp/gcp/speech",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/speech"
+            },
+            {
+              "name": "@swamp/gcp/sqladmin",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/sqladmin"
+            },
+            {
+              "name": "@swamp/gcp/storage",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/storage"
+            },
+            {
+              "name": "@swamp/gcp/storagebatchoperations",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/storagebatchoperations"
+            },
+            {
+              "name": "@swamp/gcp/storagetransfer",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/storagetransfer"
+            },
+            {
+              "name": "@swamp/gcp/streetviewpublish",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/streetviewpublish"
+            },
+            {
+              "name": "@swamp/gcp/tagmanager",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/tagmanager"
+            },
+            {
+              "name": "@swamp/gcp/tasks",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/tasks"
+            },
+            {
+              "name": "@swamp/gcp/testing",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/testing"
+            },
+            {
+              "name": "@swamp/gcp/threatintelligence",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/threatintelligence"
+            },
+            {
+              "name": "@swamp/gcp/toolresults",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/toolresults"
+            },
+            {
+              "name": "@swamp/gcp/tpu",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/tpu"
+            },
+            {
+              "name": "@swamp/gcp/transcoder",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/transcoder"
+            },
+            {
+              "name": "@swamp/gcp/translate",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/translate"
+            },
+            {
+              "name": "@swamp/gcp/vault",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/vault"
+            },
+            {
+              "name": "@swamp/gcp/versionhistory",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/versionhistory"
+            },
+            {
+              "name": "@swamp/gcp/vision",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/vision"
+            },
+            {
+              "name": "@swamp/gcp/vmmigration",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/vmmigration"
+            },
+            {
+              "name": "@swamp/gcp/vmwareengine",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/vmwareengine"
+            },
+            {
+              "name": "@swamp/gcp/walletobjects",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/walletobjects"
+            },
+            {
+              "name": "@swamp/gcp/webcontentpublisher",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/webcontentpublisher"
+            },
+            {
+              "name": "@swamp/gcp/webfonts",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/webfonts"
+            },
+            {
+              "name": "@swamp/gcp/websecurityscanner",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/websecurityscanner"
+            },
+            {
+              "name": "@swamp/gcp/workflowexecutions",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/workflowexecutions"
+            },
+            {
+              "name": "@swamp/gcp/workloadmanager",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/workloadmanager"
+            },
+            {
+              "name": "@swamp/gcp/workstations",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/workstations"
+            },
+            {
+              "name": "@swamp/gcp/youtube",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/youtube"
+            },
+            {
+              "name": "@swamp/gcp/youtubeanalytics",
+              "registryUrl": "https://swamp-club.com/extensions/@swamp/gcp/youtubeanalytics"
+            }
+          ]
+        },
+        {
+          "name": "@swamp/gcs-datastore",
+          "family": false,
+          "fromVersion": "2026.10.30.3",
+          "toVersion": "2026.11.05.1",
+          "summary": "Version 2026.10.30.3 moved to 2026.11.05.1 across three releases. The change adds an atomic streaming write helper (`atomicWriteStream`) that stages downloads in a temp file and renames them into place, and it reworks the GCS cache sync module, which is truncated in the patch and shows as fully replaced.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/gcs-datastore",
+          "repository": "https://github.com/systeminit/swamp-extensions"
+        },
+        {
+          "name": "@swamp/kubernetes",
+          "family": false,
+          "fromVersion": "2026.10.25.2",
+          "toVersion": "2026.11.07.1",
+          "summary": "Summary withheld: the generated text failed validation.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/kubernetes",
+          "repository": "https://github.com/swamp-club/swamp-extensions"
+        },
+        {
+          "name": "@swamp/s3-datastore",
+          "family": false,
+          "fromVersion": "2026.11.02.1",
+          "toVersion": "2026.11.05.1",
+          "summary": "Version 2026.11.02.1 moved to 2026.11.05.1 across three intermediate releases. The manifest version was bumped, a new atomicWriteStream helper was added to atomic_write.ts to stream downloads to a temp file and rename them into place, and the s3_cache_sync.ts module was changed, along with tracing.ts and the README.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/s3-datastore",
+          "repository": "https://github.com/systeminit/swamp-extensions"
+        },
+        {
+          "name": "@swamp/stagecraft",
+          "family": false,
+          "fromVersion": "2026.10.31.1",
+          "toVersion": "2026.11.05.3",
+          "summary": "Stagecraft moves from 2026.10.31.1 to 2026.11.05.3, adding a schemaVersion 5 that renames the method work mode and block to behavior, optional injected products for stages, and a person-recorded evidence exemption from exit holds.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/stagecraft",
+          "repository": "https://github.com/swamp-club/swamp-extensions"
+        },
+        {
+          "name": "@swamp/tailscale",
+          "family": false,
+          "fromVersion": "2026.10.23.1",
+          "toVersion": "2026.11.07.1",
+          "summary": "The @swamp/tailscale extension moved from 2026.10.23.1 to 2026.11.07.1, adding an optional nodeAttributes field to the tailnet-key, oauth-client and federated-identity models.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/tailscale",
+          "repository": "https://github.com/swamp-club/swamp-extensions"
+        },
+        {
+          "name": "@swamp/vercel/feature-flags",
+          "family": false,
+          "fromVersion": "2026.10.23.1",
+          "toVersion": "2026.11.03.1",
+          "summary": "The @swamp/vercel/feature-flags extension moved from 2026.10.23.1 to 2026.11.03.1 and gained a new connections model with create, lookup, and delete methods for Vercel feature-flag connections. The flags and sdk_keys models are unchanged, and the README now points to the connections model in its usage examples.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/vercel/feature-flags",
+          "repository": "https://github.com/swamp-club/swamp-extensions"
+        },
+        {
+          "name": "@swamp/vercel/projects",
+          "family": false,
+          "fromVersion": "2026.11.02.1",
+          "toVersion": "2026.11.07.1",
+          "summary": "The @swamp/vercel/projects extension moved from 2026.11.02.1 to 2026.11.07.1. The changes add an optional project expiration setting with timeframes from one hour to one month, and new optional fields for a health-check target, a drive target, a privateNpmUsage target, and a principal object on tokens.",
+          "registryUrl": "https://swamp-club.com/extensions/@swamp/vercel/projects",
+          "repository": "https://github.com/swamp-club/swamp-extensions"
+        },
+        {
+          "name": "@thomas/truenas",
+          "family": false,
+          "fromVersion": "2026.10.11.1",
+          "toVersion": "2026.11.05.3",
+          "summary": "Version 2026.11.05.3 of the TrueNAS extension adds three methods: app_create and app_update, which create or update an app from Docker Compose YAML with secrets filled from a vault, and scheduled_tasks, which lists scheduled jobs and each pool's last scrub.",
+          "registryUrl": "https://swamp-club.com/extensions/@thomas/truenas",
+          "repository": "https://github.com/thomas-elliott/swamp-extensions"
+        },
+        {
+          "name": "@webframp/cloudflare",
+          "family": true,
+          "fromVersion": null,
+          "toVersion": null,
+          "summary": "Seven Cloudflare extensions (Access, API Shield, Gateway, Magic Transit, R2, Rulesets, Stream) moved from 2026.10.21.1 to 2026.11.05 with a zod bump to 4.6.7, fixes to create methods and failed writes, and secrets routed through vaults. API Shield and Gateway also dropped empty resources that stored no data.",
+          "registryUrl": null,
+          "repository": null,
+          "members": [
+            {
+              "name": "@webframp/cloudflare/access",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/cloudflare/access"
+            },
+            {
+              "name": "@webframp/cloudflare/api-shield",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/cloudflare/api-shield"
+            },
+            {
+              "name": "@webframp/cloudflare/gateway",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/cloudflare/gateway"
+            },
+            {
+              "name": "@webframp/cloudflare/magic-transit",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/cloudflare/magic-transit"
+            },
+            {
+              "name": "@webframp/cloudflare/r2",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/cloudflare/r2"
+            },
+            {
+              "name": "@webframp/cloudflare/rulesets",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/cloudflare/rulesets"
+            },
+            {
+              "name": "@webframp/cloudflare/stream",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/cloudflare/stream"
+            }
+          ]
+        },
+        {
+          "name": "@webframp/datadog",
+          "family": true,
+          "fromVersion": null,
+          "toVersion": null,
+          "summary": "The Datadog family of 8 extensions moved to versions dated 2026.11.05 or 2026.11.06, mostly with a zod dependency bump to 4.6.7 and codegen regenerations.",
+          "registryUrl": null,
+          "repository": null,
+          "members": [
+            {
+              "name": "@webframp/datadog/incidents",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/datadog/incidents"
+            },
+            {
+              "name": "@webframp/datadog/metrics",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/datadog/metrics"
+            },
+            {
+              "name": "@webframp/datadog/monitors",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/datadog/monitors"
+            },
+            {
+              "name": "@webframp/datadog/on-call",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/datadog/on-call"
+            },
+            {
+              "name": "@webframp/datadog/security-rules",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/datadog/security-rules"
+            },
+            {
+              "name": "@webframp/datadog/security-suppressions",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/datadog/security-suppressions"
+            },
+            {
+              "name": "@webframp/datadog/synthetics",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/datadog/synthetics"
+            },
+            {
+              "name": "@webframp/datadog/teams",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/datadog/teams"
+            }
+          ]
+        },
+        {
+          "name": "@webframp/falai/models",
+          "family": false,
+          "fromVersion": "2026.10.21.1",
+          "toVersion": "2026.11.06.1",
+          "summary": "The @webframp/falai/models extension moved from 2026.10.21.1 to 2026.11.06.1 across three releases. The changes were a zod dependency bump, regenerated OpenAPI docs that now describe a 3.1 schema, and two new optional model fields, retires_at and replacement, plus codegen-only version entries with no migration needed.",
+          "registryUrl": "https://swamp-club.com/extensions/@webframp/falai/models",
+          "repository": "https://github.com/webframp/swamp-extensions"
+        },
+        {
+          "name": "@webframp/falai/serverless",
+          "family": false,
+          "fromVersion": "2026.10.21.1",
+          "toVersion": "2026.11.05.1",
+          "summary": "Between 2026.10.21.1 and 2026.11.05.1, this extension gained a new `serverless_stop_runner` method and matching resource, which requests a graceful stop of a serverless runner with an optional replace-first argument.",
+          "registryUrl": "https://swamp-club.com/extensions/@webframp/falai/serverless",
+          "repository": "https://github.com/webframp/swamp-extensions"
+        },
+        {
+          "name": "@webframp/github",
+          "family": false,
+          "fromVersion": "2026.10.14.1",
+          "toVersion": "2026.11.06.1",
+          "summary": "The @webframp/github extension, now at 2026.11.06.1, adds code-scanning alert triage: listing, getting, dismissing, and reopening alerts through the gh CLI, with a new code_scanning.ts model file. The 2026.11.03.1 release bumped zod from 4.6.5 to 4.6.7.",
+          "registryUrl": "https://swamp-club.com/extensions/@webframp/github",
+          "repository": "https://github.com/webframp/swamp-extensions"
+        },
+        {
+          "name": "@webframp/griptape/threads",
+          "family": false,
+          "fromVersion": "2026.10.21.1",
+          "toVersion": "2026.11.07.1",
+          "summary": "Version 2026.11.07.1 adds message-level methods (get_message, update_message, delete_message) for the single-message endpoints, which had no extension coverage before.",
+          "registryUrl": "https://swamp-club.com/extensions/@webframp/griptape/threads",
+          "repository": "https://github.com/webframp/swamp-extensions"
+        },
+        {
+          "name": "@webframp/snyk",
+          "family": true,
+          "fromVersion": null,
+          "toVersion": null,
+          "summary": "Four Snyk extensions (groups, inventory, memberships, tenants) were updated from October 21 to November 5, 2026. Changes include a zod dependency bump and fixes so POST creates persist again while HTTP 204 writes persist nothing, plus new asset lookup-by-key and tenant app-install methods.",
+          "registryUrl": null,
+          "repository": null,
+          "members": [
+            {
+              "name": "@webframp/snyk/groups",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/snyk/groups"
+            },
+            {
+              "name": "@webframp/snyk/inventory",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/snyk/inventory"
+            },
+            {
+              "name": "@webframp/snyk/memberships",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/snyk/memberships"
+            },
+            {
+              "name": "@webframp/snyk/tenants",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/snyk/tenants"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "prerelease",
+      "title": "Pre-releases (beta and RC)",
+      "count": 22,
+      "items": [
+        {
+          "name": "@mgreten/android-tv",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.06.1",
+          "summary": "This is the first release of @mgreten/android-tv (version 2026.11.06.1), which adds methods for bounded Sony BRAVIA identification and Android TV inventory, plus experimental approval-gated package cleanup, verification, and restore.",
+          "registryUrl": "https://swamp-club.com/extensions/@mgreten/android-tv",
+          "repository": "https://github.com/meagerfindings/mgreten-swamp-extensions"
+        },
+        {
+          "name": "@puddleworks/puddlerouter",
+          "family": false,
+          "fromVersion": "2026.10.13.2",
+          "toVersion": "2026.11.04.1",
+          "summary": "adds 1 method(s); removes 3 method(s); Modified 1 behaviors. Removed 1 workflows. updated dependencies.",
+          "registryUrl": "https://swamp-club.com/extensions/@puddleworks/puddlerouter",
+          "repository": "https://github.com/puddle-works/puddlerouter"
+        },
+        {
+          "name": "@puddleworks/recipes",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.04.2",
+          "summary": "@puddleworks/recipes is a new extension, first released at version 2026.11.04.1 and now at 2026.11.04.2. It adds four methods, confirm, execute, match and sync, which map a phrasing to a regex, the extension method it runs, and how its output is shown as text.",
+          "registryUrl": "https://swamp-club.com/extensions/@puddleworks/recipes",
+          "repository": null
+        },
+        {
+          "name": "@svendowideit/caddy",
+          "family": false,
+          "fromVersion": "2026.10.18.3",
+          "toVersion": "2026.11.07.11",
+          "summary": "adds 2 method(s); Modified 1 behaviors.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/caddy",
+          "repository": "https://github.com/svendowideit/swamp-extensions"
+        },
+        {
+          "name": "@svendowideit/diary",
+          "family": false,
+          "fromVersion": "2026.10.15.1",
+          "toVersion": "2026.11.06.1",
+          "summary": "Version bump.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/diary",
+          "repository": "https://github.com/svendowideit/swamp-extensions"
+        },
+        {
+          "name": "@svendowideit/herdr-app",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.09.1",
+          "summary": "Initial release of @svendowideit/herdr-app, which installs, updates and removes the Herdr desktop app and herdr-core on Linux, macOS and Windows from swamp. It adds six methods: install, plan, renderScript, sshFleet, status and uninstall.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/herdr-app",
+          "repository": "https://github.com/svendowideit/swamp-extensions"
+        },
+        {
+          "name": "@svendowideit/linkdrop",
+          "family": false,
+          "fromVersion": "2026.10.30.3",
+          "toVersion": "2026.11.08.1",
+          "summary": "Version bump.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/linkdrop",
+          "repository": "https://github.com/SvenDowideit/swamp-linkdrop"
+        },
+        {
+          "name": "@svendowideit/meta-factory",
+          "family": false,
+          "fromVersion": "2026.10.23.1",
+          "toVersion": "2026.11.09.1",
+          "summary": "Version bump.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/meta-factory",
+          "repository": "https://github.com/svendowideit/swamp-extensions"
+        },
+        {
+          "name": "@svendowideit/obsidian-app",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.09.1",
+          "summary": "Adds the first release of @svendowideit/obsidian-app, which installs, updates and configures the Obsidian desktop app and its official CLI on Linux from Obsidian's release assets. It exposes methods for install, setup, plan, print, CLI registration, sandbox creation and sandbox verification.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/obsidian-app",
+          "repository": "https://github.com/svendowideit/swamp-extensions"
+        },
+        {
+          "name": "@svendowideit/obsidian-factory",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.08.20",
+          "summary": "This is a first release of the obsidian-factory extension, which adds an Obsidian Bases stagecraft board for tracking ideas through plan, implement, test, acceptance and release columns, along with 20 methods for managing cards, categories, actions and board installation.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/obsidian-factory",
+          "repository": "https://github.com/svendowideit/swamp-extensions"
+        },
+        {
+          "name": "@svendowideit/sudo",
+          "family": false,
+          "fromVersion": "2026.10.11.1",
+          "toVersion": "2026.11.07.3",
+          "summary": "Version bump.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/sudo",
+          "repository": "https://github.com/svendowideit/swamp-extensions"
+        },
+        {
+          "name": "@svendowideit/swamp-serve",
+          "family": false,
+          "fromVersion": "2026.10.05.1",
+          "toVersion": "2026.11.08.1",
+          "summary": "Version bump.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/swamp-serve",
+          "repository": "https://github.com/svendowideit/swamp-extensions"
+        },
+        {
+          "name": "@svendowideit/test-factory",
+          "family": false,
+          "fromVersion": "2026.10.13.1",
+          "toVersion": "2026.11.07.3",
+          "summary": "Version bump.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/test-factory",
+          "repository": "https://github.com/svendowideit/swamp-extensions"
+        },
+        {
+          "name": "@svendowideit/zwift-coach",
+          "family": false,
+          "fromVersion": null,
+          "toVersion": "2026.11.06.1",
+          "summary": "This first release of the zwift-coach extension adds 14 methods that turn a user's Zwift and Garmin history into a periodised training plan and .zwo workouts, then deliver those workouts to Zwift. The methods cover analysis, goals, planning, rendering, validation, delivery, feedback, review, setup and SSH transport.",
+          "registryUrl": "https://swamp-club.com/extensions/@svendowideit/zwift-coach",
+          "repository": "https://github.com/svendowideit/swamp-extensions"
+        },
+        {
+          "name": "@webframp/datadog",
+          "family": true,
+          "fromVersion": null,
+          "toVersion": null,
+          "summary": "Five Datadog extensions moved to 2026.11.05: metrics gained derived metric and tag indexing rule methods, security rules gained version history and restore methods, and teams gained optional fields. Several 204-returning methods across them no longer store empty resources, and zod moved to 4.6.7.",
+          "registryUrl": null,
+          "repository": null,
+          "members": [
+            {
+              "name": "@webframp/datadog/metrics",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/datadog/metrics"
+            },
+            {
+              "name": "@webframp/datadog/security-rules",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/datadog/security-rules"
+            },
+            {
+              "name": "@webframp/datadog/security-suppressions",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/datadog/security-suppressions"
+            },
+            {
+              "name": "@webframp/datadog/synthetics",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/datadog/synthetics"
+            },
+            {
+              "name": "@webframp/datadog/teams",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/datadog/teams"
+            }
+          ]
+        },
+        {
+          "name": "@webframp/dnsimple",
+          "family": true,
+          "fromVersion": null,
+          "toVersion": null,
+          "summary": "Three new DNSimple extensions were published in their first release, 2026.11.03.1: certificates with 8 methods, domains with 20, and templates with 10. Together they cover the DNSimple certificates, domains, and templates APIs.",
+          "registryUrl": null,
+          "repository": null,
+          "members": [
+            {
+              "name": "@webframp/dnsimple/certificates",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/dnsimple/certificates"
+            },
+            {
+              "name": "@webframp/dnsimple/domains",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/dnsimple/domains"
+            },
+            {
+              "name": "@webframp/dnsimple/templates",
+              "registryUrl": "https://swamp-club.com/extensions/@webframp/dnsimple/templates"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "removed",
+      "title": "Removed from the registry",
+      "count": 1,
+      "items": [
+        {
+          "name": "@bmonty/text-entropy",
+          "family": false,
+          "fromVersion": "2026.10.22.1",
+          "toVersion": null,
+          "summary": "No longer listed in the registry.",
+          "registryUrl": null,
+          "repository": null
+        }
+      ]
+    },
+    {
+      "section": "minor",
+      "title": "Minor updates",
+      "count": 285,
+      "items": []
+    }
+  ],
+  "podcast": {
+    "available": true,
+    "items": [
+      {
+        "title": "November 2nd, 2026 — AI Frontiers",
+        "episodeNumber": 14,
+        "date": "2026-11-02",
+        "url": "https://swamp-club.com/podcast/2026-11-02",
+        "description": "Episode 14 of AI Frontiers with Mark Imbriaco. Industry experts run down all the AI news for engineers. Adam Jacob, Paul Stack, and Nick Stinemates are…",
+        "videoUrl": "https://www.youtube.com/watch?v=AugHzP1mW-4"
+      }
+    ]
+  },
+  "feed": {
+    "available": true,
+    "items": [
+      {
+        "title": "My Agent Tagged the Whole SDR Team on a Thursday Night",
+        "url": "https://swamp-club.com/feed/p/ee878065-03b9-4ea8-97cc-5d6c6902cd9f",
+        "author": "tituscapilnean",
+        "publishedAt": "2026-11-05T05:54:44.000Z",
+        "summary": "I’ve missed sharing stories on this blog. My last post here was back in May, and it’s time to get back into it."
+      }
+    ]
+  }
+}

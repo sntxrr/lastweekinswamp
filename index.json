@@ -5,6 +5,21 @@
   "feed": "https://lastweekinswamp.club/feed.xml",
   "issues": [
     {
+      "slug": "2026-11-02",
+      "firstDay": "2026-11-02",
+      "lastDay": "2026-11-08",
+      "url": "https://lastweekinswamp.club/issues/2026-11-02.html",
+      "json": "https://lastweekinswamp.club/issues/2026-11-02.json",
+      "counts": {
+        "new": 45,
+        "updated": 636,
+        "prerelease": 22,
+        "yanked": 0,
+        "removed": 1,
+        "minor": 285
+      }
+    },
+    {
       "slug": "2026-10-26",
       "firstDay": "2026-10-26",
       "lastDay": "2026-11-01",
